@@ -7,9 +7,9 @@ Playing with a myCobot from Elephant Robotics. The 280-M5
 To learn the fundementals of ROS 1 by developing pick and place programs and functions for the 280 with the M5 robot controller in ROS using a linux/unix based operating system.
 
 ## How To Use
-idk yet. I will update basic documentation as I go. <br />
+idk yet. I will update basic documentation as I go. 
 
-Here is what I do know. <br />
+<br /> Here is what I do know. <br />
 Elephant has a github for basic ROS items:  https://github.com/flathub/com.visualstudio.code#readme
 
 
