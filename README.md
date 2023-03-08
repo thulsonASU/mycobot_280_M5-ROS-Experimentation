@@ -71,7 +71,7 @@ ETutorial 1: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBas
 OTutorial 1 Topics: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
 <br /> <br />
 Topics: are one of the main ways in which data is moved between nodes and therefore between different parts of the system. ```rqt_graph``` is a command line that gives the user the ability to inspect ROS2 topics. I like to think of an MQTT Server. It has a topic, publisher, and subscriber. The publisher sends a message to a topic and all subscribers of that topic will get that message. A topic is what connects the node that connects the message from the publisher to all subscribers.
-![Topic Example](https://github.com/thulsonASU/280-M5_ROS/blob/main/Topic_Example.gif)
+![Topic Example](Topic_Example.gif) / ![](Topic_Example.gif)
 
 ## Additional Reasources
 
