@@ -63,6 +63,7 @@ colcon build
 ### Day 4: Basic ROS2 Humble Tutorial
 /#/ ETutorial = Elephant Tutorials /-/ OTutorials = ROS2 Official Tutorials /#/
 <br /> **4.1 Topics** <br />
+<br />
 ETutorial: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.2-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html <br />
 OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html <br /> 
 <br />
@@ -71,6 +72,23 @@ Topics: are one of the main ways in which data is moved between nodes and theref
 #### Topic Example
 ![Topic Example](https://user-images.githubusercontent.com/100303302/223836350-3c7bb3b8-6619-4f86-8d3a-0656ce834d57.gif)
 
+<br /> 
+
+Using command line you can disply information on specific topics as the messages pass through.
+```bash
+ros2 topic list -t # Display topics and the corresponding message type
+
+# ros2 topic echo <topic_name>
+ros2 topic echo /turtle1/cmd_vel # Echos the turtles x, y, z and angular pitch, roll, yaw in command line. View Topic Content
+
+ros2 topic info /turtle1/cmd_vel # Output /turtle1/cmd_vel topic related information. Topic-related information.
+
+# ros2 interface show <msg_type>
+# Output geometry_msgs/msg/Twist interface related information
+ros2 interface show geometry_msgs/msg/Twist # Display interface related information
+```
+### Command Line Topic Practice
+![Turtle_Topic-eg](https://user-images.githubusercontent.com/100303302/223841649-fd570292-9d78-4309-9e68-8aaa725e64cf.gif)
 
 ## Additional Reasources
 
