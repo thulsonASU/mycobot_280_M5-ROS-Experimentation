@@ -62,14 +62,14 @@ colcon build
 
 ### Day 4: Basic ROS2 Humble Tutorial
 /#/ ETutorial = Elephant Tutorials /-/ OTutorials = ROS2 Official Tutorials /#/
-<br /> **4.1 Topics** <br />
+#### 4.1 Topics 
 <br />
 ETutorial: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.2-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html <br />
 OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html <br /> 
 <br />
 Topics: are one of the main ways in which data is moved between nodes and therefore between different parts of the system. ```rqt_graph``` is a command line that gives the user the ability to inspect ROS2 topics. I like to think of an MQTT Server. It has a topic, publisher, and subscriber. The publisher sends a message to a topic and all subscribers of that topic will get that message. A topic is what connects the node that connects the message from the publisher to all subscribers.
 
-#### Topic Example
+##### Topic Example
 ![Topic Example](https://user-images.githubusercontent.com/100303302/223836350-3c7bb3b8-6619-4f86-8d3a-0656ce834d57.gif)
 
 Using command line you can disply information on specific topics as the messages pass through.
@@ -85,7 +85,7 @@ ros2 topic info /turtle1/cmd_vel # Output /turtle1/cmd_vel topic related informa
 # Output geometry_msgs/msg/Twist interface related information
 ros2 interface show geometry_msgs/msg/Twist # Display interface related information
 ```
-### Command Line Topic Practice
+##### Command Line Topic Practice
 ![Turtle_Topic-eg](https://user-images.githubusercontent.com/100303302/223841649-fd570292-9d78-4309-9e68-8aaa725e64cf.gif)
 
 You can also issue orders for autonomous control. My previous example was TeleOp via a Keyboard.
@@ -101,8 +101,10 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 ```
 using ```pub``` you can send information to the topic to control the turtle sim. Rather than taking the keyboard input.
 
-### Issuing a Order
+##### Issuing a Order
 ![Turtle_Pub-eg](https://user-images.githubusercontent.com/100303302/223846429-e1f64ea8-10ba-4b23-afd4-d6a448c55569.gif)
+
+#### 4.2 Nodes
 
 
 ## Additional Reasources
