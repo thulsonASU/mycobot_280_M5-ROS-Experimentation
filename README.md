@@ -102,7 +102,7 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 using ```pub``` you can send information to the topic to control the turtle sim. Rather than taking the keyboard input.
 
 ### Issuing a Order
-
+![Turtle_Pub-eg](https://user-images.githubusercontent.com/100303302/223846429-e1f64ea8-10ba-4b23-afd4-d6a448c55569.gif)
 
 
 ## Additional Reasources
