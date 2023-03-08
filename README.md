@@ -33,7 +33,7 @@ Installing ROS 2 for Ubuntu Jammy via:
 <br /> http://docs.ros.org/en/humble/Installation.html <br />
 
 Problem. While attempting install ran into a roadblock with adding the ROS 2 repo to APT. Problem Repo is malformed entry. Removed APT line with the following.
-```
+```bash
 sudo rm /etc/apt/sources.list.d/ros2.list
 sudo apt update
 sudo apt autoremove
@@ -52,7 +52,7 @@ To finish up I installed moveit2.
 <br />
 
 Next, I set up a ROS2 workspace. (~ 4hr)
-```
+```bash
 # Create a folder
 mkdir -p Documents/Github/280-M5_ROS/colcon_ws/src
 # compile workspace
@@ -60,20 +60,14 @@ cd ~/colcon_ws
 colcon build
 ```
 
-<br /> 
-**Day 4: Basic ROS2 Humble Tutorial** 
+<br /> **Day 4: Basic ROS2 Humble Tutorial**  <br />
 /#/ ETutorial = Elephant Tutorials /-/ OTutorials = ROS2 Official Tutorials /#/
+<br /> **4.1 Topics** <br />
+ETutorial 1: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.2-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html <br />
+OTutorial 1 Topics: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html <br /> 
 <br />
-**4.1 Topics** 
-<br />
-ETutorial 1: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.2-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html
-<br />
-OTutorial 1 Topics: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
-<br /> <br />
 Topics: are one of the main ways in which data is moved between nodes and therefore between different parts of the system. ```rqt_graph``` is a command line that gives the user the ability to inspect ROS2 topics. I like to think of an MQTT Server. It has a topic, publisher, and subscriber. The publisher sends a message to a topic and all subscribers of that topic will get that message. A topic is what connects the node that connects the message from the publisher to all subscribers.
-<br />
 ![](https://github.com/280-M5_ROS/Topic_Example.gif)
-<br />
 
 
 ## Additional Reasources
