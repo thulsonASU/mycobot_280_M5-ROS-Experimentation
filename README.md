@@ -71,7 +71,7 @@ Topics: are one of the main ways in which data is moved between nodes and theref
 
 ##### Topic Example
 ![Topic Example](https://user-images.githubusercontent.com/100303302/223836350-3c7bb3b8-6619-4f86-8d3a-0656ce834d57.gif)
-
+##### Topic list/echo/info/interface
 Using command line you can disply information on specific topics as the messages pass through.
 ```bash
 ros2 topic list -t # Display topics and the corresponding message type
@@ -85,13 +85,13 @@ ros2 topic info /turtle1/cmd_vel # Output /turtle1/cmd_vel topic related informa
 # Output geometry_msgs/msg/Twist interface related information
 ros2 interface show geometry_msgs/msg/Twist # Display interface related information
 ```
-##### Command Line Topic Practice
 ![Turtle_Topic-eg](https://user-images.githubusercontent.com/100303302/223841649-fd570292-9d78-4309-9e68-8aaa725e64cf.gif)
 
 You can also issue orders for autonomous control. My previous example was TeleOp via a Keyboard.
 ```bash
 # ros2 topic pub <topic_name> <msg_type> '<args>' 
 # Issue speed command (--once plays command once on a single line) (x: is speed 2 in x dir, z: 1.8 is rotation in z dir.)
+# Using ```pub``` you can send information to the topic to control the turtle sim. Rather than taking the keyboard input.
 ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1}}"
 ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.2}}"
 ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.4}}"
@@ -99,12 +99,29 @@ ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0
 # Issue speed commands at a certain frequency (--rate will dictate the frequency this line is reposted until user breaks out of loop)
 ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
 ```
-using ```pub``` you can send information to the topic to control the turtle sim. Rather than taking the keyboard input.
-
-##### Issuing a Order
 ![Turtle_Pub-eg](https://user-images.githubusercontent.com/100303302/223846429-e1f64ea8-10ba-4b23-afd4-d6a448c55569.gif)
 
 #### 4.2 Nodes
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html <br />
+##### Nodes in ROS2
+![Nodes-TopicandService](https://user-images.githubusercontent.com/100303302/223847918-0c22e7f9-c80a-48af-b8ea-070dcd8e979f.gif)
+##### Node list/relationships/remapping/information
+```bash
+# Listing Nodes
+ros2 node list
+
+# Node Relationships
+rqt_graph
+
+# Remapping Nodes
+ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
+ros2 node list
+
+# View Node Information
+# ros2 node info <node_name>
+ros2 node info /my_turtle
+```
+![Turtle_Nodes-eg](https://user-images.githubusercontent.com/100303302/223849519-0c54f605-4fe9-4154-ba1f-a92f9cc74900.gif)
 
 
 ## Additional Reasources
