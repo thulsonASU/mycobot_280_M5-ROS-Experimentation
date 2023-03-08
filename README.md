@@ -61,15 +61,11 @@ colcon build
 ```
 
 ### Day 4: Basic ROS2 Humble Tutorial
-/#/ ETutorial = Elephant Tutorials /-/ OTutorials = ROS2 Official Tutorials /#/
-#### 4.1 Topics 
-<br />
+/#/ ETutorial = Elephant Tutorials /-/ OTutorials = ROS2 Official Tutorials /#/ <br />
 ETutorial: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.2-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html <br />
-OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html <br /> 
-<br />
-Topics: are one of the main ways in which data is moved between nodes and therefore between different parts of the system. ```rqt_graph``` is a command line that gives the user the ability to inspect ROS2 topics. I like to think of an MQTT Server. It has a topic, publisher, and subscriber. The publisher sends a message to a topic and all subscribers of that topic will get that message. A topic is what connects the node that connects the message from the publisher to all subscribers.
 
-##### Topic Example
+#### 4.1 Topics 
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html <br /> 
 ![Topic Example](https://user-images.githubusercontent.com/100303302/223836350-3c7bb3b8-6619-4f86-8d3a-0656ce834d57.gif)
 ##### Topic list/echo/info/interface
 Using command line you can disply information on specific topics as the messages pass through.
@@ -86,7 +82,7 @@ ros2 topic info /turtle1/cmd_vel # Output /turtle1/cmd_vel topic related informa
 ros2 interface show geometry_msgs/msg/Twist # Display interface related information
 ```
 ![Turtle_Topic-eg](https://user-images.githubusercontent.com/100303302/223841649-fd570292-9d78-4309-9e68-8aaa725e64cf.gif)
-
+##### Topic pub
 You can also issue orders for autonomous control. My previous example was TeleOp via a Keyboard.
 ```bash
 # ros2 topic pub <topic_name> <msg_type> '<args>' 
@@ -103,7 +99,6 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 
 #### 4.2 Nodes
 OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html <br />
-##### Nodes in ROS2
 ![Nodes-TopicandService](https://user-images.githubusercontent.com/100303302/223847918-0c22e7f9-c80a-48af-b8ea-070dcd8e979f.gif)
 ##### Node list/relationships/remapping/information
 ```bash
@@ -122,6 +117,46 @@ ros2 node list
 ros2 node info /my_turtle
 ```
 ![Turtle_Nodes-eg](https://user-images.githubusercontent.com/100303302/223849519-0c54f605-4fe9-4154-ba1f-a92f9cc74900.gif)
+
+#### 4.3 Services
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
+![Service-MultipleServiceClient](https://user-images.githubusercontent.com/100303302/223851333-3c2cf768-8166-486f-b30f-195f6d87040b.gif)
+##### Service list/vmessage/fservice/messagedef/turtspawner
+```bash
+# View service list
+# ros2 service list
+ros2 service list -t # Display service list and message type
+
+# View the message types recieved by the service
+# ros2 service type <service_name>
+ros2 service type /clear
+
+# Find services that use a certain message type 
+# ros2 service find <type_name>
+ros2 service find std_srvs/srv/Empty
+
+# View message service type definitions
+# ros2 interface show <type_name>.srv
+ros2 interface show std_srvs/srv/Empty.srv
+
+# Call the service command to clear the walking track
+# ros2 service call <service_name> <service_type>
+ros2 service call /clear std_srvs/srv/Empty
+
+# Spawn a new Turtle
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: 'turtle2'}"
+
+# Use a infinite loop to make a Turtle Spawner
+# $RANDOM generates a random number in bash
+# $RANDOM/32768*(b-a) + a generates a range of [a,b)
+for ((;;)) do 
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 3, theta: 0.2, name: 'turtle$RANDOM'}"
+sleep 5s 
+done
+```
+![Turtle_Service-eg](https://user-images.githubusercontent.com/100303302/223870255-c3bbf5ed-831f-4703-b369-8b7795a7aea1.gif)
+![Turtle_Service-Spawner](https://user-images.githubusercontent.com/100303302/223870059-48daf454-eb15-4a56-9924-56a017e821ff.gif)
+
 
 
 ## Additional Reasources
