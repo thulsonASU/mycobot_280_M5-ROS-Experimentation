@@ -46,6 +46,18 @@ Resotred system to working order. Looking at other ways to add the apt line eith
 
 ROS2 Humble is installed! setup to work with bash. To enter bash via fish-shell simply type ```bash``` to enter. 
 ![Example of ROS2 Installation](https://github.com/thulsonASU/280-M5_ROS/blob/main/ROS2Install.jpg?raw=true)
+To finish up I installed moveit2. 
+
+<br />
+
+Next, I set up a ROS2 workspace.
+```
+# Create a folder
+mkdir -p Documents/Github/280-M5_ROS/colcon_ws/src
+# compile workspace
+cd ~/colcon_ws
+colcon build
+```
 
 ## Additional Reasources
 
@@ -53,7 +65,7 @@ ROS2 Humble is installed! setup to work with bash. To enter bash via fish-shell 
 <br /> Elephant Gitbook:  https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.1-M5.html <br />
 <br /> Elephant ROS 1 Gitbook: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html <br />
 <br /> ROS2 Humble Install: https://www.youtube.com/watch?v=0aPbWsyENA8 <br />
-
+<br /> Elephant ROS2 Github: https://github.com/elephantrobotics/mycobot_ros2 <br />
 <br />
 
 <br /> Elephant ROS YouTube: https://www.youtube.com/playlist?list=PLzq8qjbxJS3hp6Uu_H6-fL9ALs7sAeTnP <br />
