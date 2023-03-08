@@ -42,6 +42,11 @@ sudo apt upgrade
 ```
 Resotred system to working order. Looking at other ways to add the apt line either via fish-shell or the GUI. Well fun fact. Bash ins preinstalled! and to use it with fish-shell simply do ```bash -c 'command'```. I spent the last 3 hours trying to find out I can just do a simple bash -c command. Oh well.
 
+<br />
+
+ROS2 Humble is installed! setup to work with bash. To enter bash via fish-shell simply type ```bash``` to enter. 
+![Example of ROS2 Installation](https://imgur.com/9BR6h3r)
+
 ## Additional Reasources
 
 ### Useful URL's
