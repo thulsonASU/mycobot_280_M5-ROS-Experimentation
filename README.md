@@ -47,7 +47,9 @@ Resotred system to working order. Looking at other ways to add the apt line eith
 ROS2 Humble is installed! setup to work with bash. To enter bash via fish-shell simply type ```bash``` to enter. 
 ![Example of ROS2 Installation](https://github.com/thulsonASU/280-M5_ROS/blob/main/ROS2Install.jpg?raw=true)
 
-<br /> To finish up I installed moveit2. <br />
+<br /> 
+To finish up I installed moveit2. 
+<br />
 
 Next, I set up a ROS2 workspace. (~ 4hr)
 ```
@@ -57,6 +59,19 @@ mkdir -p Documents/Github/280-M5_ROS/colcon_ws/src
 cd ~/colcon_ws
 colcon build
 ```
+
+<br /> 
+**Day 4: Basic ROS2 Humble Tutorial** 
+/#/ ETutorial = Elephant Tutorials /-/ OTutorials = ROS2 Official Tutorials /#/
+<br />
+**4.1 Topics** 
+<br />
+ETutorial 1: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.2-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html
+<br />
+OTutorial 1 Topics: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
+<br /> <br />
+Topics: are one of the main ways in which data is moved between nodes and therefore between different parts of the system. ```rqt_graph``` is a command line that gives the user the ability to inspect ROS2 topics. I like to think of an MQTT Server. It has a topic, publisher, and subscriber. The publisher sends a message to a topic and all subscribers of that topic will get that message. A topic is what connects the node that connects the message from the publisher to all subscribers.
+![Topic Example](https://github.com/thulsonASU/280-M5_ROS/blob/main/Topic_Example.gif?raw=true)
 
 ## Additional Reasources
 
