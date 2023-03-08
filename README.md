@@ -157,6 +157,35 @@ done
 ![Turtle_Service-eg](https://user-images.githubusercontent.com/100303302/223870255-c3bbf5ed-831f-4703-b369-8b7795a7aea1.gif)
 ![Turtle_Service-Spawner](https://user-images.githubusercontent.com/100303302/223870059-48daf454-eb15-4a56-9924-56a017e821ff.gif)
 
+#### 4.4 Parameters
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html <br />
+Simply put. A parameter is a configuration value for a node typically defined as an integer, float, boolean, string, and etc. <br />
+##### Parameters list/valueSet/valueExport/independency/import
+```bash
+# View service list for params
+ros2 param list
+
+# Get the parameter value
+# ros2 param get <node_name> <parameter_name>
+ros2 param get /turtlesim background_g
+
+# Set parameter values
+# ros2 param set <node_name> <parameter_name> <value>
+ros2 param set /turtlesim background_g 150
+
+# Export parameter values
+# ros2 param dump <node_name>
+ros2 param dump /turtlesim
+
+# Import parameters independently
+# ros2 param load <node_name> <parameter_file>
+ros2 param load /turtlesim ./turtlesim.yaml
+
+# Start the node and import parameters at the same time
+# ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
+ros2 run turtlesim turtlesim_node --ros-args --params-file ./turtlesim2.yaml
+```
+![Turtle_Param-eg](https://user-images.githubusercontent.com/100303302/223875107-43c31f33-882c-4fc9-9232-8fe15b1cb626.gif)
 
 
 ## Additional Reasources
