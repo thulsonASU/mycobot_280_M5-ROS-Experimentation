@@ -20,12 +20,12 @@ This usually isn't a major process to make note of for me, but I learned a new w
 <br /> **Day 3: Setting up ROS** <br />
 
 <br /> **3.1 Accidental Learning** <br />
-Installed FUSE and learned how to run appImages. This is necessary for myStudio to run so I can set up the necessary firmware and drivers for the robot. This path put me off track. I ran into some issues trying to run the appimage for the software and was uncomfortable installing it via just the tar.gz source code. I decided to check the ROS 1 Gitbook and start off from there and back track as needed for setting it up. Note to self and others: ROS 1 Gitbook will provide documentation on how to set up a VM with Virtual Box so anyone can set up a Linux VM to run the 280-M5 cobot with ROS in a Linux VM. 
+Installed FUSE and learned how to run appImages. This is necessary for myStudio to run so I can set up the necessary firmware and drivers for the robot. This path put me off track. I ran into some issues trying to run the appimage for the software and was uncomfortable installing it via just the tar.gz source code. I decided to check the ROS 1 Gitbook and start off from there and back track as needed for setting it up. Note to self and others: ROS 1 Gitbook will provide documentation on how to set up a VM with Virtual Box so anyone can set up a Linux VM to run the 280-M5 cobot with ROS in a Linux VM. (~ 2hr)
 
 <br /> **3.2 ROS 1 Environment Setup** <br />
 Installing ROS 1 for Ubuntu versions 20+ via: http://wiki.ros.org/noetic/Installation/Ubuntu <br />
 Chose Desktop-Full Install for ROS 1 Noetic. <br />
-Problem. I am running Ubuntu Jammy (22.04) and trying to install ROS 1 Noetic for Ubuntu Focal (20.04). Work arounds -> Install Ubuntu Focal or Install manually. Will attempt manual install. Did additional research. Decided to adjust scope to ROS2 Humble which works with Ubuntu Jammy (22.04). Note ROS 2 Foxy Maintnance Period on May 2023.
+Problem. I am running Ubuntu Jammy (22.04) and trying to install ROS 1 Noetic for Ubuntu Focal (20.04). Work arounds -> Install Ubuntu Focal or Install manually. Will attempt manual install. Did additional research. Decided to adjust scope to ROS2 Humble which works with Ubuntu Jammy (22.04). Note ROS 2 Foxy Maintnance Period on May 2023. (~ 2hr)
 
 <br /> **3.3 ROS 2 Environment Setup** <br />
 Installing ROS 2 for Ubuntu Jammy via: 
@@ -50,7 +50,7 @@ To finish up I installed moveit2.
 
 <br />
 
-Next, I set up a ROS2 workspace.
+Next, I set up a ROS2 workspace. (~ 4hr)
 ```
 # Create a folder
 mkdir -p Documents/Github/280-M5_ROS/colcon_ws/src
