@@ -72,8 +72,6 @@ Topics: are one of the main ways in which data is moved between nodes and theref
 #### Topic Example
 ![Topic Example](https://user-images.githubusercontent.com/100303302/223836350-3c7bb3b8-6619-4f86-8d3a-0656ce834d57.gif)
 
-<br /> 
-
 Using command line you can disply information on specific topics as the messages pass through.
 ```bash
 ros2 topic list -t # Display topics and the corresponding message type
@@ -89,6 +87,23 @@ ros2 interface show geometry_msgs/msg/Twist # Display interface related informat
 ```
 ### Command Line Topic Practice
 ![Turtle_Topic-eg](https://user-images.githubusercontent.com/100303302/223841649-fd570292-9d78-4309-9e68-8aaa725e64cf.gif)
+
+You can also issue orders for autonomous control. My previous example was TeleOp via a Keyboard.
+```bash
+# ros2 topic pub <topic_name> <msg_type> '<args>' 
+# Issue speed command (--once plays command once on a single line) (x: is speed 2 in x dir, z: 1.8 is rotation in z dir.)
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1}}"
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.2}}"
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.4}}"
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+# Issue speed commands at a certain frequency (--rate will dictate the frequency this line is reposted until user breaks out of loop)
+ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+```
+using ```pub``` you can send information to the topic to control the turtle sim. Rather than taking the keyboard input.
+
+### Issuing a Order
+
+
 
 ## Additional Reasources
 
