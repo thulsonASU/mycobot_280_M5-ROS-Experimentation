@@ -38,13 +38,14 @@ sudo apt autoremove
 # Consider upgrading for packages previously shadowed.
 sudo apt upgrade
 ```
-Resotred system to working order. Looking at other ways to add the apt line either via fish-shell or the GUI.
+Resotred system to working order. Looking at other ways to add the apt line either via fish-shell or the GUI. Well fun fact. Bash ins preinstalled! and to use it with fish-shell simply do ```bash -c 'command'```. I spent the last 3 hours trying to find out I can just do a simple bash -c command. Oh well.
 
 ## Additional Reasources
 
 ### Useful URL's
 <br /> Elephant Gitbook:  https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.1-M5.html <br />
 <br /> Elephant ROS 1 Gitbook: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html <br />
+<br /> ROS2 Humble Install: https://www.youtube.com/watch?v=0aPbWsyENA8 <br />
 
 <br />
 
