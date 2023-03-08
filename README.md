@@ -46,9 +46,8 @@ Resotred system to working order. Looking at other ways to add the apt line eith
 
 ROS2 Humble is installed! setup to work with bash. To enter bash via fish-shell simply type ```bash``` to enter. 
 ![Example of ROS2 Installation](https://github.com/thulsonASU/280-M5_ROS/blob/main/ROS2Install.jpg?raw=true)
-To finish up I installed moveit2. 
 
-<br />
+<br /> To finish up I installed moveit2. <br />
 
 Next, I set up a ROS2 workspace. (~ 4hr)
 ```
