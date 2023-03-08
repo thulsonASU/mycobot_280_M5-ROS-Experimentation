@@ -28,8 +28,17 @@ Chose Desktop-Full Install for ROS 1 Noetic. <br />
 Problem. I am running Ubuntu Jammy (22.04) and trying to install ROS 1 Noetic for Ubuntu Focal (20.04). Work arounds -> Install Ubuntu Focal or Install manually. Will attempt manual install. Did additional research. Decided to adjust scope to ROS2 Humble which works with Ubuntu Jammy (22.04). Note ROS 2 Foxy Maintnance Period on May 2023.
 
 <br /> **3.3 ROS 2 Environment Setup** <br />
-Installing ROS 2 for Ubuntu Jammy via: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.1-ROS2%E7%9A%84%E5%AE%89%E8%A3%85.html <br />
+Installing ROS 2 for Ubuntu Jammy via: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.1-ROS2%E7%9A%84%E5%AE%89%E8%A3%85.html and http://docs.ros.org/en/humble/Installation.html <br />
 
+Problem. While attempting install ran into a roadblock with adding the ROS 2 repo to APT. Problem Repo is malformed entry. Removed APT line with the following.
+```
+sudo rm /etc/apt/sources.list.d/ros2.list
+sudo apt update
+sudo apt autoremove
+# Consider upgrading for packages previously shadowed.
+sudo apt upgrade
+```
+Resotred system to working order. Looking at other ways to add the apt line either via fish-shell or the GUI.
 
 ## Additional Reasources
 
