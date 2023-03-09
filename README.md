@@ -512,6 +512,8 @@ Just learned a great deal about how crucial python 3.10 is to the Ubuntu distro 
 <br /> **Finally I can now start Step 1!** <br />
 Got side tracked picking a theme for my new favorite shell -> fish-shell. I installed oh my fish and set up Lambda theme. This note will help me remember if I want to set it back up on a new machine. Also tilix is a good emulator for multiple shell windows :D <br />
 <br />
+Installed ROS1/Catkin/Python3 Dependancies/my_cobot repo. Followed tutorial here: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html#m5-version <br />
+Thanks to using a supported OS it was MUCH easier to do with little to no noteable problems. Just make sure to set up PATH for python and update bashrc to source correctly! <br />
 
 
 
