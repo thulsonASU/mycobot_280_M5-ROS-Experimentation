@@ -240,11 +240,12 @@ ros2 run turtlesim turtlesim_node
 
 # Spawn 5 Turtles
 # $i hsa to be converted to a float to do a math operation in the service call
-for i in {1..5} ; do
+for i in {2..5} ; do
 ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: $(($i + 2)), theta: 0.2, name: 'turtle$i'}"
 sleep 1s 
 done
 
+# Publishing topics are not logged but the service of spawning each turtle above is logged in the RQt Console window.
 
 # Publish message to all turtles to move
 for i in {1..5} ; do
@@ -256,11 +257,17 @@ ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.
 sleep 1s 
 done
 
-for ((;;)) do # Indefinite for loop
-for i in {1..5} ; do
-ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" &
-done
-sleep 1s # Rate of 1 second
+for j in {1..10} ; do # Indefinite for loop
+# ROS2 common practice: publishing to different topics at the same time. Example below
+# ros2 topic pub <topic1> <msg_type1> <message1> --once & ros2 topic pub <topic2> <msg_type2> <message2> --once & ... ros2 topic pub <topicN> <msg_typeN> <messageN> --once &
+# Fun fact & can be dangerous if not used correctly. Alright this works fine as long as it is not inside an indefinite loop. Uses way to much CPU with. 
+# Background processes.
+ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" --once & 
+ros2 topic pub /turtle2/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" --once & 
+ros2 topic pub /turtle3/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" --once & 
+ros2 topic pub /turtle4/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" --once & 
+ros2 topic pub /turtle5/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" --once & 
+sleep 1s # Let it catch up
 done
 
 sleep 5s
@@ -268,6 +275,7 @@ sleep 5s
 # Reset the service after 5s
 ros2 service call /reset std_srvs/srv/Empty
 ```
+![Turtle_RQt-eg](https://user-images.githubusercontent.com/100303302/223904785-4332f2e9-915a-4d28-9a7e-8226d0c555cc.gif)
 
 
 ## Additional Reasources
