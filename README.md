@@ -495,7 +495,7 @@ colcon build --packages-select my_package
 This will rebuild only the my_package package and show any error messages on the console.
 By following these steps, you should be able to diagnose and fix any "package had stderr output" errors in Colcon builds[2][3][4][5].
 ```
-
+#### Day 5: The Big Reset
 Pick this back up tomorrow by first combing the build log located here: ```/home/tyler/colcon_ws/log/build_2023-03-09_01-51-10``` <br />
 Minor fix. Updating my global $PATH variable to path to all available workspaces. For the sake of not getting confused I will not path my git repo at this time unless used for a tutorial. Will use nano to edit ~/.bashrc to add dir to my path variable using a simple if statement as shown below.
 ```bash
@@ -506,7 +506,10 @@ fi
 ```
 Problem. Python3 version is not compatible with current colcon. Solution: Downgrade python 3.10 to 3.8 -> https://answers.ros.org/question/396439/setuptoolsdeprecationwarning-setuppy-install-is-deprecated-use-build-and-pip-and-other-standards-based-tools/ <br />
 Problem. Python3 version is not compatible. Setuptools use dashes rather than underscores. Solution: Edit dist.py to use underscores. Generally located in the setup.cfg file for the packages in the src dir. <br />
-Fixed. Able to package and launch. Will continue forward with the my_cobot
+Fixed. Able to package and launch. Will continue forward with the my_cobot. 
+<br /> **CATASTROPHIC MISTAKE** <br />
+Just learned a great deal about how crucial python 3.10 is to the Ubuntu distro version I was operating on. I now will reimage and install Ubuntu and install all packages. Including cloning this git.
+
 ## Additional Reasources
 
 ### Useful URL's
