@@ -495,7 +495,7 @@ colcon build --packages-select my_package
 This will rebuild only the my_package package and show any error messages on the console.
 By following these steps, you should be able to diagnose and fix any "package had stderr output" errors in Colcon builds[2][3][4][5].
 ```
-#### Day 5: The Big Reset
+### Day 5: The Big Reset
 Pick this back up tomorrow by first combing the build log located here: ```/home/tyler/colcon_ws/log/build_2023-03-09_01-51-10``` <br />
 Minor fix. Updating my global $PATH variable to path to all available workspaces. For the sake of not getting confused I will not path my git repo at this time unless used for a tutorial. Will use nano to edit ~/.bashrc to add dir to my path variable using a simple if statement as shown below.
 ```bash
