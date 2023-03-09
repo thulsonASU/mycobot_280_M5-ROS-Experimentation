@@ -508,7 +508,10 @@ Problem. Python3 version is not compatible with current colcon. Solution: Downgr
 Problem. Python3 version is not compatible. Setuptools use dashes rather than underscores. Solution: Edit dist.py to use underscores. Generally located in the setup.cfg file for the packages in the src dir. <br />
 Fixed. Able to package and launch. Will continue forward with the my_cobot. 
 <br /> **CATASTROPHIC MISTAKE** <br />
-Just learned a great deal about how crucial python 3.10 is to the Ubuntu distro version I was operating on. I now will reimage and install Ubuntu and install all packages. Including cloning this git.
+Just learned a great deal about how crucial python 3.10 is to the Ubuntu distro version I was operating on. I now will reimage and install Ubuntu and install all packages. Including cloning this git.reimaed and now operating on Ubuntu 20.04 with Python3.8. this enables me to not only learn ROS2, but also I can rescope back to ROS1 and utilize the tutorials by elephant. I will update the github to reflect ROS1 and ROS2 respectively. 
+<br /> **Finally I can now start Step 1!** <br />
+
+
 
 ## Additional Reasources
 
