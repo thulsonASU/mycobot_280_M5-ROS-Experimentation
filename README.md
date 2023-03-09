@@ -471,9 +471,7 @@ ros2 launch turtlesim turtlesim_node.launch.py -p
 # running components
 ros2 launch composition composition_demo.launch.py
 ```
-<br />
-**Hours Wasted on 4.8 and 4.9 (~ 6 hr)**
-<br />
+<br /> **Hours Wasted on 4.8 and 4.9 (~ 6 hr)** <br />
 HOL UP A MOMENT. I MESSED UP BAD. most of my packages are not building correctly causing them not the be found when launching. Attempting to debug as I move towards using rviz2 with the mycobot 280. I asked Perplexity.ai for troubleshooting tips. Got the following.
 
 ```bash
