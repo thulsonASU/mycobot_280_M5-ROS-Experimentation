@@ -1,0 +1,44 @@
+[0.602s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_communication': CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:/home/tyler/colcon_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build --no-deps install_data
+[0.831s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.831s]   warnings.warn(
+[0.855s] running develop
+[0.855s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.855s]   warnings.warn(
+[0.856s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.856s]   warnings.warn(
+[0.914s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.914s]   warnings.warn(
+[0.915s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.915s]   warnings.warn(
+[1.017s] running egg_info
+[1.017s] creating mycobot_communication.egg-info
+[1.017s] writing mycobot_communication.egg-info/PKG-INFO
+[1.017s] writing dependency_links to mycobot_communication.egg-info/dependency_links.txt
+[1.017s] writing entry points to mycobot_communication.egg-info/entry_points.txt
+[1.017s] writing requirements to mycobot_communication.egg-info/requires.txt
+[1.017s] writing top-level names to mycobot_communication.egg-info/top_level.txt
+[1.018s] writing manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.019s] reading manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.019s] writing manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.021s] running build_ext
+[1.021s] Creating /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot-communication.egg-link (link to .)
+[1.021s] Installing mycobot_services script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.022s] Installing mycobot_topics script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.022s] Installing mycobot_topics_jsnn script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.022s] Installing mycobot_topics_pi script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.022s] Installing mycobot_topics_seeed script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.022s] 
+[1.022s] Installed /home/tyler/colcon_ws/build/mycobot_communication
+[1.022s] running install_data
+[1.022s] creating /home/tyler/colcon_ws/install/mycobot_communication/share/ament_index
+[1.022s] creating /home/tyler/colcon_ws/install/mycobot_communication/share/ament_index/resource_index
+[1.022s] creating /home/tyler/colcon_ws/install/mycobot_communication/share/ament_index/resource_index/packages
+[1.022s] copying resource/mycobot_communication -> /home/tyler/colcon_ws/install/mycobot_communication/share/ament_index/resource_index/packages
+[1.022s] copying package.xml -> /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication
+[1.022s] creating /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.023s] copying launch/communication_topic_pi.launch.py -> /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.023s] copying launch/communication_seeed.launch.py -> /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.023s] copying launch/communication_service.launch.py -> /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.023s] copying launch/communication_topic.launch.py -> /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.023s] copying launch/communication_jsnn.launch.py -> /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.049s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_communication' returned '0': CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:/home/tyler/colcon_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build --no-deps install_data

@@ -4,6 +4,3 @@ source;share/mycobot_communication/hook/pythonpath.sh
 source;share/mycobot_communication/hook/ament_prefix_path.ps1
 source;share/mycobot_communication/hook/ament_prefix_path.dsv
 source;share/mycobot_communication/hook/ament_prefix_path.sh
-source;../../build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.ps1
-source;../../build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.dsv
-source;../../build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.sh

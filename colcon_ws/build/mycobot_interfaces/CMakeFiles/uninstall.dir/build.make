@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
+CMAKE_SOURCE_DIR = /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces
+CMAKE_BINARY_DIR = /home/tyler/colcon_ws/build/mycobot_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tyler/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

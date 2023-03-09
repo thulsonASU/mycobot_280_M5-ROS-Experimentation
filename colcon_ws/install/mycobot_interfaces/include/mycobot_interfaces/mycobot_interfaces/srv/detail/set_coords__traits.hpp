@@ -1,1 +1,1 @@
-/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_cpp/mycobot_interfaces/srv/detail/set_coords__traits.hpp
+/home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_cpp/mycobot_interfaces/srv/detail/set_coords__traits.hpp

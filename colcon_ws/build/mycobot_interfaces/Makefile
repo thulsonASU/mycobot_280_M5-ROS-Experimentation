@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
+CMAKE_SOURCE_DIR = /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces
+CMAKE_BINARY_DIR = /home/tyler/colcon_ws/build/mycobot_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles /home/tyler/colcon_ws/build/mycobot_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

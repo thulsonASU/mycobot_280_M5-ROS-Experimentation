@@ -317,6 +317,8 @@ git clone -b ros2 https://github.com/ros/urdf_tutorial.git src/urdf_tutorial
 # Compiling the source code
 colcon build --packages-select urdf_tutorial
 
+# Source install
+
 # Running the example
 # Enter build folder
 ros2 launch urdf_tutorial display.launch.py model:=urdf/01-myfirst.urdf
@@ -495,7 +497,16 @@ By following these steps, you should be able to diagnose and fix any "package ha
 ```
 
 Pick this back up tomorrow by first combing the build log located here: ```/home/tyler/colcon_ws/log/build_2023-03-09_01-51-10``` <br />
-
+Minor fix. Updating my global $PATH variable to path to all available workspaces. For the sake of not getting confused I will not path my git repo at this time unless used for a tutorial. Will use nano to edit ~/.bashrc to add dir to my path variable using a simple if statement as shown below.
+```bash
+### PATH
+if [ -d "path/to/ws" ] ;
+then PATH="path/to/ws:$PATH"
+fi
+```
+Problem. Python3 version is not compatible with current colcon. Solution: Downgrade python 3.10 to 3.8 -> https://answers.ros.org/question/396439/setuptoolsdeprecationwarning-setuppy-install-is-deprecated-use-build-and-pip-and-other-standards-based-tools/ <br />
+Problem. Python3 version is not compatible. Setuptools use dashes rather than underscores. Solution: Edit dist.py to use underscores. Generally located in the setup.cfg file for the packages in the src dir. <br />
+Fixed. Able to package and launch. Will continue forward with the my_cobot
 ## Additional Reasources
 
 ### Useful URL's

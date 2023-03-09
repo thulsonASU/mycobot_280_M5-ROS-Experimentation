@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
+CMAKE_SOURCE_DIR = /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces
+CMAKE_BINARY_DIR = /home/tyler/colcon_ws/build/mycobot_interfaces
 
 # Utility rule file for mycobot_interfaces.
 
@@ -66,28 +66,28 @@ include CMakeFiles/mycobot_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/mycobot_interfaces.dir/progress.make
 
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotAngles.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotCoords.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotSetAngles.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotSetCoords.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotGripperStatus.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotPumpStatus.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/GetAngles.srv
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotAngles.msg
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotCoords.msg
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotSetAngles.msg
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotSetCoords.msg
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotGripperStatus.msg
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/msg/MycobotPumpStatus.msg
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/GetAngles.srv
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/GetAngles_Request.msg
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/GetAngles_Response.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/SetAngles.srv
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/SetAngles.srv
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/SetAngles_Request.msg
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/SetAngles_Response.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/GetCoords.srv
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/GetCoords.srv
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/GetCoords_Request.msg
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/GetCoords_Response.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/SetCoords.srv
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/SetCoords.srv
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/SetCoords_Request.msg
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/SetCoords_Response.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/GripperStatus.srv
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/GripperStatus.srv
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/GripperStatus_Request.msg
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/GripperStatus_Response.msg
-CMakeFiles/mycobot_interfaces: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/PumpStatus.srv
+CMakeFiles/mycobot_interfaces: /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces/srv/PumpStatus.srv
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/PumpStatus_Request.msg
 CMakeFiles/mycobot_interfaces: rosidl_cmake/srv/PumpStatus_Response.msg
 CMakeFiles/mycobot_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -134,6 +134,6 @@ CMakeFiles/mycobot_interfaces.dir/clean:
 .PHONY : CMakeFiles/mycobot_interfaces.dir/clean
 
 CMakeFiles/mycobot_interfaces.dir/depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles/mycobot_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tyler/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles/mycobot_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mycobot_interfaces.dir/depend
 

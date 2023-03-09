@@ -1,0 +1,526 @@
+[0.353s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.353s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f670f41d810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f670f6afe20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f670f6afe20>>)
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.379s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tyler/colcon_ws'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/Mybuddy) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/Mybuddy) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/Mybuddy) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mecharm) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mecharm) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mecharm) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_280/mycobot_280' with type 'ros.ament_python' and name 'mycobot_280'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280jn) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280jn) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280pi) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280pi) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_280/mycobot_interfaces' with type 'ros.ament_cmake' and name 'mycobot_interfaces'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_320) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_320) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_320) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_communication' with type 'ros.ament_python' and name 'mycobot_communication'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_description' with type 'ros.ament_python' and name 'mycobot_description'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mypalletizer_260) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mypalletizer_260) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mypalletizer_260) ignored
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/ultraArm) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/ultraArm) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/ultraArm) ignored
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.427s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tyler/colcon_ws/install
+[0.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_description', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description', 'symlink_install': True, 'test_result_base': None}
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_interfaces', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_communication', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication', 'symlink_install': True, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_280' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_280', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_280', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280', 'symlink_install': True, 'test_result_base': None}
+[0.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces' with build type 'ament_cmake'
+[0.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces'
+[0.502s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description' with build type 'ament_python'
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'ament_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/ament_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/ament_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/ament_prefix_path.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tyler/colcon_ws/install/mycobot_interfaces
+[0.817s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description'
+[0.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.xml
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/link3.dae
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/suit_env.dae
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/link5.dae
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/link1.dae
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/base.dae
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/mypal_260_pi.urdf
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/link4.dae
+[1.184s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/link2.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi/mypal_260_pi_aikit.urdf
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint7.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint1_jet.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint6.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint6.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint4.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint5.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint3.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint4.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/mycobot_urdf.urdf
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint5.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint7.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint2.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint2.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn/joint3.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/link3.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/link5.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/link1.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/mycobot_pro_320.urdf
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/base.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/link6.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/link4.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf/link2.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/link3.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/link5.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/link1.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/base.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/link6.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/link4.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/link2.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf/mycobot_600_urdf.urdf
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/suit_env.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint7.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint6.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint6.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint4.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/noenv.urdf
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint5.png
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/withenv.urdf
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint3.dae
+[1.185s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/mycobot_with_vision.urdf
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint4.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/mycobot_urdf.urdf
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint5.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint7.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint2.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/mycobot_with_vision_copy.urdf
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint1.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint1.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint2.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/joint3.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot/mycobot_step.STEP
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint7.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint6.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint6.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint4.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint5.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint3.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint4.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/mycobot_urdf.urdf
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint5.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint7.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint2.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint1.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint2.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint3.png
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi/joint1_pi.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/link3.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/link5.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/link1.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/base.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/mecharm.urdf
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/link6.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/link4.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm/link2.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/link3.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/link5.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/link1.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/base.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/mecharm_pi.urdf
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/link6.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/link4.dae
+[1.186s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi/link2.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/link3.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/link5.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/link1.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/new_mycobot_pro_320_pi_moveit.urdf
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/base.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/mycobot_pro_320_pi.urdf
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/link6.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/link4.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi/link2.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint7.png
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint4_R.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/mybuddy.urdf
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint6.png
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/mybuddy-down.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint5_R.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint3_R.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint5.png
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/mybuddy-up.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint3.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint6_R.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint4.png
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint2.png
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint6_L.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint4_L.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint3_L.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint1_L.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint3.png
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint5_L.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint1_R.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint2_L.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy/joint2_R.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/suit_env.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/ultraArm-3.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/ultraArm-base.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/ultraArm.urdf
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/ultraArm-1.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/ultraArm-2.dae
+[1.187s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf/ultraArm_aiki.urdf
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_description': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build --no-deps install_data
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'pythonpath_develop')
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_description/share/mycobot_description/hook/pythonpath_develop.ps1'
+[1.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_description' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build --no-deps install_data
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/build/mycobot_description/share/mycobot_description/hook/pythonpath_develop.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_description/share/mycobot_description/hook/pythonpath_develop.sh'
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description' for CMake module files
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description' for CMake config files
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/lib'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/lib/pkgconfig/mycobot_description.pc'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages'
+[1.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'pythonpath')
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/pythonpath.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/pythonpath.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/pythonpath.sh'
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/bin'
+[1.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_description)
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.bash'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.zsh'
+[1.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_description/share/colcon-core/packages/mycobot_description)
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tyler/colcon_ws/install/mycobot_interfaces
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j8 -l8
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j8 -l8
+[2.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces
+[2.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_interfaces)
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake module files
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake config files
+[2.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'cmake_prefix_path')
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.dsv'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.sh'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib'
+[2.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'ld_library_path_lib')
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.dsv'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.sh'
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/pkgconfig/mycobot_interfaces.pc'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/python3.10/site-packages'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.ps1'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.sh'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.bash'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.zsh'
+[2.397s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_interfaces/share/colcon-core/packages/mycobot_interfaces)
+[2.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_interfaces)
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake module files
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake config files
+[2.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'cmake_prefix_path')
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.ps1'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.dsv'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.sh'
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib'
+[2.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'ld_library_path_lib')
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.ps1'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.dsv'
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.sh'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/pkgconfig/mycobot_interfaces.pc'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/python3.10/site-packages'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.ps1'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.sh'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.bash'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.zsh'
+[2.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_interfaces/share/colcon-core/packages/mycobot_interfaces)
+[2.543s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication' with build type 'ament_python'
+[2.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_communication', 'ament_prefix_path')
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/ament_prefix_path.ps1'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/ament_prefix_path.dsv'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/ament_prefix_path.sh'
+[2.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.812s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication'
+[2.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/ament_index/resource_index/packages/mycobot_communication
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.xml
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch/communication_topic_pi.launch.py
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch/communication_seeed.launch.py
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch/communication_service.launch.py
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch/communication_topic.launch.py
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch/communication_jsnn.launch.py
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication/mycobot_services
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication/mycobot_topics
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication/mycobot_topics_jsnn
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication/mycobot_topics_pi
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication/mycobot_topics_seeed
+[3.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_communication': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build --no-deps install_data
+[3.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_communication', 'pythonpath_develop')
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.ps1'
+[3.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_communication' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build --no-deps install_data
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.dsv'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.sh'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication' for CMake module files
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication' for CMake config files
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/lib'
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/bin'
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/lib/pkgconfig/mycobot_communication.pc'
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages'
+[3.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_communication', 'pythonpath')
+[3.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/pythonpath.ps1'
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/pythonpath.dsv'
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/pythonpath.sh'
+[3.607s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/bin'
+[3.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_communication)
+[3.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.ps1'
+[3.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.dsv'
+[3.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.sh'
+[3.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.bash'
+[3.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.zsh'
+[3.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_communication/share/colcon-core/packages/mycobot_communication)
+[3.610s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280' with build type 'ament_python'
+[3.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280', 'ament_prefix_path')
+[3.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/ament_prefix_path.ps1'
+[3.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/ament_prefix_path.dsv'
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/ament_prefix_path.sh'
+[3.614s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.886s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280'
+[3.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/ament_index/resource_index/packages/mycobot_280
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.xml
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/simple_gui.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/detect_marker.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/teleop_keyboard.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/test.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/mycobot_follow.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/detect_marker_with_topic.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/launch/slider_control.launch.py
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/config/mycobot.rviz
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/config/mycobot_with_marker.rviz
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/camera_display
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/detect_marker
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/follow_display
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/following_marker
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/listen_real
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/listen_real_of_topic
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/opencv_camera
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/simple_gui
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/slider_control
+[4.217s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280/teleop_keyboard
+[4.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_280': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_interfaces:/opt/ros/humble PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280/build --no-deps install_data
+[4.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280', 'pythonpath_develop')
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_280/share/mycobot_280/hook/pythonpath_develop.ps1'
+[4.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_280' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_interfaces:/opt/ros/humble PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280/build --no-deps install_data
+[4.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/build/mycobot_280/share/mycobot_280/hook/pythonpath_develop.dsv'
+[4.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_280/share/mycobot_280/hook/pythonpath_develop.sh'
+[4.676s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280' for CMake module files
+[4.676s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280' for CMake config files
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/lib'
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/bin'
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/lib/pkgconfig/mycobot_280.pc'
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages'
+[4.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280', 'pythonpath')
+[4.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/pythonpath.ps1'
+[4.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/pythonpath.dsv'
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/pythonpath.sh'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/bin'
+[4.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_280)
+[4.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.ps1'
+[4.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.dsv'
+[4.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.sh'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.bash'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.zsh'
+[4.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_280/share/colcon-core/packages/mycobot_280)
+[4.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.688s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.688s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.688s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.692s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.ps1'
+[4.695s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tyler/colcon_ws/install/_local_setup_util_ps1.py'
+[4.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.ps1'
+[4.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.sh'
+[4.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tyler/colcon_ws/install/_local_setup_util_sh.py'
+[4.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.sh'
+[4.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.bash'
+[4.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.bash'
+[4.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.zsh'
+[4.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.zsh'

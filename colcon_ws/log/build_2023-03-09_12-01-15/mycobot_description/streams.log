@@ -1,0 +1,24 @@
+[0.761s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_description': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build
+[1.077s] running develop
+[1.341s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_description' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build
+[1.343s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/tyler/colcon_ws/build/mycobot_description/build install --record /home/tyler/colcon_ws/build/mycobot_description/install.log --single-version-externally-managed
+[1.626s] running egg_info
+[1.627s] writing ../../../build/mycobot_description/mycobot_description.egg-info/PKG-INFO
+[1.627s] writing dependency_links to ../../../build/mycobot_description/mycobot_description.egg-info/dependency_links.txt
+[1.627s] writing entry points to ../../../build/mycobot_description/mycobot_description.egg-info/entry_points.txt
+[1.627s] writing requirements to ../../../build/mycobot_description/mycobot_description.egg-info/requires.txt
+[1.627s] writing top-level names to ../../../build/mycobot_description/mycobot_description.egg-info/top_level.txt
+[1.630s] reading manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[1.631s] adding license file 'LICENSE'
+[1.633s] writing manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[1.633s] running build
+[1.633s] running build_py
+[1.633s] running install
+[1.633s] running install_lib
+[1.635s] running install_data
+[1.637s] running install_egg_info
+[1.639s] removing '/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.639s] Copying ../../../build/mycobot_description/mycobot_description.egg-info to /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot_description-0.0.0-py3.10.egg-info
+[1.640s] running install_scripts
+[1.659s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_description/install.log'
+[1.689s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/tyler/colcon_ws/build/mycobot_description/build install --record /home/tyler/colcon_ws/build/mycobot_description/install.log --single-version-externally-managed

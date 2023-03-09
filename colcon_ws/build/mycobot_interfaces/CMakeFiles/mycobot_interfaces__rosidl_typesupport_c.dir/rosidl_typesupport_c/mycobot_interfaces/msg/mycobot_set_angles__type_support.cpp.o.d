@@ -1,5 +1,5 @@
 CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp.o: \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -15,7 +15,7 @@ CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/myc
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.h \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -25,8 +25,8 @@ CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/myc
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.h \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.h \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h \

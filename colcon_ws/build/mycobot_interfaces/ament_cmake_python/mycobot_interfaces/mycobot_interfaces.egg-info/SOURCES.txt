@@ -4,3 +4,17 @@ mycobot_interfaces.egg-info/PKG-INFO
 mycobot_interfaces.egg-info/SOURCES.txt
 mycobot_interfaces.egg-info/dependency_links.txt
 mycobot_interfaces.egg-info/top_level.txt
+mycobot_interfaces/msg/__init__.py
+mycobot_interfaces/msg/_mycobot_angles.py
+mycobot_interfaces/msg/_mycobot_coords.py
+mycobot_interfaces/msg/_mycobot_gripper_status.py
+mycobot_interfaces/msg/_mycobot_pump_status.py
+mycobot_interfaces/msg/_mycobot_set_angles.py
+mycobot_interfaces/msg/_mycobot_set_coords.py
+mycobot_interfaces/srv/__init__.py
+mycobot_interfaces/srv/_get_angles.py
+mycobot_interfaces/srv/_get_coords.py
+mycobot_interfaces/srv/_gripper_status.py
+mycobot_interfaces/srv/_pump_status.py
+mycobot_interfaces/srv/_set_angles.py
+mycobot_interfaces/srv/_set_coords.py

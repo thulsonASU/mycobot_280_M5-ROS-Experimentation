@@ -1,0 +1,308 @@
+[0.020s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j8 -l8
+[0.066s] [  0%] Built target mycobot_interfaces__cpp
+[0.070s] [ 12%] Built target mycobot_interfaces__rosidl_generator_c
+[0.077s] [ 12%] Built target ament_cmake_python_symlink_mycobot_interfaces
+[0.103s] [ 36%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[0.103s] [ 36%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[0.105s] [ 47%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 60%] Built target mycobot_interfaces__rosidl_typesupport_c
+[0.109s] [ 71%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[0.114s] [ 83%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[0.131s] [ 83%] Built target mycobot_interfaces
+[0.149s] [ 84%] Built target mycobot_interfaces__py
+[0.174s] [ 95%] Built target mycobot_interfaces__rosidl_generator_py
+[0.195s] [ 97%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.195s] [ 98%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext
+[0.199s] [100%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.383s] running egg_info
+[0.384s] writing mycobot_interfaces.egg-info/PKG-INFO
+[0.384s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[0.384s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[0.386s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.387s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.419s] [100%] Built target ament_cmake_python_build_mycobot_interfaces_egg
+[0.431s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j8 -l8
+[0.576s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces
+[0.581s] -- Install configuration: ""
+[0.582s] -- Execute custom install script
+[0.582s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mycobot_interfaces
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__functions.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__functions.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.h
+[0.583s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.h
+[0.584s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__functions.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__functions.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__functions.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__functions.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.h
+[0.585s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__functions.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__functions.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.h
+[0.586s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.sh
+[0.587s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.dsv
+[0.587s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_c.h
+[0.587s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_c.h
+[0.587s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_c.h
+[0.587s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_c.h
+[0.587s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__builder.hpp
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.hpp
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__traits.hpp
+[0.590s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__builder.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__traits.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__builder.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__traits.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__builder.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__traits.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__builder.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__traits.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__builder.hpp
+[0.591s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__traits.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__builder.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__traits.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__builder.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.hpp
+[0.592s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__traits.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__builder.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__traits.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__builder.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__traits.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__builder.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__traits.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__builder.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__traits.hpp
+[0.593s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.hpp
+[0.594s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.hpp
+[0.594s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.hpp
+[0.594s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.hpp
+[0.594s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.hpp
+[0.594s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.hpp
+[0.594s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[0.595s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+[0.596s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.sh
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.dsv
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.597s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.598s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/__init__.py
+[0.598s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c
+[0.598s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.598s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.598s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/libmycobot_interfaces__rosidl_generator_py.so
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/__init__.py
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles.py
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles_s.c
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords.py
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords_s.c
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status.py
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status_s.c
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status.py
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status_s.c
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles.py
+[0.599s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles_s.c
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords.py
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords_s.c
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/__init__.py
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles.py
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles_s.c
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords.py
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords_s.c
+[0.600s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status.py
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status_s.c
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status.py
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status_s.c
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles.py
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles_s.c
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords.py
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords_s.c
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.601s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.idl
+[0.602s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.idl
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.idl
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.idl
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.msg
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.msg
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.msg
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.msg
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.msg
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.msg
+[0.603s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.srv
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles_Request.msg
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles_Response.msg
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.srv
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles_Request.msg
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles_Response.msg
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.srv
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords_Request.msg
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords_Response.msg
+[0.604s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.srv
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords_Request.msg
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords_Response.msg
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.srv
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus_Request.msg
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus_Response.msg
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.srv
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus_Request.msg
+[0.605s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus_Response.msg
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/ament_index/resource_index/package_run_dependencies/mycobot_interfaces
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/ament_index/resource_index/parent_prefix_path/mycobot_interfaces
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.sh
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.dsv
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.sh
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.dsv
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.bash
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.sh
+[0.606s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.zsh
+[0.607s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.dsv
+[0.607s] -- Symlinking: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv
+[0.613s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/ament_index/resource_index/packages/mycobot_interfaces
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig.cmake
+[0.614s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig-version.cmake
+[0.615s] -- Up-to-date symlink: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.xml
+[0.615s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so
+[0.615s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.615s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so
+[0.615s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so
+[0.615s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.616s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.616s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so
+[0.648s] Listing '/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces'...
+[0.648s] Listing '/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg'...
+[0.648s] Listing '/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv'...
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_py.so
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport.cmake
+[0.653s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cppExport.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport.cmake
+[0.654s] -- Up-to-date: /home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.656s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces

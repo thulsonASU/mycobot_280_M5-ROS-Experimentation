@@ -1,0 +1,29 @@
+[0.737s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_communication': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build
+[1.031s] running develop
+[1.222s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_communication' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build
+[1.224s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/tyler/colcon_ws/build/mycobot_communication/build install --record /home/tyler/colcon_ws/build/mycobot_communication/install.log --single-version-externally-managed
+[1.476s] running egg_info
+[1.476s] writing ../../../build/mycobot_communication/mycobot_communication.egg-info/PKG-INFO
+[1.476s] writing dependency_links to ../../../build/mycobot_communication/mycobot_communication.egg-info/dependency_links.txt
+[1.476s] writing entry points to ../../../build/mycobot_communication/mycobot_communication.egg-info/entry_points.txt
+[1.477s] writing requirements to ../../../build/mycobot_communication/mycobot_communication.egg-info/requires.txt
+[1.477s] writing top-level names to ../../../build/mycobot_communication/mycobot_communication.egg-info/top_level.txt
+[1.479s] reading manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[1.480s] adding license file 'LICENSE'
+[1.480s] writing manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[1.481s] running build
+[1.481s] running build_py
+[1.481s] running install
+[1.481s] running install_lib
+[1.482s] running install_data
+[1.483s] running install_egg_info
+[1.484s] removing '/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info' (and everything under it)
+[1.485s] Copying ../../../build/mycobot_communication/mycobot_communication.egg-info to /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info
+[1.485s] running install_scripts
+[1.504s] Installing mycobot_services script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.504s] Installing mycobot_topics script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.504s] Installing mycobot_topics_jsnn script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.504s] Installing mycobot_topics_pi script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.504s] Installing mycobot_topics_seeed script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.505s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_communication/install.log'
+[1.531s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/tyler/colcon_ws/build/mycobot_communication/build install --record /home/tyler/colcon_ws/build/mycobot_communication/install.log --single-version-externally-managed

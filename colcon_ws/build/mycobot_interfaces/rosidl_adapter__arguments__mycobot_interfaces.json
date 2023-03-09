@@ -1,17 +1,17 @@
 {
   "package_name": "mycobot_interfaces",
   "non_idl_tuples": [
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotAngles.msg",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotCoords.msg",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotSetAngles.msg",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotSetCoords.msg",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotGripperStatus.msg",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotPumpStatus.msg",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GetAngles.srv",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/SetAngles.srv",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GetCoords.srv",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/SetCoords.srv",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GripperStatus.srv",
-    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/PumpStatus.srv"
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotAngles.msg",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotCoords.msg",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotSetAngles.msg",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotSetCoords.msg",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotGripperStatus.msg",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotPumpStatus.msg",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GetAngles.srv",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/SetAngles.srv",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GetCoords.srv",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/SetCoords.srv",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GripperStatus.srv",
+    "/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/PumpStatus.srv"
   ]
 }

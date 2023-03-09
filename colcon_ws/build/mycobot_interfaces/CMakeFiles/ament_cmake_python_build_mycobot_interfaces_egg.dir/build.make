@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
+CMAKE_SOURCE_DIR = /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces
+CMAKE_BINARY_DIR = /home/tyler/colcon_ws/build/mycobot_interfaces
 
 # Utility rule file for ament_cmake_python_build_mycobot_interfaces_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg:
-	cd /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/ament_cmake_python/mycobot_interfaces && /usr/bin/python3.10 setup.py egg_info
+	cd /home/tyler/colcon_ws/build/mycobot_interfaces/ament_cmake_python/mycobot_interfaces && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_mycobot_interfaces_egg: CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg
 ament_cmake_python_build_mycobot_interfaces_egg: CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tyler/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_mycobot_interfaces_egg.dir/depend
 

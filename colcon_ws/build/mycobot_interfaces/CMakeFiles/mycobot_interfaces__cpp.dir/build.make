@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
+CMAKE_SOURCE_DIR = /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces
+CMAKE_BINARY_DIR = /home/tyler/colcon_ws/build/mycobot_interfaces
 
 # Utility rule file for mycobot_interfaces__cpp.
 
@@ -174,8 +174,8 @@ rosidl_generator_cpp/mycobot_interfaces/msg/mycobot_angles.hpp: /opt/ros/humble/
 rosidl_generator_cpp/mycobot_interfaces/msg/mycobot_angles.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/mycobot_interfaces/msg/mycobot_angles.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/mycobot_interfaces/msg/mycobot_angles.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/mycobot_interfaces/msg/detail/mycobot_angles__builder.hpp: rosidl_generator_cpp/mycobot_interfaces/msg/mycobot_angles.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mycobot_interfaces/msg/detail/mycobot_angles__builder.hpp
@@ -379,6 +379,6 @@ CMakeFiles/mycobot_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/mycobot_interfaces__cpp.dir/clean
 
 CMakeFiles/mycobot_interfaces__cpp.dir/depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/CMakeFiles/mycobot_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tyler/colcon_ws/build/mycobot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces /home/tyler/colcon_ws/build/mycobot_interfaces/CMakeFiles/mycobot_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mycobot_interfaces__cpp.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_coords_s.c.o: \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_coords_s.c \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_coords_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,6 +207,6 @@ CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycob
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__struct.h \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__functions.h \
- /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__struct.h \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__functions.h \
+ /home/tyler/colcon_ws/build/mycobot_interfaces/rosidl_generator_c/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h

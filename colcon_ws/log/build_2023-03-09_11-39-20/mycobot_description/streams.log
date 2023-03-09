@@ -1,0 +1,26 @@
+[0.690s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_description': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build --no-deps install_data
+[0.928s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.929s]   warnings.warn(
+[0.956s] running develop
+[0.956s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.956s]   warnings.warn(
+[0.957s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.957s]   warnings.warn(
+[1.015s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.015s]   warnings.warn(
+[1.015s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.015s]   warnings.warn(
+[1.136s] running egg_info
+[1.136s] writing mycobot_description.egg-info/PKG-INFO
+[1.136s] writing dependency_links to mycobot_description.egg-info/dependency_links.txt
+[1.136s] writing entry points to mycobot_description.egg-info/entry_points.txt
+[1.137s] writing requirements to mycobot_description.egg-info/requires.txt
+[1.137s] writing top-level names to mycobot_description.egg-info/top_level.txt
+[1.139s] reading manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[1.141s] writing manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[1.143s] running build_ext
+[1.143s] Creating /home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot-description.egg-link (link to .)
+[1.144s] 
+[1.144s] Installed /home/tyler/colcon_ws/build/mycobot_description
+[1.144s] running install_data
+[1.177s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_description' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build --no-deps install_data

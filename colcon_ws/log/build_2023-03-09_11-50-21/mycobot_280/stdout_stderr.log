@@ -1,0 +1,59 @@
+/home/tyler/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+Removing /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot-280.egg-link (link to .)
+/home/tyler/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../../../build/mycobot_280/mycobot_280.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/mycobot_280/mycobot_280.egg-info/dependency_links.txt
+writing entry points to ../../../../build/mycobot_280/mycobot_280.egg-info/entry_points.txt
+writing requirements to ../../../../build/mycobot_280/mycobot_280.egg-info/requires.txt
+writing top-level names to ../../../../build/mycobot_280/mycobot_280.egg-info/top_level.txt
+reading manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/follow_and_pump.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/slider_control.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/teleop_keyboard.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/listen_real_of_topic.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/listen_real.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/__init__.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/opencv_camera.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/camera_display.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/following_marker.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/simple_gui.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/detect_marker.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+copying /home/tyler/colcon_ws/build/mycobot_280/build/lib/mycobot_280/follow_display.py -> /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/slider_control.py to slider_control.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/listen_real.py to listen_real.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/opencv_camera.py to opencv_camera.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/camera_display.py to camera_display.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/following_marker.py to following_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/simple_gui.py to simple_gui.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/detect_marker.py to detect_marker.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/follow_display.py to follow_display.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/mycobot_280/mycobot_280.egg-info to /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_display script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing detect_marker script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing follow_display script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing following_marker script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing listen_real script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing opencv_camera script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing simple_gui script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing slider_control script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_280/install.log'

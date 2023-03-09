@@ -1,0 +1,1 @@
+This workspace exists elsewhere on the users machine who created it. This exists in the root of the user and is setup with the PATH global env variable in bashrc

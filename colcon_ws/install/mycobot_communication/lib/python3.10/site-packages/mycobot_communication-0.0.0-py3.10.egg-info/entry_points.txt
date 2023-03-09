@@ -1,0 +1,7 @@
+[console_scripts]
+mycobot_services = mycobot_communication.mycobot_services:main
+mycobot_topics = mycobot_communication.mycobot_topics:main
+mycobot_topics_jsnn = mycobot_communication.mycobot_topics_jsnn:main
+mycobot_topics_pi = mycobot_communication.mycobot_topics_pi:main
+mycobot_topics_seeed = mycobot_communication.mycobot_topics_seeed:main
+

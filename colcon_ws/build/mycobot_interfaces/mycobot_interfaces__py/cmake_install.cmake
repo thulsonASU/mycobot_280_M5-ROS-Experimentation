@@ -1,8 +1,8 @@
-# Install script for directory: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/mycobot_interfaces__py
+# Install script for directory: /home/tyler/colcon_ws/build/mycobot_interfaces/mycobot_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/tyler/colcon_ws/install/mycobot_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

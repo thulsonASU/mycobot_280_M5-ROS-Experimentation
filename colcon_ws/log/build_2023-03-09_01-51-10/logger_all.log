@@ -1,0 +1,383 @@
+[0.344s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.344s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa532408e50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa532dddc30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa532dddc30>>)
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.374s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tyler/colcon_ws'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/Mybuddy) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/Mybuddy) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/Mybuddy) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mecharm) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mecharm) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mecharm) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_280/mycobot_280' with type 'ros.ament_python' and name 'mycobot_280'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280jn) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280jn) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280jn) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280pi) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280pi) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_280pi) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_280/mycobot_interfaces) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_280/mycobot_interfaces' with type 'ros.ament_cmake' and name 'mycobot_interfaces'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_320) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_320) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_320) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_communication) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_communication' with type 'ros.ament_python' and name 'mycobot_communication'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_description' with type 'ros.ament_python' and name 'mycobot_description'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mypalletizer_260) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mypalletizer_260) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mypalletizer_260) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/ultraArm) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/ultraArm) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/ultraArm) ignored
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.426s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/ultraarm' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.426s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mypalletizer_260_pi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.426s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mypalletizer_260' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mypalletizer_communication' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mypalletizer_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_320pi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_320' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_280pi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_280jn' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_280' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_communication' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mecharm_pi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mecharm' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mecharm_communication' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mybuddy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mycobot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tyler/colcon_ws/install/mecharm_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tyler/colcon_ws/install/mypalletizer_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tyler/colcon_ws/install/mycobot_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tyler/colcon_ws/install/mecharm_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/tyler/colcon_ws/install
+[0.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_description', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description', 'symlink_install': True, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'mycobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_interfaces', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'mycobot_communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_communication', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication', 'symlink_install': True, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_280' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tyler/colcon_ws/build/mycobot_280', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tyler/colcon_ws/install/mycobot_280', 'merge_install': False, 'path': '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280', 'symlink_install': True, 'test_result_base': None}
+[0.509s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces' with build type 'ament_cmake'
+[0.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces'
+[0.521s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description' with build type 'ament_python'
+[0.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'ament_prefix_path')
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/ament_prefix_path.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/ament_prefix_path.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/ament_prefix_path.sh'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tyler/colcon_ws/install/mycobot_interfaces
+[0.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_description'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_description': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build --no-deps install_data
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'pythonpath_develop')
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_description/share/mycobot_description/hook/pythonpath_develop.ps1'
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_description' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_description/prefix_override:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_description/build --no-deps install_data
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/build/mycobot_description/share/mycobot_description/hook/pythonpath_develop.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_description/share/mycobot_description/hook/pythonpath_develop.sh'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description' for CMake module files
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description' for CMake config files
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/lib'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/bin'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/lib/pkgconfig/mycobot_description.pc'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages'
+[2.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'pythonpath')
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/pythonpath.ps1'
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/pythonpath.dsv'
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/hook/pythonpath.sh'
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_description/bin'
+[2.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_description)
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.sh'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.bash'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_description/share/mycobot_description/package.zsh'
+[2.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_description/share/colcon-core/packages/mycobot_description)
+[2.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tyler/colcon_ws/install/mycobot_interfaces
+[2.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j8 -l8
+[10.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/tyler/colcon_ws/build/mycobot_interfaces -- -j8 -l8
+[10.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces
+[12.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_interfaces)
+[12.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/tyler/colcon_ws/build/mycobot_interfaces
+[12.706s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake module files
+[12.707s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake config files
+[12.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'cmake_prefix_path')
+[12.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.ps1'
+[12.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.dsv'
+[12.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.sh'
+[12.710s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib'
+[12.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'ld_library_path_lib')
+[12.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.ps1'
+[12.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.dsv'
+[12.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.sh'
+[12.713s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[12.713s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/pkgconfig/mycobot_interfaces.pc'
+[12.713s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/python3.10/site-packages'
+[12.713s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[12.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.ps1'
+[12.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv'
+[12.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.sh'
+[12.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.bash'
+[12.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.zsh'
+[12.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_interfaces/share/colcon-core/packages/mycobot_interfaces)
+[12.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_interfaces)
+[12.866s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake module files
+[12.867s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces' for CMake config files
+[12.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'cmake_prefix_path')
+[12.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.ps1'
+[12.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.dsv'
+[12.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/cmake_prefix_path.sh'
+[12.871s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib'
+[12.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_interfaces', 'ld_library_path_lib')
+[12.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.ps1'
+[12.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.dsv'
+[12.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/hook/ld_library_path_lib.sh'
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/pkgconfig/mycobot_interfaces.pc'
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/lib/python3.10/site-packages'
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_interfaces/bin'
+[12.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.ps1'
+[12.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv'
+[12.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.sh'
+[12.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.bash'
+[12.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.zsh'
+[12.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_interfaces/share/colcon-core/packages/mycobot_interfaces)
+[12.878s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication' with build type 'ament_python'
+[12.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_communication', 'ament_prefix_path')
+[12.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/ament_prefix_path.ps1'
+[12.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/ament_prefix_path.dsv'
+[12.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/ament_prefix_path.sh'
+[12.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.149s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication'
+[13.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_communication': CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:/home/tyler/colcon_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build --no-deps install_data
+[13.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_communication', 'pythonpath_develop')
+[13.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_communication' returned '0': CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:/home/tyler/colcon_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build --no-deps install_data
+[13.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.ps1'
+[13.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.dsv'
+[13.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_communication/share/mycobot_communication/hook/pythonpath_develop.sh'
+[13.933s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication' for CMake module files
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication' for CMake config files
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/lib'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/bin'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/lib/pkgconfig/mycobot_communication.pc'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages'
+[13.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_communication', 'pythonpath')
+[13.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/pythonpath.ps1'
+[13.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/pythonpath.dsv'
+[13.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/hook/pythonpath.sh'
+[13.937s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_communication/bin'
+[13.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_communication)
+[13.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.ps1'
+[13.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.dsv'
+[13.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.sh'
+[13.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.bash'
+[13.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_communication/share/mycobot_communication/package.zsh'
+[13.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_communication/share/colcon-core/packages/mycobot_communication)
+[13.941s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280' with build type 'ament_python'
+[13.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280', 'ament_prefix_path')
+[13.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/ament_prefix_path.ps1'
+[13.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/ament_prefix_path.dsv'
+[13.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/ament_prefix_path.sh'
+[13.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.224s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_280/mycobot_280'
+[14.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tyler/colcon_ws/build/mycobot_280': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mecharm_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:/home/tyler/colcon_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/ultraarm:/home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_260/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/build/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_320:/home/tyler/colcon_ws/install/mycobot_320/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mecharm_pi:/home/tyler/colcon_ws/install/mecharm_pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mecharm:/home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mecharm_communication:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/build/mybuddy:/home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mecharm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280/build --no-deps install_data
+[15.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280', 'pythonpath_develop')
+[15.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_280/share/mycobot_280/hook/pythonpath_develop.ps1'
+[15.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tyler/colcon_ws/build/mycobot_280' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/home/tyler/colcon_ws/install/ultraarm:/home/tyler/colcon_ws/install/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320:/home/tyler/colcon_ws/install/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mecharm_pi:/home/tyler/colcon_ws/install/mecharm:/home/tyler/colcon_ws/install/mecharm_communication:/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mybuddy:/home/tyler/colcon_ws/install/mecharm_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces:/home/tyler/colcon_ws/install/mypalletizer_interfaces:/home/tyler/colcon_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/tyler/colcon_ws/install/mycobot_interfaces/lib:/home/tyler/colcon_ws/install/mypalletizer_interfaces/lib:/home/tyler/colcon_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/ultraarm:/home/tyler/colcon_ws/install/ultraarm/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mypalletizer_260_pi:/home/tyler/colcon_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mypalletizer_260:/home/tyler/colcon_ws/install/mypalletizer_260/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mypalletizer_communication:/home/tyler/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/build/mycobot_320pi:/home/tyler/colcon_ws/install/mycobot_320pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_320:/home/tyler/colcon_ws/install/mycobot_320/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280pi:/home/tyler/colcon_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280jn:/home/tyler/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mecharm_pi:/home/tyler/colcon_ws/install/mecharm_pi/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mecharm:/home/tyler/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mecharm_communication:/home/tyler/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/colcon_ws/build/mybuddy:/home/tyler/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mecharm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280/build --no-deps install_data
+[15.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/build/mycobot_280/share/mycobot_280/hook/pythonpath_develop.dsv'
+[15.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/build/mycobot_280/share/mycobot_280/hook/pythonpath_develop.sh'
+[15.010s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280' for CMake module files
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280' for CMake config files
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/lib'
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/bin'
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/lib/pkgconfig/mycobot_280.pc'
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages'
+[15.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280', 'pythonpath')
+[15.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/pythonpath.ps1'
+[15.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/pythonpath.dsv'
+[15.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/hook/pythonpath.sh'
+[15.014s] Level 1:colcon.colcon_core.environment:checking '/home/tyler/colcon_ws/install/mycobot_280/bin'
+[15.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_280)
+[15.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.ps1'
+[15.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.dsv'
+[15.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.sh'
+[15.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.bash'
+[15.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/tyler/colcon_ws/install/mycobot_280/share/mycobot_280/package.zsh'
+[15.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tyler/colcon_ws/install/mycobot_280/share/colcon-core/packages/mycobot_280)
+[15.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.017s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.023s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.023s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.ps1'
+[15.030s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tyler/colcon_ws/install/_local_setup_util_ps1.py'
+[15.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.ps1'
+[15.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.sh'
+[15.033s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tyler/colcon_ws/install/_local_setup_util_sh.py'
+[15.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.sh'
+[15.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.bash'
+[15.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.bash'
+[15.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tyler/colcon_ws/install/local_setup.zsh'
+[15.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tyler/colcon_ws/install/setup.zsh'

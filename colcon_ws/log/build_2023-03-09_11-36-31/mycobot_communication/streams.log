@@ -1,0 +1,43 @@
+[0.624s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_communication': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build
+[0.856s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.856s]   warnings.warn(
+[0.880s] running develop
+[0.880s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.880s]   warnings.warn(
+[0.881s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.882s]   warnings.warn(
+[0.941s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.941s]   warnings.warn(
+[0.941s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.941s]   warnings.warn(
+[1.069s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_communication' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tyler/colcon_ws/build/mycobot_communication/build
+[1.071s] Invoking command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/tyler/colcon_ws/build/mycobot_communication/build install --record /home/tyler/colcon_ws/build/mycobot_communication/install.log --install-scripts $base/lib/mycobot_communication --single-version-externally-managed
+[1.299s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.299s]   warnings.warn(
+[1.306s] running egg_info
+[1.307s] writing ../../../build/mycobot_communication/mycobot_communication.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ../../../build/mycobot_communication/mycobot_communication.egg-info/dependency_links.txt
+[1.307s] writing entry points to ../../../build/mycobot_communication/mycobot_communication.egg-info/entry_points.txt
+[1.307s] writing requirements to ../../../build/mycobot_communication/mycobot_communication.egg-info/requires.txt
+[1.307s] writing top-level names to ../../../build/mycobot_communication/mycobot_communication.egg-info/top_level.txt
+[1.309s] reading manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[1.309s] adding license file 'LICENSE'
+[1.310s] writing manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[1.310s] running build
+[1.310s] running build_py
+[1.310s] running install
+[1.310s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.310s]   warnings.warn(
+[1.311s] running install_lib
+[1.312s] running install_data
+[1.312s] running install_egg_info
+[1.315s] removing '/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info' (and everything under it)
+[1.315s] Copying ../../../build/mycobot_communication/mycobot_communication.egg-info to /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info
+[1.315s] running install_scripts
+[1.335s] Installing mycobot_services script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.335s] Installing mycobot_topics script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.335s] Installing mycobot_topics_jsnn script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.335s] Installing mycobot_topics_pi script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.335s] Installing mycobot_topics_seeed script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.335s] writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_communication/install.log'
+[1.360s] Invoked command in '/home/tyler/colcon_ws/src/mycobot_ros2/mycobot_communication' returned '0': PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/tyler/colcon_ws/build/mycobot_communication/build install --record /home/tyler/colcon_ws/build/mycobot_communication/install.log --install-scripts $base/lib/mycobot_communication --single-version-externally-managed

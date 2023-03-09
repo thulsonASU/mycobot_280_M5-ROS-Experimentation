@@ -1,0 +1,38 @@
+running develop
+Removing /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot-communication.egg-link (link to .)
+running egg_info
+writing ../../../build/mycobot_communication/mycobot_communication.egg-info/PKG-INFO
+writing dependency_links to ../../../build/mycobot_communication/mycobot_communication.egg-info/dependency_links.txt
+writing entry points to ../../../build/mycobot_communication/mycobot_communication.egg-info/entry_points.txt
+writing requirements to ../../../build/mycobot_communication/mycobot_communication.egg-info/requires.txt
+writing top-level names to ../../../build/mycobot_communication/mycobot_communication.egg-info/top_level.txt
+reading manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_jsnn.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_pi.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/__init__.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_services.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+copying /home/tyler/colcon_ws/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_seeed.py -> /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication
+byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics_jsnn.py to mycobot_topics_jsnn.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics_pi.py to mycobot_topics_pi.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics.py to mycobot_topics.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_services.py to mycobot_services.cpython-310.pyc
+byte-compiling /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication/mycobot_topics_seeed.py to mycobot_topics_seeed.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/mycobot_communication/mycobot_communication.egg-info to /home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mycobot_services script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics_jsnn script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics_pi script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics_seeed script to /home/tyler/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+writing list of installed files to '/home/tyler/colcon_ws/build/mycobot_communication/install.log'

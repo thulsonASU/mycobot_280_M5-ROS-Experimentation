@@ -1,0 +1,36 @@
+[0.607s] Invoking command in '/home/tyler/colcon_ws/build/mycobot_280': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_interfaces:/opt/ros/humble PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280/build --no-deps install_data
+[0.834s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.834s]   warnings.warn(
+[0.861s] running develop
+[0.861s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.861s]   warnings.warn(
+[0.862s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.862s]   warnings.warn(
+[0.920s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.920s]   warnings.warn(
+[0.920s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.920s]   warnings.warn(
+[1.024s] running egg_info
+[1.024s] writing mycobot_280.egg-info/PKG-INFO
+[1.025s] writing dependency_links to mycobot_280.egg-info/dependency_links.txt
+[1.025s] writing entry points to mycobot_280.egg-info/entry_points.txt
+[1.025s] writing requirements to mycobot_280.egg-info/requires.txt
+[1.026s] writing top-level names to mycobot_280.egg-info/top_level.txt
+[1.028s] reading manifest file 'mycobot_280.egg-info/SOURCES.txt'
+[1.029s] writing manifest file 'mycobot_280.egg-info/SOURCES.txt'
+[1.030s] running build_ext
+[1.030s] Creating /home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot-280.egg-link (link to .)
+[1.031s] Installing camera_display script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.031s] Installing detect_marker script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.031s] Installing follow_display script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing following_marker script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing listen_real script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing listen_real_of_topic script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing opencv_camera script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing simple_gui script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing slider_control script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] Installing teleop_keyboard script to /home/tyler/colcon_ws/install/mycobot_280/lib/mycobot_280
+[1.032s] 
+[1.032s] Installed /home/tyler/colcon_ws/build/mycobot_280
+[1.032s] running install_data
+[1.060s] Invoked command in '/home/tyler/colcon_ws/build/mycobot_280' returned '0': AMENT_PREFIX_PATH=/home/tyler/colcon_ws/install/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_description:/home/tyler/colcon_ws/install/mycobot_280:/home/tyler/colcon_ws/install/mycobot_interfaces:/opt/ros/humble PYTHONPATH=/home/tyler/colcon_ws/build/mycobot_280/prefix_override:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_communication:/home/tyler/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_description:/home/tyler/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:/home/tyler/colcon_ws/build/mycobot_280:/home/tyler/colcon_ws/install/mycobot_280/lib/python3.10/site-packages:/home/tyler/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/colcon_ws/build/mycobot_280/build --no-deps install_data
