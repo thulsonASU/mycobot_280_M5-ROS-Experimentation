@@ -510,6 +510,8 @@ Fixed. Able to package and launch. Will continue forward with the my_cobot.
 <br /> **CATASTROPHIC MISTAKE** <br />
 Just learned a great deal about how crucial python 3.10 is to the Ubuntu distro version I was operating on. I now will reimage and install Ubuntu and install all packages. Including cloning this git.reimaed and now operating on Ubuntu 20.04 with Python3.8. this enables me to not only learn ROS2, but also I can rescope back to ROS1 and utilize the tutorials by elephant. I will update the github to reflect ROS1 and ROS2 respectively. 
 <br /> **Finally I can now start Step 1!** <br />
+Got side tracked picking a theme for my new favorite shell -> fish-shell. I installed oh my fish and set up Lambda theme. This note will help me remember if I want to set it back up on a new machine. Also tilix is a good emulator for multiple shell windows :D <br />
+<br />
 
 
 
