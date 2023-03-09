@@ -315,17 +315,17 @@ turtlesim__rosidl_typesupport_cpp/fast:
 .PHONY : turtlesim__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_turtlesim
+# Target rules for targets named ament_cmake_python_symlink_turtlesim
 
 # Build rule for target.
-ament_cmake_python_copy_turtlesim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_turtlesim
-.PHONY : ament_cmake_python_copy_turtlesim
+ament_cmake_python_symlink_turtlesim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_turtlesim
+.PHONY : ament_cmake_python_symlink_turtlesim
 
 # fast build rule for target.
-ament_cmake_python_copy_turtlesim/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_turtlesim.dir/build.make CMakeFiles/ament_cmake_python_copy_turtlesim.dir/build
-.PHONY : ament_cmake_python_copy_turtlesim/fast
+ament_cmake_python_symlink_turtlesim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build
+.PHONY : ament_cmake_python_symlink_turtlesim/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_turtlesim_egg
@@ -2247,7 +2247,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_turtlesim_egg"
-	@echo "... ament_cmake_python_copy_turtlesim"
+	@echo "... ament_cmake_python_symlink_turtlesim"
 	@echo "... turtlesim"
 	@echo "... turtlesim__cpp"
 	@echo "... turtlesim__py"
