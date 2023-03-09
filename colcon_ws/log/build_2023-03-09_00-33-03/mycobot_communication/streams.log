@@ -1,0 +1,44 @@
+[1.160s] Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication/build --no-deps install_data
+[1.505s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.505s]   warnings.warn(
+[1.557s] running develop
+[1.557s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.557s]   warnings.warn(
+[1.559s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.559s]   warnings.warn(
+[1.667s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.667s]   warnings.warn(
+[1.668s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.668s]   warnings.warn(
+[1.848s] running egg_info
+[1.848s] creating mycobot_communication.egg-info
+[1.848s] writing mycobot_communication.egg-info/PKG-INFO
+[1.854s] writing dependency_links to mycobot_communication.egg-info/dependency_links.txt
+[1.856s] writing entry points to mycobot_communication.egg-info/entry_points.txt
+[1.858s] writing requirements to mycobot_communication.egg-info/requires.txt
+[1.859s] writing top-level names to mycobot_communication.egg-info/top_level.txt
+[1.859s] writing manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.859s] reading manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.859s] writing manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.861s] running build_ext
+[1.861s] Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot-communication.egg-link (link to .)
+[1.866s] Installing mycobot_services script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.866s] Installing mycobot_topics script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.866s] Installing mycobot_topics_jsnn script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.866s] Installing mycobot_topics_pi script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.866s] Installing mycobot_topics_seeed script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/mycobot_communication
+[1.867s] 
+[1.867s] Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication
+[1.868s] running install_data
+[1.870s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/ament_index
+[1.870s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/ament_index/resource_index
+[1.870s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/ament_index/resource_index/packages
+[1.871s] copying resource/mycobot_communication -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/ament_index/resource_index/packages
+[1.871s] copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication
+[1.871s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.871s] copying launch/communication_topic_pi.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.872s] copying launch/communication_seeed.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.872s] copying launch/communication_service.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.872s] copying launch/communication_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[1.872s] copying launch/communication_jsnn.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/share/mycobot_communication/launch
+[2.606s] Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication' returned '0': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication/build --no-deps install_data

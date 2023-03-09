@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mypalletizer_interfaces/msg/MypalSetCoords.msg
+// generated code does not contain a copyright notice
+
+
+module mypalletizer_interfaces {
+  module msg {
+    struct MypalSetCoords {
+      float x;
+
+      float y;
+
+      float z;
+
+      float rx;
+
+      @verbatim (language="comment", text=
+        "float32 ry" "\n"
+        "float32 rz")
+      int8 speed;
+
+      int8 model;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mecharm_interfaces/msg/MecharmGripperStatus.msg
+// generated code does not contain a copyright notice
+
+
+module mecharm_interfaces {
+  module msg {
+    struct MecharmGripperStatus {
+      boolean status;
+    };
+  };
+};

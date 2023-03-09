@@ -1,0 +1,12 @@
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotAngles.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotCoords.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotSetAngles.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotSetCoords.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotGripperStatus.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotPumpStatus.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GetAngles.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/SetAngles.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GetCoords.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/SetCoords.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GripperStatus.idl
+/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/PumpStatus.idl

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mypalletizer_interfaces/srv/SetAngles.srv
+// generated code does not contain a copyright notice
+
+
+module mypalletizer_interfaces {
+  module srv {
+    struct SetAngles_Request {
+      float joint_1;
+
+      float joint_2;
+
+      float joint_3;
+
+      float joint_4;
+
+      @verbatim (language="comment", text=
+        "float32 joint_5" "\n"
+        "float32 joint_6")
+      int8 speed;
+    };
+    struct SetAngles_Response {
+      boolean flag;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+[console_scripts]
+mecharm_services = mecharm_communication.mecharm_services:main
+mycobot_topics = mecharm_communication.mecharm_topics:main
+mycobot_topics_jsnn = mecharm_communication.mecharm_topics_jsnn:main
+mycobot_topics_pi = mecharm_communication.mecharm_topics_pi:main
+mycobot_topics_seeed = mecharm_communication.mecharm_topics_seeed:main
+

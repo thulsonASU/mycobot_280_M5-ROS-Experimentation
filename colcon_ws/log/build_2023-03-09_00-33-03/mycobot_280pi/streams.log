@@ -1,0 +1,54 @@
+[2.193s] Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi/build --no-deps install_data
+[2.511s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.511s]   warnings.warn(
+[2.547s] running develop
+[2.547s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.548s]   warnings.warn(
+[2.549s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.549s]   warnings.warn(
+[2.646s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.646s]   warnings.warn(
+[2.646s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.647s]   warnings.warn(
+[2.844s] running egg_info
+[2.845s] creating mycobot_280pi.egg-info
+[2.845s] writing mycobot_280pi.egg-info/PKG-INFO
+[2.845s] writing dependency_links to mycobot_280pi.egg-info/dependency_links.txt
+[2.845s] writing entry points to mycobot_280pi.egg-info/entry_points.txt
+[2.845s] writing requirements to mycobot_280pi.egg-info/requires.txt
+[2.846s] writing top-level names to mycobot_280pi.egg-info/top_level.txt
+[2.846s] writing manifest file 'mycobot_280pi.egg-info/SOURCES.txt'
+[2.849s] reading manifest file 'mycobot_280pi.egg-info/SOURCES.txt'
+[2.850s] writing manifest file 'mycobot_280pi.egg-info/SOURCES.txt'
+[2.854s] running build_ext
+[2.856s] Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/python3.10/site-packages/mycobot-280pi.egg-link (link to .)
+[2.858s] Installing camera_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.858s] Installing detect_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.858s] Installing follow_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.858s] Installing following_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.858s] Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.859s] Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.859s] Installing opencv_camera script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.859s] Installing simple_gui script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.859s] Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.859s] Installing teleop_keyboard script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/mycobot_280pi
+[2.859s] 
+[2.859s] Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi
+[2.859s] running install_data
+[2.860s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/ament_index
+[2.860s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/ament_index/resource_index
+[2.860s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/ament_index/resource_index/packages
+[2.860s] copying resource/mycobot_280pi -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/ament_index/resource_index/packages
+[2.860s] copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi
+[2.860s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.860s] copying launch/simple_gui.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.860s] copying launch/detect_marker.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.860s] copying launch/teleop_keyboard.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.861s] copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.861s] copying launch/mycobot_follow.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.861s] copying launch/detect_marker_with_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.861s] copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[2.861s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/config
+[2.861s] copying config/mycobot_pi.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/config
+[2.861s] copying config/mycobot_with_marker.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/share/mycobot_280pi/config
+[2.996s] Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi' returned '0': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280pi/build --no-deps install_data

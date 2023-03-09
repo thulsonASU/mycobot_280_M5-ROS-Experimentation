@@ -1,0 +1,44 @@
+[1.155s] Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication/build --no-deps install_data
+[1.496s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.496s]   warnings.warn(
+[1.548s] running develop
+[1.549s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.549s]   warnings.warn(
+[1.551s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.551s]   warnings.warn(
+[1.657s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.657s]   warnings.warn(
+[1.657s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.657s]   warnings.warn(
+[1.835s] running egg_info
+[1.835s] creating mecharm_communication.egg-info
+[1.835s] writing mecharm_communication.egg-info/PKG-INFO
+[1.835s] writing dependency_links to mecharm_communication.egg-info/dependency_links.txt
+[1.836s] writing entry points to mecharm_communication.egg-info/entry_points.txt
+[1.836s] writing requirements to mecharm_communication.egg-info/requires.txt
+[1.836s] writing top-level names to mecharm_communication.egg-info/top_level.txt
+[1.837s] writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[1.843s] reading manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[1.843s] writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[1.850s] running build_ext
+[1.850s] Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm-communication.egg-link (link to .)
+[1.851s] Installing mecharm_services script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[1.851s] Installing mycobot_topics script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[1.852s] Installing mycobot_topics_jsnn script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[1.852s] Installing mycobot_topics_pi script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[1.852s] Installing mycobot_topics_seeed script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/mecharm_communication
+[1.852s] 
+[1.852s] Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication
+[1.853s] running install_data
+[1.853s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/ament_index
+[1.853s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/ament_index/resource_index
+[1.853s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[1.854s] copying resource/mecharm_communication -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[1.854s] copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication
+[1.854s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[1.854s] copying launch/communication_topic_pi.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[1.854s] copying launch/communication_seeed.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[1.855s] copying launch/communication_service.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[1.857s] copying launch/communication_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[1.858s] copying launch/communication_jsnn.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.610s] Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication' returned '0': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication/build --no-deps install_data

@@ -1,0 +1,10 @@
+[console_scripts]
+detect_marker = mypalletizer_260_pi.detect_marker:main
+follow_display = mypalletizer_260_pi.follow_display:main
+following_marker = mypalletizer_260_pi.following_marker:main
+listen_real = mypalletizer_260_pi.listen_real:main
+listen_real_of_topic = mypalletizer_260_pi.listen_real_of_topic:main
+simple_gui = mypalletizer_260_pi.simple_gui:main
+slider_control = mypalletizer_260_pi.slider_control:main
+teleop_keyboard = mypalletizer_260_pi.teleop_keyboard:main
+

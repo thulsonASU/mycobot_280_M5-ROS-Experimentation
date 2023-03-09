@@ -1,0 +1,9 @@
+source;share/mypalletizer_260_pi/hook/pythonpath.ps1
+source;share/mypalletizer_260_pi/hook/pythonpath.dsv
+source;share/mypalletizer_260_pi/hook/pythonpath.sh
+source;share/mypalletizer_260_pi/hook/ament_prefix_path.ps1
+source;share/mypalletizer_260_pi/hook/ament_prefix_path.dsv
+source;share/mypalletizer_260_pi/hook/ament_prefix_path.sh
+source;../../build/mypalletizer_260_pi/share/mypalletizer_260_pi/hook/pythonpath_develop.ps1
+source;../../build/mypalletizer_260_pi/share/mypalletizer_260_pi/hook/pythonpath_develop.dsv
+source;../../build/mypalletizer_260_pi/share/mypalletizer_260_pi/hook/pythonpath_develop.sh

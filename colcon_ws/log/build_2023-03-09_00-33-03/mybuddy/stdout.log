@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating mybuddy.egg-info
+writing mybuddy.egg-info/PKG-INFO
+writing dependency_links to mybuddy.egg-info/dependency_links.txt
+writing entry points to mybuddy.egg-info/entry_points.txt
+writing requirements to mybuddy.egg-info/requires.txt
+writing top-level names to mybuddy.egg-info/top_level.txt
+writing manifest file 'mybuddy.egg-info/SOURCES.txt'
+reading manifest file 'mybuddy.egg-info/SOURCES.txt'
+writing manifest file 'mybuddy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy.egg-link (link to .)
+Installing follow_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+
+Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy
+running install_data
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index/resource_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index/resource_index/packages
+copying resource/mybuddy -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index/resource_index/packages
+copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+copying launch/mybuddy_follow.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/config
+copying config/dual_arm.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/config

@@ -1,0 +1,52 @@
+[3.109s] Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260/build --no-deps install_data
+[3.701s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.701s]   warnings.warn(
+[3.775s] running develop
+[3.775s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.775s]   warnings.warn(
+[3.779s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.779s]   warnings.warn(
+[3.973s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.974s]   warnings.warn(
+[3.974s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.974s]   warnings.warn(
+[4.343s] running egg_info
+[4.344s] creating mypalletizer_260.egg-info
+[4.344s] writing mypalletizer_260.egg-info/PKG-INFO
+[4.344s] writing dependency_links to mypalletizer_260.egg-info/dependency_links.txt
+[4.345s] writing entry points to mypalletizer_260.egg-info/entry_points.txt
+[4.345s] writing requirements to mypalletizer_260.egg-info/requires.txt
+[4.345s] writing top-level names to mypalletizer_260.egg-info/top_level.txt
+[4.346s] writing manifest file 'mypalletizer_260.egg-info/SOURCES.txt'
+[4.351s] reading manifest file 'mypalletizer_260.egg-info/SOURCES.txt'
+[4.354s] writing manifest file 'mypalletizer_260.egg-info/SOURCES.txt'
+[4.357s] running build_ext
+[4.357s] Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/python3.10/site-packages/mypalletizer-260.egg-link (link to .)
+[4.373s] Installing detect_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.373s] Installing follow_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.374s] Installing following_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.374s] Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.374s] Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.374s] Installing simple_gui script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.375s] Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.375s] Installing teleop_keyboard script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/mypalletizer_260
+[4.375s] 
+[4.375s] Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260
+[4.375s] running install_data
+[4.376s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/ament_index
+[4.376s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/ament_index/resource_index
+[4.376s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/ament_index/resource_index/packages
+[4.376s] copying resource/mypalletizer_260 -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/ament_index/resource_index/packages
+[4.376s] copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260
+[4.377s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.377s] copying launch/simple_gui.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.377s] copying launch/detect_marker.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.377s] copying launch/teleop_keyboard.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.377s] copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.377s] copying launch/mycobot_follow.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.378s] copying launch/detect_marker_with_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.378s] copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.378s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/config
+[4.378s] copying config/mycobot_with_marker.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/config
+[4.378s] copying config/mypalletizer.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/share/mypalletizer_260/config
+[4.490s] Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260' returned '0': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_260/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_260/build --no-deps install_data

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mypalletizer_interfaces/msg/MypalGripperStatus.msg
+// generated code does not contain a copyright notice
+
+
+module mypalletizer_interfaces {
+  module msg {
+    struct MypalGripperStatus {
+      boolean status;
+    };
+  };
+};

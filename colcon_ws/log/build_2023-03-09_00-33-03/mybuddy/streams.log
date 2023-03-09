@@ -1,0 +1,43 @@
+[2.727s] Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy/build --no-deps install_data
+[3.467s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.468s]   warnings.warn(
+[3.549s] running develop
+[3.550s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.550s]   warnings.warn(
+[3.555s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.555s]   warnings.warn(
+[3.767s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.768s]   warnings.warn(
+[3.768s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.768s]   warnings.warn(
+[4.140s] running egg_info
+[4.140s] creating mybuddy.egg-info
+[4.140s] writing mybuddy.egg-info/PKG-INFO
+[4.141s] writing dependency_links to mybuddy.egg-info/dependency_links.txt
+[4.141s] writing entry points to mybuddy.egg-info/entry_points.txt
+[4.141s] writing requirements to mybuddy.egg-info/requires.txt
+[4.142s] writing top-level names to mybuddy.egg-info/top_level.txt
+[4.142s] writing manifest file 'mybuddy.egg-info/SOURCES.txt'
+[4.147s] reading manifest file 'mybuddy.egg-info/SOURCES.txt'
+[4.148s] writing manifest file 'mybuddy.egg-info/SOURCES.txt'
+[4.152s] running build_ext
+[4.152s] Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy.egg-link (link to .)
+[4.155s] Installing follow_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+[4.155s] Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+[4.155s] Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+[4.155s] Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/mybuddy
+[4.156s] 
+[4.156s] Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy
+[4.156s] running install_data
+[4.157s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index
+[4.157s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index/resource_index
+[4.157s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index/resource_index/packages
+[4.157s] copying resource/mybuddy -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/ament_index/resource_index/packages
+[4.157s] copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy
+[4.157s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+[4.158s] copying launch/mybuddy_follow.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+[4.158s] copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+[4.158s] copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/launch
+[4.158s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/config
+[4.159s] copying config/dual_arm.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/share/mybuddy/config
+[4.677s] Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy' returned '0': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mybuddy/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mybuddy/build --no-deps install_data

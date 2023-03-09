@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mecharm_interfaces/msg/MecharmSetCoords.msg
+// generated code does not contain a copyright notice
+
+
+module mecharm_interfaces {
+  module msg {
+    struct MecharmSetCoords {
+      float x;
+
+      float y;
+
+      float z;
+
+      float rx;
+
+      float ry;
+
+      float rz;
+
+      int8 speed;
+
+      int8 model;
+    };
+  };
+};

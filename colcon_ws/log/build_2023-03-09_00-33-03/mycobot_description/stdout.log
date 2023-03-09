@@ -1,0 +1,162 @@
+running develop
+running egg_info
+creating mycobot_description.egg-info
+writing mycobot_description.egg-info/PKG-INFO
+writing dependency_links to mycobot_description.egg-info/dependency_links.txt
+writing entry points to mycobot_description.egg-info/entry_points.txt
+writing requirements to mycobot_description.egg-info/requires.txt
+writing top-level names to mycobot_description.egg-info/top_level.txt
+writing manifest file 'mycobot_description.egg-info/SOURCES.txt'
+reading manifest file 'mycobot_description.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot-description.egg-link (link to .)
+
+Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description
+running install_data
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/ament_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/ament_index/resource_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/ament_index/resource_index/packages
+copying resource/mycobot_description -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/link3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/suit_env.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/link5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/link1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/mypal_260_pi.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/link4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/link2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+copying urdf/260_pi/mypal_260_pi_aikit.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/260_pi
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint7.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint1_jet.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint6.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint5.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint4.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/mycobot_urdf.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint7.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint2.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+copying urdf/280jn/joint3.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/280jn
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/link3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/link5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/link1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/mycobot_pro_320.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/link6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/link4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+copying urdf/320_urdf/link2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_urdf
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/link3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/link5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/link1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/link6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/link4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/link2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+copying urdf/600_urdf/mycobot_600_urdf.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/600_urdf
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/suit_env.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint7.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint6.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/noenv.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint5.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/withenv.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/mycobot_with_vision.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint4.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/mycobot_urdf.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint7.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint2.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/mycobot_with_vision_copy.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint1.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/joint3.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+copying urdf/mycobot/mycobot_step.STEP -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint7.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint6.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint5.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint4.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/mycobot_urdf.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint7.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint2.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint1.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint3.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+copying urdf/mycobot_pi/joint1_pi.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pi
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/link3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/link5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/link1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/mecharm.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/link6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/link4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+copying urdf/mecharm/link2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/link3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/link5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/link1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/mecharm_pi.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/link6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/link4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+copying urdf/mecharm_pi/link2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_pi
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/link3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/link5.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/link1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/new_mycobot_pro_320_pi_moveit.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/mycobot_pro_320_pi.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/link6.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/link4.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+copying urdf/320_pi/link2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/320_pi
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint7.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint4_R.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/mybuddy.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint6.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/mybuddy-down.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint5_R.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint3_R.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint5.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/mybuddy-up.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint6_R.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint4.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint2.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint6_L.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint4_L.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint3_L.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint1_L.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint3.png -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint5_L.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint1_R.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint2_L.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+copying urdf/mybuddy/joint2_R.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/suit_env.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/ultraArm-3.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/ultraArm-base.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/ultraArm.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/ultraArm-1.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/ultraArm-2.dae -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf
+copying urdf/ultraArm_urdf/ultraArm_aiki.urdf -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_urdf

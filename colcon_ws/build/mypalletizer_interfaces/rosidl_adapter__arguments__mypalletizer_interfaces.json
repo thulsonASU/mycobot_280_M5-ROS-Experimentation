@@ -1,0 +1,17 @@
+{
+  "package_name": "mypalletizer_interfaces",
+  "non_idl_tuples": [
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:msg/MypalAngles.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:msg/MypalCoords.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:msg/MypalSetAngles.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:msg/MypalSetCoords.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:msg/MypalGripperStatus.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:msg/MypalPumpStatus.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:srv/GetAngles.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:srv/SetAngles.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:srv/GetCoords.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:srv/SetCoords.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:srv/GripperStatus.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces:srv/PumpStatus.srv"
+  ]
+}

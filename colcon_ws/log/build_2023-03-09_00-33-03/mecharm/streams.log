@@ -1,0 +1,52 @@
+[2.731s] Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm/build --no-deps install_data
+[3.501s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.501s]   warnings.warn(
+[3.594s] running develop
+[3.595s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.595s]   warnings.warn(
+[3.599s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.599s]   warnings.warn(
+[3.735s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.736s]   warnings.warn(
+[3.736s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.736s]   warnings.warn(
+[3.956s] running egg_info
+[3.956s] creating mecharm.egg-info
+[3.957s] writing mecharm.egg-info/PKG-INFO
+[3.957s] writing dependency_links to mecharm.egg-info/dependency_links.txt
+[3.958s] writing entry points to mecharm.egg-info/entry_points.txt
+[3.958s] writing requirements to mecharm.egg-info/requires.txt
+[3.958s] writing top-level names to mecharm.egg-info/top_level.txt
+[3.959s] writing manifest file 'mecharm.egg-info/SOURCES.txt'
+[3.962s] reading manifest file 'mecharm.egg-info/SOURCES.txt'
+[3.963s] writing manifest file 'mecharm.egg-info/SOURCES.txt'
+[3.966s] running build_ext
+[3.966s] Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/python3.10/site-packages/mecharm.egg-link (link to .)
+[3.967s] Installing detect_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.968s] Installing follow_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.968s] Installing following_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.968s] Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.969s] Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.969s] Installing simple_gui script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.969s] Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.970s] Installing teleop_keyboard script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/mecharm
+[3.970s] 
+[3.970s] Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm
+[3.971s] running install_data
+[3.971s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/ament_index
+[3.971s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/ament_index/resource_index
+[3.971s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/ament_index/resource_index/packages
+[3.972s] copying resource/mecharm -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/ament_index/resource_index/packages
+[3.972s] copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm
+[3.972s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.973s] copying launch/follow.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.973s] copying launch/simple_gui.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.973s] copying launch/detect_marker.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.973s] copying launch/teleop_keyboard.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.973s] copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.973s] copying launch/detect_marker_with_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.974s] copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/launch
+[3.974s] creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/config
+[3.975s] copying config/mecharm.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/config
+[3.975s] copying config/mycobot_with_marker.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/share/mecharm/config
+[4.657s] Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm' returned '0': AMENT_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm/prefix_override:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm_communication:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_description:/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mecharm/build --no-deps install_data

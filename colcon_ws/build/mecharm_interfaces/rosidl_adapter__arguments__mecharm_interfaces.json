@@ -1,0 +1,17 @@
+{
+  "package_name": "mecharm_interfaces",
+  "non_idl_tuples": [
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:msg/MecharmAngles.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:msg/MecharmCoords.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:msg/MecharmSetAngles.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:msg/MecharmSetCoords.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:msg/MecharmGripperStatus.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:msg/MecharmPumpStatus.msg",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:srv/GetAngles.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:srv/SetAngles.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:srv/GetCoords.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:srv/SetCoords.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:srv/GripperStatus.srv",
+    "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/src/mycobot_ros2/mecharm/mecharm_interfaces:srv/PumpStatus.srv"
+  ]
+}

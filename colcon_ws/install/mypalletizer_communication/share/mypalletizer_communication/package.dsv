@@ -1,0 +1,9 @@
+source;share/mypalletizer_communication/hook/pythonpath.ps1
+source;share/mypalletizer_communication/hook/pythonpath.dsv
+source;share/mypalletizer_communication/hook/pythonpath.sh
+source;share/mypalletizer_communication/hook/ament_prefix_path.ps1
+source;share/mypalletizer_communication/hook/ament_prefix_path.dsv
+source;share/mypalletizer_communication/hook/ament_prefix_path.sh
+source;../../build/mypalletizer_communication/share/mypalletizer_communication/hook/pythonpath_develop.ps1
+source;../../build/mypalletizer_communication/share/mypalletizer_communication/hook/pythonpath_develop.dsv
+source;../../build/mypalletizer_communication/share/mypalletizer_communication/hook/pythonpath_develop.sh

@@ -1,0 +1,52 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating mycobot_280jn.egg-info
+writing mycobot_280jn.egg-info/PKG-INFO
+writing dependency_links to mycobot_280jn.egg-info/dependency_links.txt
+writing entry points to mycobot_280jn.egg-info/entry_points.txt
+writing requirements to mycobot_280jn.egg-info/requires.txt
+writing top-level names to mycobot_280jn.egg-info/top_level.txt
+writing manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+reading manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot-280jn.egg-link (link to .)
+Installing camera_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing detect_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing follow_display script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing following_marker script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing opencv_camera script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing simple_gui script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing teleop_keyboard script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/lib/mycobot_280jn
+
+Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mycobot_280jn
+running install_data
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/ament_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/ament_index/resource_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/ament_index/resource_index/packages
+copying resource/mycobot_280jn -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/ament_index/resource_index/packages
+copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/simple_gui.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/detect_marker.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/teleop_keyboard.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/mycobot_follow.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/detect_marker_with_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/config
+copying config/mycobot_jn.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/config
+copying config/mycobot_with_marker.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mycobot_280jn/share/mycobot_280jn/config

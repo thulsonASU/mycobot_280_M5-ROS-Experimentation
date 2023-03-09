@@ -1,0 +1,5 @@
+[console_scripts]
+mypalletizer_services = mypalletizer_communication.mypalletizer_services:main
+mypalletizer_topics = mypalletizer_communication.mypalletizer_topics:main
+mypalletizer_topics_seeed = mypalletizer_communication.mypalletizer_topics_seeed:main
+

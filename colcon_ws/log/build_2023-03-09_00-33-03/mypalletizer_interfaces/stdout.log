@@ -1,0 +1,486 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_interfaces
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_mypalletizer_interfaces
+running egg_info
+creating mypalletizer_interfaces.egg-info
+writing mypalletizer_interfaces.egg-info/PKG-INFO
+writing dependency_links to mypalletizer_interfaces.egg-info/dependency_links.txt
+writing top-level names to mypalletizer_interfaces.egg-info/top_level.txt
+writing manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_mypalletizer_interfaces_egg
+[  2%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/msg/detail/mypal_angles__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/msg/detail/mypal_coords__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/msg/detail/mypal_set_angles__functions.c.o[0m
+[  4%] Built target mypalletizer_interfaces__cpp
+[  5%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/msg/detail/mypal_pump_status__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/msg/detail/mypal_set_coords__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/msg/detail/mypal_gripper_status__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/srv/detail/get_angles__functions.c.o[0m
+[  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  9%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/srv/detail/set_angles__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/srv/detail/get_coords__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/srv/detail/set_coords__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/srv/detail/gripper_status__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mypalletizer_interfaces/srv/detail/pump_status__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 14%] [32m[1mLinking C shared library libmypalletizer_interfaces__rosidl_generator_c.so[0m
+[ 14%] Built target mypalletizer_interfaces__rosidl_generator_c
+[ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_angles__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/msg/mypal_angles__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/msg/mypal_coords__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/msg/mypal_set_angles__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/msg/mypal_set_coords__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/msg/mypal_gripper_status__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/msg/mypal_pump_status__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/srv/get_angles__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/srv/set_angles__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_coords__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/srv/get_coords__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/srv/set_coords__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mypalletizer_interfaces/srv/pump_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_angles__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_coords__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/get_angles__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_c.so[0m
+[ 38%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.c.o[0m
+[ 39%] Built target mypalletizer_interfaces__rosidl_typesupport_c
+[ 40%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.c.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_angles__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/set_angles__type_support.cpp.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.c.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_coords__type_support_c.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.c.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_set_angles__type_support.cpp.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/srv/detail/get_angles__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/srv/detail/set_angles__type_support.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/srv/detail/get_coords__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_set_angles__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_set_coords__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/srv/detail/set_coords__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/srv/detail/gripper_status__type_support.c.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/get_coords__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mypalletizer_interfaces/srv/detail/pump_status__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/set_coords__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking C shared library libmypalletizer_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support_c.cpp.o[0m
+[ 56%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_c
+[ 57%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/gripper_status__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_set_coords__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/pump_status__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_gripper_status__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_pump_status__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/get_angles__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_gripper_status__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/set_angles__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/get_coords__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_pump_status__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support_c.cpp.o[0m
+[ 68%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_cpp
+[ 69%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/get_angles__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/set_coords__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/get_angles__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/set_angles__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/pump_status__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/set_angles__type_support_c.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_cpp.so[0m
+[ 75%] Built target mypalletizer_interfaces__rosidl_typesupport_cpp
+[ 76%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/set_coords__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/pump_status__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/pump_status__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/gripper_status__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/gripper_status__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/set_coords__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/get_coords__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/get_coords__type_support.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 82%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c
+[ 83%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 83%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 83%] Built target mypalletizer_interfaces
+[ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 84%] Built target mypalletizer_interfaces__py
+[ 85%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_coords_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_angles_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_set_angles_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_get_coords_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_set_coords_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_gripper_status_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_pump_status_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_get_angles_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_pump_status_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_gripper_status_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_set_coords_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_set_angles_s.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/libmypalletizer_interfaces__rosidl_generator_py.so[0m
+[ 95%] Built target mypalletizer_interfaces__rosidl_generator_py
+[ 96%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target mypalletizer_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/rosidl_interfaces/mypalletizer_interfaces
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_angles.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_coords.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_gripper_status.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_pump_status.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_angles.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_coords.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__functions.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__struct.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__type_support.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_angles.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_coords.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/gripper_status.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/pump_status.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_angles.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_coords.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/library_path.sh
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/library_path.dsv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_angles.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_coords.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_gripper_status.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_pump_status.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_angles.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_coords.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__builder.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__struct.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__traits.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_angles.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_coords.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/gripper_status.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/pump_status.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_angles.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_coords.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/__init__.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/libmypalletizer_interfaces__rosidl_generator_py.so
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/__init__.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/__init__.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles_s.c
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords.py
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords_s.c
+-- Up-to-date symlink: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalAngles.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalCoords.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetAngles.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetCoords.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalGripperStatus.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalPumpStatus.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus.idl
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalAngles.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalCoords.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetAngles.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetCoords.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalGripperStatus.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalPumpStatus.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles.srv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles_Request.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles_Response.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles.srv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles_Request.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles_Response.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords.srv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords_Request.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords_Response.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords.srv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords_Request.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords_Response.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus.srv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus_Request.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus_Response.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus.srv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus_Request.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus_Response.msg
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/package_run_dependencies/mypalletizer_interfaces
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/parent_prefix_path/mypalletizer_interfaces
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/path.sh
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/path.dsv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.bash
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.sh
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.zsh
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.dsv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/package.dsv
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/packages/mypalletizer_interfaces
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfacesConfig.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfacesConfig-version.cmake
+-- Symlinking: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/package.xml
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/__init__.py'...
+Listing '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/__init__.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords.py'...
+Listing '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/__init__.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles.py'...
+Compiling '/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords.py'...
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_pyExport-noconfig.cmake

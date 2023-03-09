@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating ultraarm.egg-info
+writing ultraarm.egg-info/PKG-INFO
+writing dependency_links to ultraarm.egg-info/dependency_links.txt
+writing entry points to ultraarm.egg-info/entry_points.txt
+writing requirements to ultraarm.egg-info/requires.txt
+writing top-level names to ultraarm.egg-info/top_level.txt
+writing manifest file 'ultraarm.egg-info/SOURCES.txt'
+reading manifest file 'ultraarm.egg-info/SOURCES.txt'
+writing manifest file 'ultraarm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm.egg-link (link to .)
+Installing listen_real script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/lib/ultraarm
+Installing listen_real_of_topic script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/lib/ultraarm
+Installing simple_gui script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/lib/ultraarm
+Installing slider_control script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/lib/ultraarm
+Installing teleop_keyboard script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/lib/ultraarm
+
+Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/ultraarm
+running install_data
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ament_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ament_index/resource_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ament_index/resource_index/packages
+copying resource/ultraarm -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ament_index/resource_index/packages
+copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/launch
+copying launch/simple_gui.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/launch
+copying launch/teleop_keyboard.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/launch
+copying launch/test.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/launch
+copying launch/slider_control.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/launch
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/config
+copying config/ultraarm.rviz -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/ultraarm/share/ultraarm/config

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mypalletizer_interfaces/srv/SetCoords.srv
+// generated code does not contain a copyright notice
+
+
+module mypalletizer_interfaces {
+  module srv {
+    struct SetCoords_Request {
+      float x;
+
+      float y;
+
+      float z;
+
+      float rx;
+
+      @verbatim (language="comment", text=
+        "float32 ry" "\n"
+        "float32 rz")
+      int8 speed;
+
+      int8 model;
+    };
+    struct SetCoords_Response {
+      boolean flag;
+    };
+  };
+};

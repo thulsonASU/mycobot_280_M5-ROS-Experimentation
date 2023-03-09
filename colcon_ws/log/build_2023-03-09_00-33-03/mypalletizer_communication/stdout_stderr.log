@@ -1,0 +1,39 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating mypalletizer_communication.egg-info
+writing mypalletizer_communication.egg-info/PKG-INFO
+writing dependency_links to mypalletizer_communication.egg-info/dependency_links.txt
+writing entry points to mypalletizer_communication.egg-info/entry_points.txt
+writing requirements to mypalletizer_communication.egg-info/requires.txt
+writing top-level names to mypalletizer_communication.egg-info/top_level.txt
+writing manifest file 'mypalletizer_communication.egg-info/SOURCES.txt'
+reading manifest file 'mypalletizer_communication.egg-info/SOURCES.txt'
+writing manifest file 'mypalletizer_communication.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/lib/python3.10/site-packages/mypalletizer-communication.egg-link (link to .)
+Installing mypalletizer_services script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+Installing mypalletizer_topics script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+Installing mypalletizer_topics_seeed script to /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+
+Installed /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/build/mypalletizer_communication
+running install_data
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/ament_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/ament_index/resource_index
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/ament_index/resource_index/packages
+copying resource/mypalletizer_communication -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/ament_index/resource_index/packages
+copying package.xml -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication
+creating /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+copying launch/communication_topic_pi.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+copying launch/communication_seeed.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+copying launch/communication_service.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+copying launch/communication_topic.launch.py -> /home/tyler/Documents/Github/280-M5_ROS/colcon_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
