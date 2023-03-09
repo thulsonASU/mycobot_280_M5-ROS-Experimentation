@@ -187,6 +187,88 @@ ros2 run turtlesim turtlesim_node --ros-args --params-file ./turtlesim2.yaml
 ```
 ![Turtle_Param-eg](https://user-images.githubusercontent.com/100303302/223875107-43c31f33-882c-4fc9-9232-8fe15b1cb626.gif)
 
+#### 4.5 Actions
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
+![Action-SingleActionClient](https://user-images.githubusercontent.com/100303302/223875515-42e60cd6-2d88-4ee2-b3c2-887572159407.gif)
+##### Actions info/list/message/target/send_goal
+```bash
+# View the server and client of the node action
+ros2 node info /turtlesim
+
+# View action list
+# ros2 action list
+ros2 action list -t # show action type
+
+# view action info
+# ros2 action info <action>
+ros2 action info /turtle1/rotate_absolute
+
+# View action message content
+ros2 interface show turtlesim/action/RotateAbsolute
+
+# Send action target information
+# ros2 action send_goal <action_name> <action_type>
+ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
+
+# With feedback information
+ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 0}" --feedback
+```
+![Turtle_Actions-eg](https://user-images.githubusercontent.com/100303302/223880666-1a07179a-c641-4ddb-a3c3-eea3b3cdee6b.gif)
+
+#### 4.6 RQt
+OTutorial: https://docs.ros.org/en/foxy/Concepts/About-RQt.html
+Simply put. RQt is a Graphical User Interface (GUI) framework. RQt is a quality of life upgrade to a command line terminal.  <br />
+```bash
+# For tools/plugins
+rqt
+
+# Action Type Browser: / Plugins -> Actions ->Action Type Browser
+# parameter reconfiguration: / Plugins -> configuration ->Parameter Reconfigure
+# Node grap: /Node Graph
+# control steering: /Plugins -> Robot Tools -> Robot Steering
+# service invocation: /Plugins -> Services -> Service Caller
+# Service Type Browser: Plugins -> Services -> Service Type Browser
+# message release: Plugins -> Topics -> Message Publisher
+# Message Type Browser: Plugins -> Topics -> Message Type Browser
+# topic list: Plugins -> Topics -> Topic Monitor
+# draw a graph: Plugins -> Visualization -> Plot
+
+# View logs with RQt Console
+# Init turtlesim env
+ros2 run rqt_console rqt_console
+ros2 run turtlesim turtlesim_node
+
+# Spawn 5 Turtles
+# $i hsa to be converted to a float to do a math operation in the service call
+for i in {1..5} ; do
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: $(($i + 2)), theta: 0.2, name: 'turtle$i'}"
+sleep 1s 
+done
+
+
+# Publish message to all turtles to move
+for i in {1..5} ; do
+# Using ```pub``` you can send information to the topic to control the turtle sim. Rather than taking the keyboard input.
+ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1}}"
+ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.2}}"
+ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.4}}"
+ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+sleep 1s 
+done
+
+for ((;;)) do # Indefinite for loop
+for i in {1..5} ; do
+ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" &
+done
+sleep 1s # Rate of 1 second
+done
+
+sleep 5s
+
+# Reset the service after 5s
+ros2 service call /reset std_srvs/srv/Empty
+```
+
 
 ## Additional Reasources
 
