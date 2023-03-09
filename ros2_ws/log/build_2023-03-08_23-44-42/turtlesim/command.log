@@ -1,0 +1,4 @@
+Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim -- -j8 -l8
+Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim -- -j8 -l8
+Invoking command in '/home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim
+Invoked command in '/home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tyler/Documents/Github/280-M5_ROS/ros2_ws/build/turtlesim
