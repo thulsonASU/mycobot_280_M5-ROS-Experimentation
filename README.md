@@ -257,7 +257,7 @@ ros2 topic pub --once /turtle$i/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.
 sleep 1s 
 done
 
-for j in {1..10} ; do # Indefinite for loop
+for j in {1..10} ; do # loop 10 times
 # ROS2 common practice: publishing to different topics at the same time. Example below
 # ros2 topic pub <topic1> <msg_type1> <message1> --once & ros2 topic pub <topic2> <msg_type2> <message2> --once & ... ros2 topic pub <topicN> <msg_typeN> <messageN> --once &
 # Fun fact & can be dangerous if not used correctly. Alright this works fine as long as it is not inside an indefinite loop. Uses way to much CPU with. 
@@ -277,6 +277,125 @@ ros2 service call /reset std_srvs/srv/Empty
 ```
 ![Turtle_RQt-eg](https://user-images.githubusercontent.com/100303302/223904785-4332f2e9-915a-4d28-9a7e-8226d0c555cc.gif)
 
+#### 4.7 TF2
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html
+```bash
+# Install demo package and dependencies
+sudo apt-get install ros-humble-turtle-tf2-py ros-humble-tf2-tools ros-humble-tf-transformations
+
+# follow
+# launch starts 2 little turtles, the first little turtle automatically follows the second one
+ros2 launch turtle_tf2_py turtle_tf2_demo.launch.py
+
+# Control the movement of the first little turtle through the keyboard
+ros2 run turtlesim turtle_teleop_key
+
+# View TF tree
+ros2 run tf2_tools view_frames.py
+evince frames.pdf
+
+# View the relationship between two coordinate systems
+# ros2 run tf2_ros tf2_echo [reference_frame] [target_frame]
+ros2 run tf2_ros tf2_echo turtle2 turtle1
+
+# View TF relationships on rviz
+ros2 run rviz2 rviz2 -d $(ros2 pkg prefix --share turtle_tf2_py)/rviz/turtle_rviz.rviz
+```
+![Turtle_TF2-eg](https://user-images.githubusercontent.com/100303302/223906716-8a86d95e-8c28-44bd-9b84-9ce3466a34d2.gif)
+
+#### 4.8 URDF (Unified Robot Description Format)
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Intermediate/URDF/Adding-Physical-and-Collision-Properties-to-a-URDF-Model.html
+```bash
+# Install dependent Libraries
+sudo apt install ros-humble-joint-state-publisher-gui ros-humble-joint-state-publisher
+sudo apt install ros-humble-xacro
+```
+```bash
+<robot>
+    # describe:
+    # Parameters: name=""
+    #  Child node:
+        <link>
+            # Description:
+            # Parameters：name=""
+            # Child node:
+                <visual>
+                    # describe:
+                    # Parameters:
+                    # child nodes: 
+                        <geometry>
+                            # description
+                            # parameters
+                            # Child node: 
+                                <cylinder />
+                                    # Description:
+                                    # Parameters:
+                                        # length="0.6"
+                                        # radius="0.2"
+                                <box />
+                                    # description
+                                    # Parameters:size="0.6 0.1 0.2"
+                                <mesh />
+                                    #  Description
+                                    #Parameters: filename="package://urdf_tutorial/meshes/l_finger_tip.dae"
+                        <collision>
+                            # Description: collision element, prioritized
+                            # parameters
+                            # child node 
+                                <geometry>
+                        <inertial>
+                            # description
+                            # parameters
+                            # Child nodes: 
+                                <mass />
+                                    # description: mass
+                                    # Parameters: value=10
+                                <inertia />
+                                    # Description: Inertia
+                                    # Parameters: i+"Cartesian product of xyz" (9 in total)="0.4"
+                        <origin />
+                            # Description:
+                            # Parameters:
+                                # rpy="0 1.5 0"
+                                # xyz="0 0 -0.3"
+                        <material />
+                            # Description
+                            # Parameters：name="blue"
+        <joint>
+            # Description
+            # Parameters：
+                # name=""
+                # type=""
+                    # fixed
+                    # prismatic
+            # child node
+                <parent />
+                    # Description
+                    # Parameters：link=""
+                <child />
+                    # Description：
+                    # Parameters：link=""
+                <origin />
+                    # Description：
+                    # Parameters：xyz="0 -0.2 0.25"
+                <limit />
+                    # Description
+                    # Parameters：
+                        # effort="1000.0"    maximum effort
+                        # lower="-0.38"      Joint upper limit (radians)
+                        # upper="0"          Joint lower limit (radians)
+                        # velocity="0.5"     Maximum velocity 
+                <axis />
+                    # Description： Press ? axis rotation
+                    # Parameters：xyz="0 0 1"，along the Z axis
+        <material>
+            # Description：
+            # Parameters：name="blue"
+            # child node：
+                <color />
+                    # description：
+                    # Parameters：rgba="0 0 0.8 1"
+```
 
 ## Additional Reasources
 
