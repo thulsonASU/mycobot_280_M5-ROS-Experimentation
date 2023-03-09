@@ -309,8 +309,23 @@ OTutorial: https://docs.ros.org/en/foxy/Tutorials/Intermediate/URDF/Adding-Physi
 # Install dependent Libraries
 sudo apt install ros-humble-joint-state-publisher-gui ros-humble-joint-state-publisher
 sudo apt install ros-humble-xacro
+
+# Download the source code
+cd ~/dev_ws
+git clone -b ros2 https://github.com/ros/urdf_tutorial.git src/urdf_tutorial
+
+# Compiling the source code
+colcon build --packages-select urdf_tutorial
+
+# Running the example
+# Enter build folder
+ros2 launch urdf_tutorial display.launch.py model:=urdf/01-myfirst.urdf
+# Was unable to find the package and launch. May come back to.
 ```
 ```bash
+
+# COMPLETE SYNTAX
+
 <robot>
     # describe:
     # Parameters: name=""
@@ -396,6 +411,67 @@ sudo apt install ros-humble-xacro
                     # description：
                     # Parameters：rgba="0 0 0.8 1"
 ```
+#### 4.9 Launch
+OTutorial: https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Creating-Launch-Files.html
+```py
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='turtlesim',
+            namespace='turtlesim1',
+            executable='turtlesim_node',
+            name='sim'
+        ),
+        Node(
+            package='turtlesim',
+            namespace='turtlesim2',
+            executable='turtlesim_node',
+            name='sim'
+        ),
+        Node(
+            package='turtlesim',
+            executable='mimic',
+            name='mimic',
+            remappings=[
+                ('/input/pose', '/turtlesim1/turtle1/pose'),
+                ('/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel'),
+            ]
+        )
+    ])
+```
+```bash
+# After creating the launch dir and making the launch .py file
+# ros2 launch <package_name> <launch_file_name>
+cd launch
+ros2 launch turtlesim_mimic_launch.py
+
+# launch help
+ros2 launch -h
+
+# running node
+ros2 launch turtlesim multisim.launch.py
+
+# Check the parameters of the launc file
+ros2 launch turtlebot3_fake_node turtlebot3_fake_node.launch.py -s
+ros2 launch turtlebot3_fake_node turtlebot3_fake_node.launch.py --show-arguments
+ros2 launch turtlebot3_bringup robot.launch.launch.py -s
+
+# Run the launch file with parameters
+ros2 launch turtlebot3_bringup robot.launch.launch.py usb_port:=/dev/opencr
+
+# Run the node and debug
+ros2 launch turtlesim turtlesim_node.launch.py -d
+
+# Only output node description
+ros2 launch turtlesim turtlesim_node.launch.py -p
+
+# running components
+ros2 launch composition composition_demo.launch.py
+```
+
 
 ## Additional Reasources
 
