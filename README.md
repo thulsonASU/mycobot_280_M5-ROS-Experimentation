@@ -699,7 +699,6 @@ sudo chmod 777 /dev/ttyUSB0 # old version myCobot280 M5
 sudo chmod 777 /dev/ttyACM0 # new version myCobot280 M5
 ```
 ![Robot_rviz](https://user-images.githubusercontent.com/100303302/224233177-db6707f1-b037-482d-b9ba-845502ce23f4.gif)
-
 #### 5.5 This is Where the Fun Begins
 ##### 5.5.1 Slider Control
 ```bash
@@ -714,17 +713,18 @@ rosrun mycobot_280 slider_control.py _port:=/dev/ttyACM0 _baud:=115200
 https://user-images.githubusercontent.com/100303302/224243892-c788c789-79ac-4815-9fbe-c8da4b5d9a5e.mp4
 ##### 5.5.2 Model Following
 ```bash
-# The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
-rosrun mycobot_280 follow_display.py _port:=/dev/ttyACM0 _baud:=115200
-
+# 
 roslaunch mycobot_280 mycobot_follow.launch
 
-# Model in rvis is attempting to follow the real robot effectively acting as a digital twin. However I am getting warnings and errors on feedback. Not getting cood values. I will possibly come back to this. Little jank atm.
+# The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
+rosrun mycobot_280 follow_display.py _port:=/dev/ttyACM0 _baud:=115200
 ```
+![Robot-Mdlfllw](https://user-images.githubusercontent.com/100303302/224437005-ce8892fa-abcd-4b85-bb4e-c765382a7808.gif)
+https://user-images.githubusercontent.com/100303302/224437228-42c63df9-694c-445b-9481-5afc5d7bf551.mp4
 ##### 5.5.3 GUI Control
 ```bash
 # Launches some GUI to control the robot.
-roslaunch mycobot_280 simple_gui.launch port:=/dev/ttyUSB0 baud:=115200
+roslaunch mycobot_280 simple_gui.launch port:=/dev/ttyACM0 baud:=115200
 
 # Missing a module to run this. Something called Tkinter gonna pip install it and try again.
 # Funny issue that is. Typo I think. Will track and see if it fixes it. Also made sure rospy was installed.
