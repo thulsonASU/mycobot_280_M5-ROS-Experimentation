@@ -515,6 +515,53 @@ Got side tracked picking a theme for my new favorite shell -> fish-shell. I inst
 Installed ROS1/Catkin/Python3 Dependancies/my_cobot repo. Followed tutorial here: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html#m5-version <br />
 Thanks to using a supported OS it was MUCH easier to do with little to no noteable problems. Just make sure to set up PATH for python and update bashrc to source correctly! <br />
 
+#### 5.1 Service and Topic in ROS
+Otutorial: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.3-ROS%E5%9F%BA%E7%A1%80.html
+```bash
+# launch communication service from ros_ws
+roslaunch mycobot_communication communication_service.launch
+
+# Upon execution I ran into the problem of my ttyUSB0 not being set up correctly as a param. I went to the traceback and 
+# where the param was declared in '$HOME/catkin_ws/src/mycobot_ros/mycobot_communications_launch'. I then access terminal 
+# and identified the USB port with dmesg and unplugging and plugging it back in. I then ran into a permission error. I was 
+# concerned, but in the FAQ it suggested giving full read write execute permissions. I went ahead with the sudo chmod 777 
+# dev/ttyACM0 which gave it full crwxrwxrwx permissions as listed in ls -al /dev/.
+
+# We are now connected
+
+# Display active service information
+rosservice list
+
+#/get_joint_angles
+#/get_joint_coords
+#/set_joint_angles
+#/set_joint_coords
+#/switch_gripper_status
+#/switch_pump_status
+
+# Display active service information
+rostopic list
+
+#/mycobot/angles_goal
+#/mycobot/coords_goal
+#/mycobot/angles_real
+#/mycobot/coords_real
+#/mycobot/pump_status
+#/mycobot/gripper_status
+```
+![Robot_Comms](https://user-images.githubusercontent.com/100303302/224211342-c8aa07a6-daab-48b4-852d-a70e2ae5f37f.gif)
+#### 5.2 Intro to msg and srv
+```bash
+rosmsg show       # Show message description
+rosmsg info       # Display message information
+rosmsg list       # list all messages
+rosmsg md5        # Display md5 encrypted message
+rosmsg package    # Display all messages under a feature pack
+rosmsg packages   # List feature packs that contain messages
+
+//rosmsg package  # Package names
+rosmsg package turtlesim
+```
 
 
 ## Additional Reasources
