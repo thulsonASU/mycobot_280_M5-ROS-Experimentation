@@ -754,6 +754,9 @@ https://user-images.githubusercontent.com/100303302/224446870-f5473694-beb6-479f
 ![Robot_GUIcntrl](https://user-images.githubusercontent.com/100303302/224448420-a4dd2624-3754-45aa-b639-035b1e9105c4.gif)
 ##### 5.5.4 Keyboard Control
 ```bash
+# Launch roscore
+roscore
+
 # The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
 roslaunch mycobot_280 teleop_keyboard.launch port:=/dev/ttyACM0 baud:=115200
 
@@ -785,6 +788,8 @@ rosrun mycobot_280 teleop_keyboard.py _speed:=50
 #
 #currently:      speed: 50       change percent 5
 ```
+
+#### Day 6: Moveit
 
 
 
