@@ -701,18 +701,18 @@ sudo chmod 777 /dev/ttyACM0 # new version myCobot280 M5
 ![Robot_rviz](https://user-images.githubusercontent.com/100303302/224233177-db6707f1-b037-482d-b9ba-845502ce23f4.gif)
 
 #### 5.5 This is Where the Fun Begins
-#### 5.5.1 Slider Control
+##### 5.5.1 Slider Control
 ```bash
 # Launches slider control for 280-M5 Cobot
 roslaunch mycobot_280 slider_control.launch port:=/dev/ttyACM0 baud:=115200
 
 # Launched Digital Twin to Move with Rvis
 rosrun mycobot_280 slider_control.py _port:=/dev/ttyACM0 _baud:=115200
+
+# Note to embbed a video it must be less than 10MB.
 ```
-<video width="544" height="960" controls>
-  <source src="ros/Robot_Slider_Cntrl.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/100303302/224243892-c788c789-79ac-4815-9fbe-c8da4b5d9a5e.mp4
+##### 5.5.2 
 
 ## Additional Reasources
 
