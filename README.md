@@ -719,8 +719,11 @@ roslaunch mycobot_280 mycobot_follow.launch
 # The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
 rosrun mycobot_280 follow_display.py _port:=/dev/ttyACM0 _baud:=115200
 ```
+https://user-images.githubusercontent.com/100303302/224437783-f04c1ce2-5b66-4b04-a5c3-3ffa6e16fa2e.mp4 
+
+<br />
+
 ![Robot-Mdlfllw](https://user-images.githubusercontent.com/100303302/224437005-ce8892fa-abcd-4b85-bb4e-c765382a7808.gif)
-https://user-images.githubusercontent.com/100303302/224437783-f04c1ce2-5b66-4b04-a5c3-3ffa6e16fa2e.mp4
 ##### 5.5.3 GUI Control
 ```bash
 # Launches some GUI to control the robot.
