@@ -518,6 +518,14 @@ Thanks to using a supported OS it was MUCH easier to do with little to no noteab
 #### 5.1 Service and Topic in ROS
 Otutorial: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.3-ROS%E5%9F%BA%E7%A1%80.html
 ```bash
+# check USB Connects with
+dmesg
+# Take name of USB and set up ttyACM0 to all scripts
+
+# How to build and use Catkin
+catkin_make # Build the code in the workspace
+# must be in ws path to build
+
 # launch communication service from ros_ws
 roslaunch mycobot_communication communication_service.launch
 
@@ -552,6 +560,7 @@ rostopic list
 ![Robot_Comms](https://user-images.githubusercontent.com/100303302/224211342-c8aa07a6-daab-48b4-852d-a70e2ae5f37f.gif)
 #### 5.2 Intro to msg and srv
 ```bash
+# rosmsg -------------------------------------------------------------
 rosmsg show       # Show message description
 rosmsg info       # Display message information
 rosmsg list       # list all messages
@@ -559,10 +568,151 @@ rosmsg md5        # Display md5 encrypted message
 rosmsg package    # Display all messages under a feature pack
 rosmsg packages   # List feature packs that contain messages
 
-//rosmsg package  # Package names
+# rosmsg package  # Package names
 rosmsg package turtlesim
-```
+# result:
+#turtlesim/Color
+#turtlesim/Pose
 
+# rosmsg show # message name
+rosmsg show turtlesim/Pose
+# result:
+#float32 x
+#float32 y
+#float32 theta
+#float32 linear_velocity
+#float32 angular_velocity
+
+# rossrv -------------------------------------------------------------
+rossrv show       # Display service message details
+rossrv info       # Display information about service messages
+rossrv list       # List all service information
+rossrv md5        # Display md5 encrypted service messages
+rossrv package    # Display all service messages under a package
+rossrv packages   # Show all packages that contain service messages
+
+# rossrv package # Package names
+rossrv package turtlesim
+
+# rossrv show # message name
+rossrv show turtlesim/Spawn
+# result:
+#float32 x
+#float32 y
+#float32 theta
+#string name
+#---
+#string name
+```
+![Robot_msgsrv](https://user-images.githubusercontent.com/100303302/224215465-ef7d42aa-7463-4fd0-aace-c3004f02d113.gif)
+#### 5.3 Introduction to URDF
+```xml
+# Example Code
+
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://www.ros.org/wiki/xacro" name="mycobot_ai_with" >
+
+  <xacro:property name="width" value=".2" />
+
+  <link name="env">
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="10"/>
+      <inertia
+        ixx="1.0" ixy="0.0" ixz="0.0"
+        iyy="1.0" iyz="0.0"
+        izz="1.0"/>
+  </inertial>
+    <visual>
+      <geometry>
+         <!--- 0.0 0 -0.04  1.5708 3.14159-->
+       <mesh filename="package://mycobot_description/urdf/mycobot/suit_env.dae"/>
+      </geometry>
+      <origin xyz = "0 0 0.0" rpy = "1.5708 0 -1.5708"/>
+    </visual>
+  </link>
+
+  <link name="joint1">
+    <inertial>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+      <mass value="0.2"/>
+      <inertia
+        ixx="1.0" ixy="0.0" ixz="0.0"
+        iyy="1.0" iyz="0.0"
+        izz="1.0"/>
+  </inertial>
+    <visual>
+      <geometry>
+         <!--- 0.0 0 -0.04  1.5708 3.14159-->
+       <mesh filename="package://mycobot_description/urdf/mycobot/joint1.dae"/>
+      </geometry>
+      <origin xyz = "0.0 0 0.02 " rpy = " 0 0 -1.5708"/>
+    </visual>
+    <collision>
+      <geometry>
+         <!--- 0.0 0 -0.04  1.5708 3.14159-->
+       <mesh filename="package://mycobot_description/urdf/mycobot/joint1.dae"/>
+        </geometry>
+        <origin xyz = "0.0 0 0.02 " rpy = " 0 0 -1.5708"/>
+    </collision>
+  </link>
+
+  <joint name="vision_joint" type="fixed">
+    <axis xyz="0 0 0"/>
+    <limit effort = "1000.0" lower = "-3.14" upper = "3.14159" velocity = "0"/>
+    <parent link="env"/>
+    <child link="joint1"/>
+    <origin xyz= "0 0 0" rpy = "0 0 0"/>
+  </joint>
+
+<link name="world"/>
+<joint name="fixed" type="fixed">
+  <parent link="world"/>
+  <child link="env"/>
+</joint>
+
+</robot>
+```
+#### 5.4 Intro to rvis
+OTutorial: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.4-rivz%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8/
+```bash
+# Ubuntu20.04
+sudo apt-get install ros-noetic-rviz
+# The above is to install the rviz software package
+
+roscore
+rviz
+
+roslaunch mycobot_280 test.launch   
+
+# M5 Version Prereqs. Wound have been nice to know these earlier when launching services, oh well.
+
+# View the device name of the robotic arm
+ls /dev/ttyUSB* # old version myCobot280 M5   
+
+# If the terminal does not display the /dev/ttyUSB related name, you need to use the following command
+ls /dev/ttyACM* # new version myCobot280 M5
+
+# The default device name is /dev/ttyUSB0, if the device name is not the default value, it needs to be modified.
+sudo chmod 777 /dev/ttyUSB0 # old version myCobot280 M5 
+
+sudo chmod 777 /dev/ttyACM0 # new version myCobot280 M5
+```
+![Robot_rviz](https://user-images.githubusercontent.com/100303302/224233177-db6707f1-b037-482d-b9ba-845502ce23f4.gif)
+
+#### 5.5 This is Where the Fun Begins
+#### 5.5.1 Slider Control
+```bash
+# Launches slider control for 280-M5 Cobot
+roslaunch mycobot_280 slider_control.launch port:=/dev/ttyACM0 baud:=115200
+
+# Launched Digital Twin to Move with Rvis
+rosrun mycobot_280 slider_control.py _port:=/dev/ttyACM0 _baud:=115200
+```
+<video width="544" height="960" controls>
+  <source src="ros/Robot_Slider_Cntrl.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Additional Reasources
 
