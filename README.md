@@ -720,7 +720,7 @@ roslaunch mycobot_280 mycobot_follow.launch
 rosrun mycobot_280 follow_display.py _port:=/dev/ttyACM0 _baud:=115200
 ```
 ![Robot-Mdlfllw](https://user-images.githubusercontent.com/100303302/224437005-ce8892fa-abcd-4b85-bb4e-c765382a7808.gif)
-https://user-images.githubusercontent.com/100303302/224437228-42c63df9-694c-445b-9481-5afc5d7bf551.mp4
+https://user-images.githubusercontent.com/100303302/224437783-f04c1ce2-5b66-4b04-a5c3-3ffa6e16fa2e.mp4
 ##### 5.5.3 GUI Control
 ```bash
 # Launches some GUI to control the robot.
