@@ -1,8 +1,8 @@
-prefix=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel
+prefix=/home/tyler/catkin_ws/devel
 
 Name: mybuddy_communication
 Description: Description of mybuddy_communication
 Version: 0.1.0
-Cflags: -I/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include
+Cflags: -I/home/tyler/catkin_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime std_msgs

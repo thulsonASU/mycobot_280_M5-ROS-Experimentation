@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src
+CMAKE_SOURCE_DIR = /home/tyler/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build
+CMAKE_BINARY_DIR = /home/tyler/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/progress.marks
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles 0
+	cd /home/tyler/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/catkin_ws/build/CMakeFiles /home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/progress.marks
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tyler/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/clean
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/preinstall
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/preinstall
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tyler/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ camera_display: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.di
 
 # fast build rule for target.
 camera_display/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build
 .PHONY : camera_display/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ opencv_camera: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/
 
 # fast build rule for target.
 opencv_camera/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build
 .PHONY : opencv_camera/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ actionlib_generate_messages_nodejs: mycobot_ros/mycobot_280/mycobot_280/CMakeFil
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ roscpp_generate_messages_cpp: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/ros
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ roscpp_generate_messages_eus: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/ros
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ rosgraph_msgs_generate_messages_nodejs: mycobot_ros/mycobot_280/mycobot_280/CMak
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ actionlib_generate_messages_lisp: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ roscpp_generate_messages_py: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosc
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ roscpp_generate_messages_nodejs: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ rosgraph_msgs_generate_messages_cpp: mycobot_ros/mycobot_280/mycobot_280/CMakeFi
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ actionlib_generate_messages_cpp: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ actionlib_generate_messages_py: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/a
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ rosgraph_msgs_generate_messages_eus: mycobot_ros/mycobot_280/mycobot_280/CMakeFi
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ rosgraph_msgs_generate_messages_lisp: mycobot_ros/mycobot_280/mycobot_280/CMakeF
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ actionlib_generate_messages_eus: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ roscpp_generate_messages_lisp: mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/ro
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -419,7 +419,7 @@ rosgraph_msgs_generate_messages_py: mycobot_ros/mycobot_280/mycobot_280/CMakeFil
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 src/camera_display.o: src/camera_display.cpp.o
@@ -428,7 +428,7 @@ src/camera_display.o: src/camera_display.cpp.o
 
 # target to build an object file
 src/camera_display.cpp.o:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/src/camera_display.cpp.o
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/src/camera_display.cpp.o
 .PHONY : src/camera_display.cpp.o
 
 src/camera_display.i: src/camera_display.cpp.i
@@ -437,7 +437,7 @@ src/camera_display.i: src/camera_display.cpp.i
 
 # target to preprocess a source file
 src/camera_display.cpp.i:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/src/camera_display.cpp.i
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/src/camera_display.cpp.i
 .PHONY : src/camera_display.cpp.i
 
 src/camera_display.s: src/camera_display.cpp.s
@@ -446,7 +446,7 @@ src/camera_display.s: src/camera_display.cpp.s
 
 # target to generate assembly for a file
 src/camera_display.cpp.s:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/src/camera_display.cpp.s
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/camera_display.dir/src/camera_display.cpp.s
 .PHONY : src/camera_display.cpp.s
 
 src/opencv_camera.o: src/opencv_camera.cpp.o
@@ -455,7 +455,7 @@ src/opencv_camera.o: src/opencv_camera.cpp.o
 
 # target to build an object file
 src/opencv_camera.cpp.o:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.o
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.o
 .PHONY : src/opencv_camera.cpp.o
 
 src/opencv_camera.i: src/opencv_camera.cpp.i
@@ -464,7 +464,7 @@ src/opencv_camera.i: src/opencv_camera.cpp.i
 
 # target to preprocess a source file
 src/opencv_camera.cpp.i:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.i
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.i
 .PHONY : src/opencv_camera.cpp.i
 
 src/opencv_camera.s: src/opencv_camera.cpp.s
@@ -473,7 +473,7 @@ src/opencv_camera.s: src/opencv_camera.cpp.s
 
 # target to generate assembly for a file
 src/opencv_camera.cpp.s:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.s
+	cd /home/tyler/catkin_ws/build && $(MAKE) -f mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/build.make mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.s
 .PHONY : src/opencv_camera.cpp.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tyler/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

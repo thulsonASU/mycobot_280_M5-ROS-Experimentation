@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "new_mycobot_320_moveit"
-PROJECT_SPACE_DIR = "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel"
+PROJECT_SPACE_DIR = "/home/tyler/catkin_ws/devel"
 PROJECT_VERSION = "0.0.0"

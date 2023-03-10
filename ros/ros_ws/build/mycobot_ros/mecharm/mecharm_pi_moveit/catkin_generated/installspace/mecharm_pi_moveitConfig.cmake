@@ -67,14 +67,14 @@ set(mecharm_pi_moveit_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mecharm_pi_moveit_SOURCE_PREFIX /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mecharm/mecharm_pi_moveit)
-  set(mecharm_pi_moveit_DEVEL_PREFIX /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel)
+  set(mecharm_pi_moveit_SOURCE_PREFIX /home/tyler/catkin_ws/src/mycobot_ros/mecharm/mecharm_pi_moveit)
+  set(mecharm_pi_moveit_DEVEL_PREFIX /home/tyler/catkin_ws/devel)
   set(mecharm_pi_moveit_INSTALL_PREFIX "")
   set(mecharm_pi_moveit_PREFIX ${mecharm_pi_moveit_DEVEL_PREFIX})
 else()
   set(mecharm_pi_moveit_SOURCE_PREFIX "")
   set(mecharm_pi_moveit_DEVEL_PREFIX "")
-  set(mecharm_pi_moveit_INSTALL_PREFIX /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install)
+  set(mecharm_pi_moveit_INSTALL_PREFIX /home/tyler/catkin_ws/install)
   set(mecharm_pi_moveit_PREFIX ${mecharm_pi_moveit_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/lib;/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tyler/catkin_ws/install/lib;/home/tyler/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

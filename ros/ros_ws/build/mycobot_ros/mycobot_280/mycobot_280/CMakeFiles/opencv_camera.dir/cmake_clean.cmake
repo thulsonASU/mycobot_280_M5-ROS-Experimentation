@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/lib/mycobot_280/opencv_camera"
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/lib/mycobot_280/opencv_camera.pdb"
+  "/home/tyler/catkin_ws/devel/lib/mycobot_280/opencv_camera"
+  "/home/tyler/catkin_ws/devel/lib/mycobot_280/opencv_camera.pdb"
   "CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.o"
 )
 

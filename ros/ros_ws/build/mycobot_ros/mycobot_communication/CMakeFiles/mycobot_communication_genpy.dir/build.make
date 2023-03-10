@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src
+CMAKE_SOURCE_DIR = /home/tyler/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build
+CMAKE_BINARY_DIR = /home/tyler/catkin_ws/build
 
 # Utility rule file for mycobot_communication_genpy.
 
@@ -63,10 +63,10 @@ mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/bui
 .PHONY : mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/build
 
 mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/clean:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication && $(CMAKE_COMMAND) -P CMakeFiles/mycobot_communication_genpy.dir/cmake_clean.cmake
+	cd /home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication && $(CMAKE_COMMAND) -P CMakeFiles/mycobot_communication_genpy.dir/cmake_clean.cmake
 .PHONY : mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/clean
 
 mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tyler/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/catkin_ws/src /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication /home/tyler/catkin_ws/build /home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication /home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_genpy.dir/depend
 

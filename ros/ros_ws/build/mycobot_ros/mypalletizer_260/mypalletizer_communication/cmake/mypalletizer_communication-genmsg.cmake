@@ -2,7 +2,7 @@
 
 message(STATUS "mypalletizer_communication: 6 messages, 6 services")
 
-set(MSG_I_FLAGS "-Imypalletizer_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Imypalletizer_communication:/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,64 +17,64 @@ add_custom_target(mypalletizer_communication_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
 add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mypalletizer_communication" "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" ""
 )
 
 #
@@ -84,37 +84,37 @@ add_custom_target(_mypalletizer_communication_generate_messages_check_deps_${_fi
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
@@ -122,37 +122,37 @@ _generate_msg_cpp(mypalletizer_communication
 
 ### Generating Services
 _generate_srv_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_cpp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mypalletizer_communication
@@ -170,29 +170,29 @@ add_custom_target(mypalletizer_communication_generate_messages_cpp
 add_dependencies(mypalletizer_communication_generate_messages mypalletizer_communication_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_cpp _mypalletizer_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -205,37 +205,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mypalletizer_communication_generate
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
@@ -243,37 +243,37 @@ _generate_msg_eus(mypalletizer_communication
 
 ### Generating Services
 _generate_srv_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_eus(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mypalletizer_communication
@@ -291,29 +291,29 @@ add_custom_target(mypalletizer_communication_generate_messages_eus
 add_dependencies(mypalletizer_communication_generate_messages mypalletizer_communication_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_eus _mypalletizer_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -326,37 +326,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mypalletizer_communication_generate
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
@@ -364,37 +364,37 @@ _generate_msg_lisp(mypalletizer_communication
 
 ### Generating Services
 _generate_srv_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_lisp(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mypalletizer_communication
@@ -412,29 +412,29 @@ add_custom_target(mypalletizer_communication_generate_messages_lisp
 add_dependencies(mypalletizer_communication_generate_messages mypalletizer_communication_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_lisp _mypalletizer_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -447,37 +447,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mypalletizer_communication_generate
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
@@ -485,37 +485,37 @@ _generate_msg_nodejs(mypalletizer_communication
 
 ### Generating Services
 _generate_srv_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_nodejs(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mypalletizer_communication
@@ -533,29 +533,29 @@ add_custom_target(mypalletizer_communication_generate_messages_nodejs
 add_dependencies(mypalletizer_communication_generate_messages mypalletizer_communication_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_nodejs _mypalletizer_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -568,37 +568,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mypalletizer_communication_generate
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_msg_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
@@ -606,37 +606,37 @@ _generate_msg_py(mypalletizer_communication
 
 ### Generating Services
 _generate_srv_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
 )
 _generate_srv_py(mypalletizer_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mypalletizer_communication
@@ -654,29 +654,29 @@ add_custom_target(mypalletizer_communication_generate_messages_py
 add_dependencies(mypalletizer_communication_generate_messages mypalletizer_communication_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetAngles.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalSetCoords.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalGripperStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/msg/MypalPumpStatus.msg" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(mypalletizer_communication_generate_messages_py _mypalletizer_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

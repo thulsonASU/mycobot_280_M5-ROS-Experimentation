@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "mypalletizer_communication"
-PROJECT_SPACE_DIR = "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install"
+PROJECT_SPACE_DIR = "/home/tyler/catkin_ws/install"
 PROJECT_VERSION = "0.1.0"

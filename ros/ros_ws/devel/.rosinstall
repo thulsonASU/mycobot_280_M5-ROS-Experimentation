@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/setup.sh
+    local-name: /home/tyler/catkin_ws/devel/setup.sh

@@ -1,4 +1,4 @@
-prefix=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install
+prefix=/home/tyler/catkin_ws/install
 
 Name: ai_mecharm_270
 Description: Description of ai_mecharm_270

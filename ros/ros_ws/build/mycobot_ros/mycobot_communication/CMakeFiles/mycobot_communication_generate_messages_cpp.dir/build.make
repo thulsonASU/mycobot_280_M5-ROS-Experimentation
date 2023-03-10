@@ -43,121 +43,121 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src
+CMAKE_SOURCE_DIR = /home/tyler/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build
+CMAKE_BINARY_DIR = /home/tyler/catkin_ws/build
 
 # Utility rule file for mycobot_communication_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/progress.make
 
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotAngles.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotCoords.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetAngles.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetCoords.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotGripperStatus.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotPumpStatus.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetAngles.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetAngles.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetCoords.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetCoords.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GripperStatus.h
-mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/PumpStatus.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotAngles.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotCoords.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetAngles.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetCoords.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotGripperStatus.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotPumpStatus.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/GetAngles.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/SetAngles.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/GetCoords.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/SetCoords.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/GripperStatus.h
+mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/PumpStatus.h
 
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotAngles.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotAngles.msg
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from mycobot_communication/MycobotAngles.msg"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotAngles.msg -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotAngles.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotAngles.msg
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from mycobot_communication/MycobotAngles.msg"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotAngles.msg -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotCoords.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotCoords.msg
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from mycobot_communication/MycobotCoords.msg"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotCoords.msg -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotCoords.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotCoords.msg
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from mycobot_communication/MycobotCoords.msg"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotCoords.msg -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetAngles.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetAngles.msg
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from mycobot_communication/MycobotSetAngles.msg"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetAngles.msg -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetAngles.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetAngles.msg
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from mycobot_communication/MycobotSetAngles.msg"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetAngles.msg -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetCoords.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetCoords.msg
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from mycobot_communication/MycobotSetCoords.msg"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetCoords.msg -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetCoords.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetCoords.msg
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from mycobot_communication/MycobotSetCoords.msg"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotSetCoords.msg -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotGripperStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotGripperStatus.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotGripperStatus.msg
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotGripperStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from mycobot_communication/MycobotGripperStatus.msg"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotGripperStatus.msg -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotGripperStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotGripperStatus.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotGripperStatus.msg
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotGripperStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from mycobot_communication/MycobotGripperStatus.msg"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotGripperStatus.msg -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotPumpStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotPumpStatus.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotPumpStatus.msg
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotPumpStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from mycobot_communication/MycobotPumpStatus.msg"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg/MycobotPumpStatus.msg -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotPumpStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotPumpStatus.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotPumpStatus.msg
+/home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotPumpStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from mycobot_communication/MycobotPumpStatus.msg"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg/MycobotPumpStatus.msg -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetAngles.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/GetAngles.srv
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetAngles.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from mycobot_communication/GetAngles.srv"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/GetAngles.srv -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetAngles.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/GetAngles.srv
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetAngles.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from mycobot_communication/GetAngles.srv"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/GetAngles.srv -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetAngles.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/SetAngles.srv
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetAngles.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from mycobot_communication/SetAngles.srv"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/SetAngles.srv -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetAngles.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetAngles.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/SetAngles.srv
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetAngles.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetAngles.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from mycobot_communication/SetAngles.srv"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/SetAngles.srv -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetCoords.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/GetCoords.srv
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetCoords.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from mycobot_communication/GetCoords.srv"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/GetCoords.srv -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetCoords.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/GetCoords.srv
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GetCoords.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from mycobot_communication/GetCoords.srv"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/GetCoords.srv -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetCoords.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/SetCoords.srv
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetCoords.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from mycobot_communication/SetCoords.srv"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/SetCoords.srv -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetCoords.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetCoords.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/SetCoords.srv
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetCoords.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/tyler/catkin_ws/devel/include/mycobot_communication/SetCoords.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from mycobot_communication/SetCoords.srv"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/SetCoords.srv -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GripperStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GripperStatus.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/GripperStatus.srv
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GripperStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GripperStatus.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from mycobot_communication/GripperStatus.srv"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/GripperStatus.srv -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GripperStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GripperStatus.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/GripperStatus.srv
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GripperStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/tyler/catkin_ws/devel/include/mycobot_communication/GripperStatus.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from mycobot_communication/GripperStatus.srv"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/GripperStatus.srv -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/PumpStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/PumpStatus.h: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/PumpStatus.srv
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/PumpStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/PumpStatus.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from mycobot_communication/PumpStatus.srv"
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication && /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/srv/PumpStatus.srv -Imycobot_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/tyler/catkin_ws/devel/include/mycobot_communication/PumpStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/tyler/catkin_ws/devel/include/mycobot_communication/PumpStatus.h: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/PumpStatus.srv
+/home/tyler/catkin_ws/devel/include/mycobot_communication/PumpStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/tyler/catkin_ws/devel/include/mycobot_communication/PumpStatus.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tyler/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from mycobot_communication/PumpStatus.srv"
+	cd /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication && /home/tyler/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/srv/PumpStatus.srv -Imycobot_communication:/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mycobot_communication -o /home/tyler/catkin_ws/devel/include/mycobot_communication -e /opt/ros/noetic/share/gencpp/cmake/..
 
 mycobot_communication_generate_messages_cpp: mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotAngles.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotCoords.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetAngles.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotSetCoords.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotGripperStatus.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/MycobotPumpStatus.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetAngles.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetAngles.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GetCoords.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/SetCoords.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/GripperStatus.h
-mycobot_communication_generate_messages_cpp: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel/include/mycobot_communication/PumpStatus.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotAngles.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotCoords.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetAngles.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotSetCoords.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotGripperStatus.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/MycobotPumpStatus.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/GetAngles.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/SetAngles.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/GetCoords.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/SetCoords.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/GripperStatus.h
+mycobot_communication_generate_messages_cpp: /home/tyler/catkin_ws/devel/include/mycobot_communication/PumpStatus.h
 mycobot_communication_generate_messages_cpp: mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/build.make
 
 .PHONY : mycobot_communication_generate_messages_cpp
@@ -168,10 +168,10 @@ mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_mess
 .PHONY : mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/build
 
 mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/clean:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication && $(CMAKE_COMMAND) -P CMakeFiles/mycobot_communication_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication && $(CMAKE_COMMAND) -P CMakeFiles/mycobot_communication_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/clean
 
 mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/depend:
-	cd /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_communication /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tyler/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tyler/catkin_ws/src /home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication /home/tyler/catkin_ws/build /home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication /home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mycobot_ros/mycobot_communication/CMakeFiles/mycobot_communication_generate_messages_cpp.dir/depend
 

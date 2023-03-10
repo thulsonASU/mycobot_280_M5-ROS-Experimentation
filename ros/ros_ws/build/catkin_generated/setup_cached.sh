@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build'
+export PWD='/home/tyler/catkin_ws/build'

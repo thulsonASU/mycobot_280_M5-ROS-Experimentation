@@ -1,8 +1,8 @@
-# Install script for directory: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_ai/aikit_280_pi
+# Install script for directory: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_ai/aikit_280_pi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tyler/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/catkin_generated/installspace/aikit_280_pi.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/catkin_generated/installspace/aikit_280_pi.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aikit_280_pi/cmake" TYPE FILE FILES
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/catkin_generated/installspace/aikit_280_piConfig.cmake"
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/catkin_generated/installspace/aikit_280_piConfig-version.cmake"
+    "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/catkin_generated/installspace/aikit_280_piConfig.cmake"
+    "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/catkin_generated/installspace/aikit_280_piConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aikit_280_pi" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_ai/aikit_280_pi/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aikit_280_pi" TYPE FILE FILES "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_ai/aikit_280_pi/package.xml")
 endif()
 

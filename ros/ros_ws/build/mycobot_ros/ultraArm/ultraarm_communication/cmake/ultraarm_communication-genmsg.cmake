@@ -2,7 +2,7 @@
 
 message(STATUS "ultraarm_communication: 6 messages, 6 services")
 
-set(MSG_I_FLAGS "-Iultraarm_communication:/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iultraarm_communication:/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,64 +17,64 @@ add_custom_target(ultraarm_communication_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" ""
 )
 
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
 add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ultraarm_communication" "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" ""
 )
 
 #
@@ -84,37 +84,37 @@ add_custom_target(_ultraarm_communication_generate_messages_check_deps_${_filena
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
@@ -122,37 +122,37 @@ _generate_msg_cpp(ultraarm_communication
 
 ### Generating Services
 _generate_srv_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_cpp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ultraarm_communication
@@ -170,29 +170,29 @@ add_custom_target(ultraarm_communication_generate_messages_cpp
 add_dependencies(ultraarm_communication_generate_messages ultraarm_communication_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_cpp _ultraarm_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -205,37 +205,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ultraarm_communication_generate_mes
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
@@ -243,37 +243,37 @@ _generate_msg_eus(ultraarm_communication
 
 ### Generating Services
 _generate_srv_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_eus(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ultraarm_communication
@@ -291,29 +291,29 @@ add_custom_target(ultraarm_communication_generate_messages_eus
 add_dependencies(ultraarm_communication_generate_messages ultraarm_communication_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_eus _ultraarm_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -326,37 +326,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ultraarm_communication_generate_mes
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
@@ -364,37 +364,37 @@ _generate_msg_lisp(ultraarm_communication
 
 ### Generating Services
 _generate_srv_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_lisp(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ultraarm_communication
@@ -412,29 +412,29 @@ add_custom_target(ultraarm_communication_generate_messages_lisp
 add_dependencies(ultraarm_communication_generate_messages ultraarm_communication_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_lisp _ultraarm_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -447,37 +447,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ultraarm_communication_generate_mes
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
@@ -485,37 +485,37 @@ _generate_msg_nodejs(ultraarm_communication
 
 ### Generating Services
 _generate_srv_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_nodejs(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ultraarm_communication
@@ -533,29 +533,29 @@ add_custom_target(ultraarm_communication_generate_messages_nodejs
 add_dependencies(ultraarm_communication_generate_messages ultraarm_communication_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_nodejs _ultraarm_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -568,37 +568,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ultraarm_communication_generate_mes
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_msg_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
@@ -606,37 +606,37 @@ _generate_msg_py(ultraarm_communication
 
 ### Generating Services
 _generate_srv_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
 )
 _generate_srv_py(ultraarm_communication
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
+  "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ultraarm_communication
@@ -654,29 +654,29 @@ add_custom_target(ultraarm_communication_generate_messages_py
 add_dependencies(ultraarm_communication_generate_messages ultraarm_communication_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetAngles.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmSetCoords.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmGripperStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/msg/ultraArmPumpStatus.msg" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetAngles.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/SetCoords.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/GripperStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
+get_filename_component(_filename "/home/tyler/catkin_ws/src/mycobot_ros/ultraArm/ultraarm_communication/srv/PumpStatus.srv" NAME_WE)
 add_dependencies(ultraarm_communication_generate_messages_py _ultraarm_communication_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

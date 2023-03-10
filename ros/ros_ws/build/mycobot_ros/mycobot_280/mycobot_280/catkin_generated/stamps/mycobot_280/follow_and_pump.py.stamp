@@ -18,7 +18,7 @@ angle_pub = rospy.Publisher("mycobot/angles_goal",
 coord_pub = rospy.Publisher("mycobot/coords_goal",
                             MycobotSetCoords, queue_size=5)
 # 判断设备：ttyUSB*为M5；ttyACM*为wio，Judging equipment: ttyUSB* is M5；ttyACM* is wio
-robot = os.popen("ls /dev/ttyUSB*").readline()
+robot = os.popen("ls /dev/ttyACM*").readline()
 
 if "dev" in robot:
     Pin = [2, 5]

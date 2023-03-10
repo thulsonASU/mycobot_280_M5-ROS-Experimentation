@@ -1,8 +1,8 @@
-# Install script for directory: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit
+# Install script for directory: /home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tyler/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/mypalletizer_260_moveit.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/mypalletizer_260_moveit.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit/cmake" TYPE FILE FILES
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/mypalletizer_260_moveitConfig.cmake"
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/mypalletizer_260_moveitConfig-version.cmake"
+    "/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/mypalletizer_260_moveitConfig.cmake"
+    "/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/mypalletizer_260_moveitConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit" TYPE FILE FILES "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mypalletizer_260_moveit" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/sync_plan.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mypalletizer_260_moveit" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/sync_plan.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mypalletizer_260_moveit" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/path_planning_and_obstacle_avoidance_demo.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mypalletizer_260_moveit" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/catkin_generated/installspace/path_planning_and_obstacle_avoidance_demo.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit" TYPE DIRECTORY FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit" TYPE DIRECTORY FILES "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit" TYPE DIRECTORY FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mypalletizer_260_moveit" TYPE DIRECTORY FILES "/home/tyler/catkin_ws/src/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/config")
 endif()
 

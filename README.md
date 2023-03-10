@@ -712,7 +712,65 @@ rosrun mycobot_280 slider_control.py _port:=/dev/ttyACM0 _baud:=115200
 # Note to embbed a video it must be less than 10MB.
 ```
 https://user-images.githubusercontent.com/100303302/224243892-c788c789-79ac-4815-9fbe-c8da4b5d9a5e.mp4
-##### 5.5.2 
+##### 5.5.2 Model Following
+```bash
+# The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
+rosrun mycobot_280 follow_display.py _port:=/dev/ttyACM0 _baud:=115200
+
+roslaunch mycobot_280 mycobot_follow.launch
+
+# Model in rvis is attempting to follow the real robot effectively acting as a digital twin. However I am getting warnings and errors on feedback. Not getting cood values. I will possibly come back to this. Little jank atm.
+```
+##### 5.5.3 GUI Control
+```bash
+# Launches some GUI to control the robot.
+roslaunch mycobot_280 simple_gui.launch port:=/dev/ttyUSB0 baud:=115200
+
+# Missing a module to run this. Something called Tkinter gonna pip install it and try again.
+# Funny issue that is. Typo I think. Will track and see if it fixes it. Also made sure rospy was installed.
+sudo apt install python3-rospy
+# Bug fixed! Will upload my ws in the ros github for those also learning. I did delete the .STEP for the pi version I 
+# believe thoug due to the file size constraints. Otherwise the ws should be good to go. Highly recommend installing via  
+# official tutorials.
+# New Bug! YAY! Bad Gemoetry line 36 in simple_gui.py -> Unsure on how to proceed atm. Comeback to later.
+```
+Tkinter post: https://answers.ros.org/question/353902/no-module-named-tkinter/
+##### 5.5.4 Keyboard Control
+```bash
+# The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
+roslaunch mycobot_280 teleop_keyboard.launch port:=/dev/ttyACM0 baud:=115200
+
+# Connect to Robot
+rosrun mycobot_280 teleop_keyboard.py _speed:=50
+
+
+#Mycobot Teleop Keyboard Controller
+#---------------------------
+#Movimg options(control coordinations [x,y,z,rx,ry,rz]):
+#              w(x+)
+#
+#    a(y-)     s(x-)     d(y+)
+#
+#    z(z-) x(z+)
+#
+#u(rx+)   i(ry+)   o(rz+)
+#j(rx-)   k(ry-)   l(rz-)
+#
+#Gripper control:
+#    g - open
+#    h - close
+#
+#Other:
+#    1 - Go to init pose
+#    2 - Go to home pose
+#    3 - Resave home pose
+#    q - Quit
+#
+#currently:      speed: 50       change percent 5
+```
+
+
+
 
 ## Additional Reasources
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src
+# Install script for directory: /home/tyler/catkin_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tyler/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,129 +49,129 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/_setup_util.py")
+   "/home/tyler/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/tyler/catkin_ws/install" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/env.sh")
+   "/home/tyler/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/tyler/catkin_ws/install" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/setup.bash;/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/local_setup.bash")
+   "/home/tyler/catkin_ws/install/setup.bash;/home/tyler/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install" TYPE FILE FILES
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/tyler/catkin_ws/install" TYPE FILE FILES
+    "/home/tyler/catkin_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/tyler/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/setup.sh;/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/local_setup.sh")
+   "/home/tyler/catkin_ws/install/setup.sh;/home/tyler/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install" TYPE FILE FILES
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/tyler/catkin_ws/install" TYPE FILE FILES
+    "/home/tyler/catkin_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/tyler/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/setup.zsh;/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/local_setup.zsh")
+   "/home/tyler/catkin_ws/install/setup.zsh;/home/tyler/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install" TYPE FILE FILES
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/tyler/catkin_ws/install" TYPE FILE FILES
+    "/home/tyler/catkin_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/tyler/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install/.rosinstall")
+   "/home/tyler/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/tyler/catkin_ws/install" TYPE FILE FILES "/home/tyler/catkin_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/gtest/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/Mybuddy/mybuddy_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/Mybuddy/mybuddy_socket_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_description/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/mycobot_320_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_pro/mycobot_600/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/new_mycobot_320_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/new_mycobot_320_pi_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/ultraArm/ultraarm_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/mycobot_320_communication/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_communication/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mecharm/mecharm_communication/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/Mybuddy/mybuddy_communication/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280arduino/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280jn/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/mycobot_320/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_communication/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/new_mycobot_320/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_320/new_mycobot_320_pi/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mecharm/mecharm_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mecharm/mecharm_pi_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280arduino_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280jn_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_pro/mycobot_600_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_pi_moveit/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/ultraArm/ultraarm_communication/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/ai_mycobot_280/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mecharm/mecharm/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mecharm/mecharm_pi/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/ai_mecharm_270/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/Mybuddy/mybuddy/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/Mybuddy/mybuddy_socket/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_pi/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_ai/ai_mypalletizer_260/cmake_install.cmake")
-  include("/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/ultraArm/ultraarm/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/Mybuddy/mybuddy_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/Mybuddy/mybuddy_socket_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_description/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/mycobot_320_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_pro/mycobot_600/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/new_mycobot_320_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/new_mycobot_320_pi_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/ultraArm/ultraarm_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/mycobot_320_communication/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_communication/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mecharm/mecharm_communication/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/Mybuddy/mybuddy_communication/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280arduino/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280jn/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/mycobot_320/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_communication/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/new_mycobot_320/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_320/new_mycobot_320_pi/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mecharm/mecharm_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mecharm/mecharm_pi_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280arduino_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280jn_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_pro/mycobot_600_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_pi_moveit/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/ultraArm/ultraarm_communication/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/ai_mycobot_280/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/aikit_280_pi/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mecharm/mecharm/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mecharm/mecharm_pi/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/ai_mecharm_270/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/Mybuddy/mybuddy/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/Mybuddy/mybuddy_socket/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mypalletizer_260/mypalletizer_260_pi/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/mycobot_ai/ai_mypalletizer_260/cmake_install.cmake")
+  include("/home/tyler/catkin_ws/build/mycobot_ros/ultraArm/ultraarm/cmake_install.cmake")
 
 endif()
 
@@ -183,5 +183,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tyler/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

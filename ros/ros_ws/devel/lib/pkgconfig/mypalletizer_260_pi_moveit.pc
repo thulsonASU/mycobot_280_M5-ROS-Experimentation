@@ -1,4 +1,4 @@
-prefix=/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/devel
+prefix=/home/tyler/catkin_ws/devel
 
 Name: mypalletizer_260_pi_moveit
 Description: Description of mypalletizer_260_pi_moveit

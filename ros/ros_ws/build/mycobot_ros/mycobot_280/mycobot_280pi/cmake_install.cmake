@@ -1,8 +1,8 @@
-# Install script for directory: /home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280pi
+# Install script for directory: /home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280pi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tyler/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,61 +38,61 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/mycobot_280pi.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/mycobot_280pi.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi/cmake" TYPE FILE FILES
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/mycobot_280piConfig.cmake"
-    "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/mycobot_280piConfig-version.cmake"
+    "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/mycobot_280piConfig.cmake"
+    "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/mycobot_280piConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi" TYPE FILE FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280pi/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi" TYPE FILE FILES "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280pi/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/follow_display.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/follow_display.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/slider_control.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/slider_control.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/teleop_keyboard.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/teleop_keyboard.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/listen_real.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/listen_real.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/listen_real_of_topic.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/listen_real_of_topic.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/detect_marker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/detect_marker.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/following_marker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/following_marker.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/follow_and_pump.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/follow_and_pump.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/simple_gui.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mycobot_280pi" TYPE PROGRAM FILES "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280pi/catkin_generated/installspace/simple_gui.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi" TYPE DIRECTORY FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280pi/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi" TYPE DIRECTORY FILES "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280pi/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi" TYPE DIRECTORY FILES "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280pi/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_280pi" TYPE DIRECTORY FILES "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280pi/config")
 endif()
 

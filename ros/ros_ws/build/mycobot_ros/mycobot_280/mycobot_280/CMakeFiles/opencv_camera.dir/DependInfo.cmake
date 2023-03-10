@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280/src/opencv_camera.cpp" "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/build/mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.o"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280/src/opencv_camera.cpp" "/home/tyler/catkin_ws/build/mycobot_ros/mycobot_280/mycobot_280/CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280/include"
+  "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"

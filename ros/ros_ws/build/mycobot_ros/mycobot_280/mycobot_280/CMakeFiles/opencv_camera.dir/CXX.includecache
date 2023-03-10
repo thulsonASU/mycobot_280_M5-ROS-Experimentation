@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tyler/Documents/Github/280-M5_ROS/ros/ros_ws/src/mycobot_ros/mycobot_280/mycobot_280/src/opencv_camera.cpp
+/home/tyler/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280/src/opencv_camera.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
