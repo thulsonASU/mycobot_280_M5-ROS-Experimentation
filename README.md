@@ -713,7 +713,7 @@ rosrun mycobot_280 slider_control.py _port:=/dev/ttyACM0 _baud:=115200
 https://user-images.githubusercontent.com/100303302/224243892-c788c789-79ac-4815-9fbe-c8da4b5d9a5e.mp4
 ##### 5.5.2 Model Following
 ```bash
-# 
+# Run this line first to boot rviz before connecting to cobot
 roslaunch mycobot_280 mycobot_follow.launch
 
 # The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
@@ -726,6 +726,9 @@ https://user-images.githubusercontent.com/100303302/224437783-f04c1ce2-5b66-4b04
 ![Robot-Mdlfllw](https://user-images.githubusercontent.com/100303302/224437005-ce8892fa-abcd-4b85-bb4e-c765382a7808.gif)
 ##### 5.5.3 GUI Control
 ```bash
+# Launch roscore
+roscore
+
 # Launches some GUI to control the robot.
 roslaunch mycobot_280 simple_gui.launch port:=/dev/ttyACM0 baud:=115200
 
@@ -735,9 +738,20 @@ sudo apt install python3-rospy
 # Bug fixed! Will upload my ws in the ros github for those also learning. I did delete the .STEP for the pi version I 
 # believe thoug due to the file size constraints. Otherwise the ws should be good to go. Highly recommend installing via  
 # official tutorials.
-# New Bug! YAY! Bad Gemoetry line 36 in simple_gui.py -> Unsure on how to proceed atm. Comeback to later.
+
+# New Bug! YAY! Bad Geomoetry line 36 in simple_gui.py -> Unsure on how to proceed atm. Comeback to later.
+
+# Fixed bad geometry with manual input. Translated Chinese to English. Had to go digging and modify the simple_gui.py and .launch file
 ```
 Tkinter post: https://answers.ros.org/question/353902/no-module-named-tkinter/
+
+<br />
+
+https://user-images.githubusercontent.com/100303302/224446870-f5473694-beb6-479f-928d-de2dc6db6e30.mp4
+
+<br />
+
+![Robot_GUIcntrl](https://user-images.githubusercontent.com/100303302/224448420-a4dd2624-3754-45aa-b639-035b1e9105c4.gif)
 ##### 5.5.4 Keyboard Control
 ```bash
 # The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
