@@ -802,6 +802,11 @@ roslaunch mycobot_280_moveit mycobot_moveit.launch
 # The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
 #Connecting Robot to Moveit
 rosrun mycobot_280_moveit sync_plan.py _port:=/dev/ttyACM0 _baud:=115200
+
+# This is the end to the official guide. Time to poke around some more. Found a python demo for planning and obstacle 
+# avoidance. Lets try it. Error. I have to stop. I may be time limited, but I just can't right now.
+
+rosrun mycobot_280_moveit path_planning_and_obstacle_avoidance_demo.py _port:=/dev/ttyACM0 _baud:=115200
 ```
 https://user-images.githubusercontent.com/100303302/224466370-8e94fe91-e4f4-4e72-9f3d-82d8debc8253.mp4
 
