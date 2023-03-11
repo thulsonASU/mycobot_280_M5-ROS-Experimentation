@@ -894,7 +894,7 @@ I do have another challenge to overcome if I want to generate a pick and place p
 
 <br />
 
-the hardest part of any project is the build up to the actual scripting. Kind of like making the workflow sort of deal. It can suck, but it is apart of the process!
+the hardest part of any project is the build up to the actual scripting. Kind of like making the workflow sort of deal. It can suck, but it is apart of the process! OH WAIT. I can propably skip that process to reverse engineer th gripper from the GUI demo. Might make my life easier. It is not explicitly required for me to model it for a simple pick and place. Jank, but the important part is I understand the process. I can get the gripper status from the mycobot_communication.srv. Anyways, did some basic setup. Need to make it a class and do it using an __init__ for all the main setup and a run/move to get it going kinda mashing the service for the gripper from the GUI class with the path_planning demo. End of Day 6...
 
 ## Additional Reasources
 
