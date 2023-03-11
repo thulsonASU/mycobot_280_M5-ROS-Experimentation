@@ -803,8 +803,7 @@ roslaunch mycobot_280_moveit mycobot_moveit.launch
 #Connecting Robot to Moveit
 rosrun mycobot_280_moveit sync_plan.py _port:=/dev/ttyACM0 _baud:=115200
 
-# This is the end to the official guide. Time to poke around some more. Found a python demo for planning and obstacle 
-# avoidance. Lets try it. Error. I have to stop. I may be time limited, but I just can't right now.
+# This is the end to the official guide. Time to poke around some more.
 
 rosrun mycobot_280_moveit path_planning_and_obstacle_avoidance_demo.py _port:=/dev/ttyACM0 _baud:=115200
 ```
@@ -818,6 +817,84 @@ https://user-images.githubusercontent.com/100303302/224466370-8e94fe91-e4f4-4e72
 
 The above is just a basic example. I still have a ways to go before I can do any pick and place with this robot. Unsure if I will complete my goal in the time allocated to me. I am borrowing this robot and the laptop I am working on.
 
+<br />
+
+ROS Dev Pick Lesson: https://www.youtube.com/watch?v=ySceuKCS5mE&t=925s
+
+<br />
+The above tutorial will help assist me in writing a pick and place script in python for myCobot 280M5 using ROS and Moveit. <br />
+Step 1: Create a pakage using Catkin to write my script in.
+
+```bash
+cd ~/catkin_ws/src
+
+tyler@RoboWiz:~/catkin_ws/src$ catkin_create_pkg pick_n_place rospy
+Created file pick_n_place/package.xml
+Created file pick_n_place/CMakeLists.txt
+Created folder pick_n_place/src
+Successfully created files in /home/tyler/catkin_ws/pick_n_place. Please adjust the values in package.xml.
+tyler@RoboWiz:~/catkin_ws/src$ cd pick_n_place
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place$ ls
+CMakeLists.txt  package.xml  src
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place$ cd src
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place/src$ ls
+tyler@RoboWiz:~/catkin_ws//pick_n_place/src$ touch pick_n_place.py
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place/src$ ls
+pick_n_place.py
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place/src$ chmod +x pick_n_place.py
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place/src$ ls -la
+total 8
+drwxrwxr-x 2 tyler tyler 4096 Mar 11 01:11 .
+drwxrwxr-x 3 tyler tyler 4096 Mar 11 01:10 ..
+-rwxrwxr-x 1 tyler tyler    0 Mar 11 01:11 pick_n_place.py
+tyler@RoboWiz:~/catkin_ws/src/pick_n_place/src$ 
+```
+<br /> Set up pick_n_place.py
+
+```
+# /usr/bin/env python
+import sys
+import rospy
+import moveit_commander
+import geometry_msgs.msg
+
+moveit_commander.roscpp_initialize(sys.argv)
+rospy.init_node('move_group_python_interface_tutorial', anonymous=True)
+robot = moveit_commander.RobotCommander()
+```
+
+<br />
+
+In order to test this you must first run the following three command lines in 3 terminals below,
+```bash
+#launch roscore
+roscore
+
+# Launch Moveit
+roslaunch mycobot_280_moveit mycobot_moveit.launch
+
+#moveit is a motion planning tool that allows the operator to move the robot end effector to a desired position and use waypoints to plan the full movement operation.
+
+# The default serial port name of mycobot 280-M5 version is "/dev/ttyUSB0", and the baud rate is 115200. The serial port name of some models is "dev/ttyACM0". If the default serial port name is wrong, you can change the serial port name to "/dev/ttyACM0".
+#Connecting Robot to Moveit
+rosrun mycobot_280_moveit sync_plan.py _port:=/dev/ttyACM0 _baud:=115200
+
+# roscore is the main master this is required for ROS 1 system architecture.
+# mycobot_moveit.launch launches rviz moveit GUI that allows you to plan and utilize moveit commands
+# sync_plan.py will connect the physical robot to the moveit planner allowing scripts to sync across both.
+
+# Now that those three terminals are running lets try our new script to set the robot to the init_pose position
+
+rosrun pick_n_place pick_n_place.py
+```
+
+<br />
+
+I do have another challenge to overcome if I want to generate a pick and place program. I have to custom make a URDF for the gripper end effector, define it as such, generate a moveit config package, and test the gripper. I am stll very new to all this and I'm hopping to find something I can just import first and foremost. Luckily I have AI tools like Perlexity.ai and ChatGPT to help search for steps to complete this task. Future me go to this link and give it a try: https://www.perplexity.ai/?s=u&uuid=01174bde-d468-44c3-b0fa-74540597c0fd
+
+<br />
+
+the hardest part of any project is the build up to the actual scripting. Kind of like making the workflow sort of deal. It can suck, but it is apart of the process!
 
 ## Additional Reasources
 
@@ -849,7 +926,7 @@ The above is just a basic example. I still have a ways to go before I can do any
 	<br /> *Git push sends the current updates to the github repo. Link is used to copy the destination for the push.* <br />
 <br /> ``` git pull [link] ``` <br />
 	<br /> *Git pull sends the data from the git repo to your local repository.* <br />
-<br /> ``` rm -fr .git ``` <br />
+<br /> ```   ``` <br />
 	<br /> *Delete .git folder in repo to remove it from git* <br />
 
 
