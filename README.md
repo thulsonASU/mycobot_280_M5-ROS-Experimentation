@@ -817,6 +817,7 @@ https://user-images.githubusercontent.com/100303302/224466370-8e94fe91-e4f4-4e72
 
 The above is just a basic example. I still have a ways to go before I can do any pick and place with this robot. Unsure if I will complete my goal in the time allocated to me. I am borrowing this robot and the laptop I am working on.
 
+##### 6.1 Pick and Place
 <br />
 
 ROS Dev Pick Lesson: https://www.youtube.com/watch?v=ySceuKCS5mE&t=925s
@@ -867,6 +868,9 @@ robot = moveit_commander.RobotCommander()
 
 In order to test this you must first run the following three command lines in 3 terminals below,
 ```bash
+# When reinserting USB from robot this must be ran once in terminal.
+sudo chmod 777 /dev/ttyACM0 # new version myCobot280 M5
+
 #launch roscore
 roscore
 
@@ -894,8 +898,39 @@ I do have another challenge to overcome if I want to generate a pick and place p
 
 <br />
 
-the hardest part of any project is the build up to the actual scripting. Kind of like making the workflow sort of deal. It can suck, but it is apart of the process! OH WAIT. I can propably skip that process to reverse engineer th gripper from the GUI demo. Might make my life easier. It is not explicitly required for me to model it for a simple pick and place. Jank, but the important part is I understand the process. I can get the gripper status from the mycobot_communication.srv. Anyways, did some basic setup. Need to make it a class and do it using an __init__ for all the main setup and a run/move to get it going kinda mashing the service for the gripper from the GUI class with the path_planning demo. End of Day 6...
+the hardest part of any project is the build up to the actual scripting. Kind of like making the workflow sort of deal. It can suck, but it is apart of the process! OH WAIT. I can propably skip that process to reverse engineer th gripper from the GUI demo. Might make my life easier. It is not explicitly required for me to model it for a simple pick and place. Jank, but the important part is I understand the process. I can get the gripper status from the mycobot_communication.srv. Anyways, did some basic setup. Need to make it a class and do it using an __init__ for all the main setup and a run/move to get it going kinda mashing the service for the gripper from the GUI class with the path_planning demo. End of Day 6... HAHAH NO! Couldn't sleep. I love this too much. 4am and it is time to get this working my friend. I need to set up a launch file to also activate the services for ROS so I can use the gripper. So instead of running the .py file I will roslaunch a .launch file that sets up the service then runs my pick_n_place.py file. Coffee Break!
+```bash
+# In total this script needs 5 terminal instances open
 
+# Instance 1 runs roscore
+roscore
+
+# Instance 2 runs 
+roslaunch mycobot_280_moveit mycobot_moveit.launch # activates moveit motion planning
+
+# Instance 3 runs
+rosrun mycobot_280_moveit sync_plan.py _port:=/dev/ttyACM0 _baud:=115200 # connects robot to moveit motion planner
+
+# Instance 4 runs
+roslaunch pick_n_place picknplace.launch # activates services
+
+# Instance 5 runs
+rosrun pick_n_place pick_n_place.py # main script executing commands
+```
+##### 6.2 Moveit and Calibrations
+Firstly, this is my capstone to this week long project. I came into this project having never touched Linux and in the span of 6 long days have learned not only some of the mechanisism for the mycobot_280-M5, but also a greater understanding of Bash, Linux, Python, ROS, ROS2, Moveit, and more. Secondly, I couldn't have been able to do this if it wasn't for the opportunity given to me by Dr. Redkar and a friend who decided to drag me along (thanks Tatwik). Now without further ado, time to go over some things.
+
+<br /> **General Workflow** <br />
+When working on the script I would often refer to the 5.5.2 Model Following demo to disengage the robots PID's and allow me to position the arm where I want it. I would then launch my picknplace.launch file to set up services to then get the robots cords. With those cords I put them in a custom function that would mathematically put it into a pose position for the robot. I would consider this hand calibration and a sort of drag and teach kind of scenario. As for the gripper that required me to reverse engineer the 5.5.3 GUI Control demo and learn how to open and close the gripper semi reliably with services. I was not in a position with the time allocated to set up a whole URDF from scratch for moveit. It added some small jank, but it worked enough for the desired results of picking and placing a cube. Full script can be found in ->
+
+<br />
+
+https://user-images.githubusercontent.com/100303302/224509749-d5c73bf9-b2f6-4ef0-9d5c-7e9cf05b7939.mp4
+
+<br />
+
+![Robot_PicknPlaceF](https://user-images.githubusercontent.com/100303302/224509486-a2d47ba8-f053-438e-8db7-744ff1fbf8e0.gif)
+Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
 ## Additional Reasources
 
 ### Useful URL's
@@ -926,7 +961,7 @@ the hardest part of any project is the build up to the actual scripting. Kind of
 	<br /> *Git push sends the current updates to the github repo. Link is used to copy the destination for the push.* <br />
 <br /> ``` git pull [link] ``` <br />
 	<br /> *Git pull sends the data from the git repo to your local repository.* <br />
-<br /> ```   ``` <br />
+<br /> ``` rm -fr .git ``` <br />
 	<br /> *Delete .git folder in repo to remove it from git* <br />
 
 
