@@ -6,14 +6,13 @@ Experimenting with a myCobot from Elephant Robotics. The 280-M5.
 <br /> **Goal** <br />
 To learn the fundamentals of ROS 1 by developing pick and place programs and functions for the 280 with the M5 robot controller in ROS using a linux/unix based operating system.
 
+<<<<<<< HEAD
 # How To Use (Basic Start)
 
 ## Calibrate myCobot 280-M5
-To disclose, the robot I used to make this git repo was not calibrated myself. I am borrowing it and I am unable to install the necessary software on my machine to calibrate it. For this stage my best suggestion is to follow the official [tutorial](https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/) closely to assure you have set up myCobot 280-M5. 
+To disclose, the robot I used to make this git repo was not calibrated myself. I am borrowing it and I am unable to install the necessary software on my machine to calibrate it. For this stage my best suggestion is to follow the official [tutorial](https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/) closely to assure you have set up myCobot 280-M5.
 
-I will put a basic quick start guide here and my personnel log below. I plan to make a quick start guide after I go through and learn the basics. ELog will be done before a start guide.
-
-## What I Learned Since Starting this Project (ELog)
+## ELog
 
 ### Day 1: Linux
 Linux was the first big challenge/hurdle to this project. I started out using an old Dell Inspirion laptop running an older version of BIOS evidently before UEFI. This presented the challenge of how to boot a Linux Distribution, in my case Ubuntu, onto the laptop. The laptop itself is running Windows 7 Home Professional. After attempting a work around with several different versions of Rufus to hopefully find one that would work with the older BIOS; I ended up formatting the Ubuntu image onto a USB and made it bootable using Rufus 3.21 on a Lenovo Thinkpad. (~ 6hr)
@@ -925,7 +924,7 @@ rosrun pick_n_place pick_n_place.py # main script executing commands
 Firstly, this is my capstone to this week long project. I came into this project having never touched Linux and in the span of 6 long days have learned not only some of the mechanisism for the mycobot_280-M5, but also a greater understanding of Bash, Linux, Python, ROS, ROS2, Moveit, and more. Secondly, I couldn't have been able to do this if it wasn't for the opportunity given to me by Dr. Redkar and a friend who decided to drag me along (thanks Tatwik). Now without further ado, time to go over some things.
 
 <br /> **General Workflow** <br />
-When working on the script I would often refer to the 5.5.2 Model Following demo to disengage the robots PID's and allow me to position the arm where I want it. I would then launch my picknplace.launch file to set up services to then get the robots cords. With those cords I put them in a custom function that would mathematically put it into a pose position for the robot. I would consider this hand calibration and a sort of drag and teach kind of scenario. As for the gripper that required me to reverse engineer the 5.5.3 GUI Control demo and learn how to open and close the gripper semi reliably with services. I was not in a position with the time allocated to set up a whole URDF from scratch for moveit. It added some small jank, but it worked enough for the desired results of picking and placing a cube. Full script can be found in ->
+When working on the script I would often refer to the 5.5.2 Model Following demo to disengage the robots PID's and allow me to position the arm where I want it. I would then launch my picknplace.launch file to set up services to then get the robots cords. With those cords I put them in a custom function that would mathematically put it into a pose position for the robot. I would consider this hand calibration and a sort of drag and teach kind of scenario. As for the gripper that required me to reverse engineer the 5.5.3 GUI Control demo and learn how to open and close the gripper semi reliably with services. I was not in a position with the time allocated to set up a whole URDF from scratch for moveit. It added some small jank, but it worked enough for the desired results of picking and placing a cube. Full script can be found in ```bash cd ⌁/catkin_ws/src/pick_n_place/src```
 
 <br />
 
@@ -937,7 +936,7 @@ https://user-images.githubusercontent.com/100303302/224509749-d5c73bf9-b2f6-4ef0
 Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
 ## Additional Reasources
 
-### Useful URL's
+### URL Archive
 <br /> Elephant Gitbook:  https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.1-M5.html <br />
 <br /> Elephant ROS 1 Gitbook: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html <br />
 <br /> ROS2 Humble Install: https://www.youtube.com/watch?v=0aPbWsyENA8 <br />
