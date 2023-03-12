@@ -8,8 +8,16 @@ To learn the fundamentals of ROS 1 by developing pick and place programs and fun
 
 # How To Use (Basic Start)
 
+## Install Linux Version
+You have many options on what you want to do with Linux. You can (A.) follow along with the official tutorial and install VirtualBox and set up a VM Env with part of your drive partitioned. (B.) Dual boot linux with Rufus with half of your drive partitioned to the new OS. You will be able to use both operating systems on your machine. WARNING: I AM NOT RESPONSIBLE FOR ANY LOSS OF DATA, BE CAREFUL AND CLOSELY FOLLOW TUTORIALS IF DUAL BOOTING. (C.) Install Linux OS onto an old left over laptop or other computer you can use. <br />
+<br />
+
+
 ## Calibrate myCobot 280-M5
 To disclose, the robot I used to make this git repo was not calibrated myself. I am borrowing it and I am unable to install the necessary software on my machine to calibrate it. For this stage my best suggestion is to follow the official [tutorial](https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/) closely to assure you have set up myCobot 280-M5.
+
+## Set up ROS Environment
+This was pretty
 
 ## ELog
 
