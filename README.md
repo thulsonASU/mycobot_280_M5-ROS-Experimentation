@@ -6,7 +6,6 @@ Experimenting with a myCobot from Elephant Robotics. The 280-M5.
 <br /> **Goal** <br />
 To learn the fundamentals of ROS 1 by developing pick and place programs and functions for the 280 with the M5 robot controller in ROS using a linux/unix based operating system.
 
-<<<<<<< HEAD
 # How To Use (Basic Start)
 
 ## Calibrate myCobot 280-M5
