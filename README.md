@@ -7,6 +7,10 @@ Experimenting with a myCobot from Elephant Robotics. The 280-M5.
 To learn the fundamentals of ROS 1 by developing pick and place programs and functions for the 280 with the M5 robot controller in ROS using a linux/unix based operating system.
 
 # How To Use (Basic Start)
+
+## Calibrate myCobot 280-M5
+To disclose, the robot I used to make this git repo was not calibrated myself. I am borrowing it and I am unable to install the necessary software on my machine to calibrate it. For this stage my best suggestion is to follow the official [tutorial](https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/) closely to assure you have set up myCobot 280-M5. 
+
 I will put a basic quick start guide here and my personnel log below. I plan to make a quick start guide after I go through and learn the basics. ELog will be done before a start guide.
 
 ## What I Learned Since Starting this Project (ELog)
@@ -938,6 +942,7 @@ Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
 <br /> Elephant ROS 1 Gitbook: https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.2-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html <br />
 <br /> ROS2 Humble Install: https://www.youtube.com/watch?v=0aPbWsyENA8 <br />
 <br /> Elephant ROS2 Github: https://github.com/elephantrobotics/mycobot_ros2 <br />
+<br /> Markdown Cheat Sheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links <br />
 <br />
 
 <br /> Elephant ROS YouTube: https://www.youtube.com/playlist?list=PLzq8qjbxJS3hp6Uu_H6-fL9ALs7sAeTnP <br />
