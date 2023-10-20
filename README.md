@@ -1,5 +1,7 @@
 # 280-M5_ROS
 
+<br /> Setting git up on a new linux machine with ssh <br />
+
 <br /> **Basic Description** <br />
 Experimenting with a myCobot from Elephant Robotics. The 280-M5.
 
