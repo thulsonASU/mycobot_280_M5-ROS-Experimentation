@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: mycobot_280pi
-Description: Description of mycobot_280pi
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: std_msgs actionlib
+/home/thulson/catkin_ws/devel/.private/mycobot_280pi/lib/pkgconfig/mycobot_280pi.pc

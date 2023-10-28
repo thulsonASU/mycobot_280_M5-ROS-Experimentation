@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: mycobot_320_communication
-Description: Description of mycobot_320_communication
-Version: 0.1.0
-Cflags: -I/home/tyler/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs
+/home/thulson/catkin_ws/devel/.private/mycobot_320_communication/lib/pkgconfig/mycobot_320_communication.pc

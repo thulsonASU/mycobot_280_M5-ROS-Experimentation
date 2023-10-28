@@ -1,17 +1,1 @@
-(cl:defpackage mybuddy_communication-msg
-  (:use )
-  (:export
-   "<MYBUDDYANGLES>"
-   "MYBUDDYANGLES"
-   "<MYBUDDYCOORDS>"
-   "MYBUDDYCOORDS"
-   "<MYBUDDYGRIPPERSTATUS>"
-   "MYBUDDYGRIPPERSTATUS"
-   "<MYBUDDYPUMPSTATUS>"
-   "MYBUDDYPUMPSTATUS"
-   "<MYBUDDYSETANGLES>"
-   "MYBUDDYSETANGLES"
-   "<MYBUDDYSETCOORDS>"
-   "MYBUDDYSETCOORDS"
-  ))
-
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/share/common-lisp/ros/mybuddy_communication/msg/_package.lisp

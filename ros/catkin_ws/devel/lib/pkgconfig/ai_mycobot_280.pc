@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: ai_mycobot_280
-Description: Description of ai_mycobot_280
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/thulson/catkin_ws/devel/.private/ai_mycobot_280/lib/pkgconfig/ai_mycobot_280.pc

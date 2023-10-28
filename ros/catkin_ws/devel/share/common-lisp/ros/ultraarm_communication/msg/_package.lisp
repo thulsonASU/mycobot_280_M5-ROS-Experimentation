@@ -1,17 +1,1 @@
-(cl:defpackage ultraarm_communication-msg
-  (:use )
-  (:export
-   "<ULTRAARMANGLES>"
-   "ULTRAARMANGLES"
-   "<ULTRAARMCOORDS>"
-   "ULTRAARMCOORDS"
-   "<ULTRAARMGRIPPERSTATUS>"
-   "ULTRAARMGRIPPERSTATUS"
-   "<ULTRAARMPUMPSTATUS>"
-   "ULTRAARMPUMPSTATUS"
-   "<ULTRAARMSETANGLES>"
-   "ULTRAARMSETANGLES"
-   "<ULTRAARMSETCOORDS>"
-   "ULTRAARMSETCOORDS"
-  ))
-
+/home/thulson/catkin_ws/devel/.private/ultraarm_communication/share/common-lisp/ros/ultraarm_communication/msg/_package.lisp

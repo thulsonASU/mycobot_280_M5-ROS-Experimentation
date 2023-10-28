@@ -1,7 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-  srv: require('./srv/_index.js')
-};
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/gennodejs/ros/mypalletizer_communication/_index.js

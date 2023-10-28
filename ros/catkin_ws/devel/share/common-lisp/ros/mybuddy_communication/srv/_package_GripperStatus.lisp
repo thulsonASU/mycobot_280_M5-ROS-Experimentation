@@ -1,6 +1,1 @@
-(cl:in-package mybuddy_communication-srv)
-(cl:export '(STATUS-VAL
-          STATUS
-          FLAG-VAL
-          FLAG
-))
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/share/common-lisp/ros/mybuddy_communication/srv/_package_GripperStatus.lisp

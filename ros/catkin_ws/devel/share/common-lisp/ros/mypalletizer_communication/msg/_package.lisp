@@ -1,17 +1,1 @@
-(cl:defpackage mypalletizer_communication-msg
-  (:use )
-  (:export
-   "<MYPALANGLES>"
-   "MYPALANGLES"
-   "<MYPALCOORDS>"
-   "MYPALCOORDS"
-   "<MYPALGRIPPERSTATUS>"
-   "MYPALGRIPPERSTATUS"
-   "<MYPALPUMPSTATUS>"
-   "MYPALPUMPSTATUS"
-   "<MYPALSETANGLES>"
-   "MYPALSETANGLES"
-   "<MYPALSETCOORDS>"
-   "MYPALSETCOORDS"
-  ))
-
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/common-lisp/ros/mypalletizer_communication/msg/_package.lisp

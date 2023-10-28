@@ -1,18 +1,1 @@
-(cl:in-package mycobot_communication-msg)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-          Z-VAL
-          Z
-          RX-VAL
-          RX
-          RY-VAL
-          RY
-          RZ-VAL
-          RZ
-          SPEED-VAL
-          SPEED
-          MODEL-VAL
-          MODEL
-))
+/home/thulson/catkin_ws/devel/.private/mycobot_communication/share/common-lisp/ros/mycobot_communication/msg/_package_MycobotSetCoords.lisp

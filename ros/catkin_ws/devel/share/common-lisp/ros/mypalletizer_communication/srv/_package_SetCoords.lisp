@@ -1,16 +1,1 @@
-(cl:in-package mypalletizer_communication-srv)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-          Z-VAL
-          Z
-          RX-VAL
-          RX
-          SPEED-VAL
-          SPEED
-          MODEL-VAL
-          MODEL
-          FLAG-VAL
-          FLAG
-))
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/common-lisp/ros/mypalletizer_communication/srv/_package_SetCoords.lisp

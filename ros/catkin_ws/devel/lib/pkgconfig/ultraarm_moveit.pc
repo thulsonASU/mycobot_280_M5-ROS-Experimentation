@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: ultraarm_moveit
-Description: Description of ultraarm_moveit
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/thulson/catkin_ws/devel/.private/ultraarm_moveit/lib/pkgconfig/ultraarm_moveit.pc

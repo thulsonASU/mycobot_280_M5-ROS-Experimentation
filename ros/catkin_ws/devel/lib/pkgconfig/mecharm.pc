@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: mecharm
-Description: Description of mecharm
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: std_msgs actionlib
+/home/thulson/catkin_ws/devel/.private/mecharm/lib/pkgconfig/mecharm.pc

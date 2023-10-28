@@ -1,4 +1,1 @@
-(cl:in-package mypalletizer_communication-msg)
-(cl:export '(STATUS-VAL
-          STATUS
-))
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/common-lisp/ros/mypalletizer_communication/msg/_package_MypalGripperStatus.lisp

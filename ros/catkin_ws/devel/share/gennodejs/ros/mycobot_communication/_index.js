@@ -1,7 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-  srv: require('./srv/_index.js')
-};
+/home/thulson/catkin_ws/devel/.private/mycobot_communication/share/gennodejs/ros/mycobot_communication/_index.js

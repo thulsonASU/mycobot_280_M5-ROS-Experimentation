@@ -1,6 +1,1 @@
-from ._MybuddyAngles import *
-from ._MybuddyCoords import *
-from ._MybuddyGripperStatus import *
-from ._MybuddyPumpStatus import *
-from ._MybuddySetAngles import *
-from ._MybuddySetCoords import *
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/lib/python3/dist-packages/mybuddy_communication/msg/__init__.py

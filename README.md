@@ -948,6 +948,23 @@ https://user-images.githubusercontent.com/100303302/224509749-d5c73bf9-b2f6-4ef0
 
 ![Robot_PicknPlaceF](https://user-images.githubusercontent.com/100303302/224509486-a2d47ba8-f053-438e-8db7-744ff1fbf8e0.gif)
 Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
+
+
+# 7 rviz URDF Model *.csv read/write/trajectory control
+```sh
+source devel/setup.bash # source workspace
+roslaunch mycobot_280 slider_control_gripper.launch port:=/dev/ttyUSB0 baud:=115200 #launch file for rviz with slider control (state publisher)
+
+# goal
+# write a basic script that can send joint data to the state publisher and vizualize it using the mycobot_280 github
+# The launch file sets up the necessary nodes and defines the urdf mode lfor rviz located in the mycobot_280 pkg mycobot_description directory
+# first start by making a new package for the traj control and *.csv read write tools
+catkin_create_pkg drag_n_teach
+# package name is no longer for just a physical robot due to project limitations
+# unable to acess physical robot for the time required to test. Will have to rely on rviz to vizualize everything I am testing.
+# note to self: Send project update email to proff (project now scopped for trajectory control without moveit due to time constraints)
+# I am skipping a few steps but the pkg is setup and I already have an src dir and launch dir with two files for getting data from a physical robot and putting it in a *.csv. Will modify to get data from just rviz and state publisher so I can still develop my script without a physical robot.
+```
 ## Additional Reasources
 
 ### URL Archive

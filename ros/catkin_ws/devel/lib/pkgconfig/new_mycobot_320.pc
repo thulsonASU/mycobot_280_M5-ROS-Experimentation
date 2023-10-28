@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: new_mycobot_320
-Description: Description of new_mycobot_320
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: std_msgs actionlib
+/home/thulson/catkin_ws/devel/.private/new_mycobot_320/lib/pkgconfig/new_mycobot_320.pc

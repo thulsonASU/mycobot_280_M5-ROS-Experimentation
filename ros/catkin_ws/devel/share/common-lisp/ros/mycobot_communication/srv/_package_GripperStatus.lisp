@@ -1,6 +1,1 @@
-(cl:in-package mycobot_communication-srv)
-(cl:export '(STATUS-VAL
-          STATUS
-          FLAG-VAL
-          FLAG
-))
+/home/thulson/catkin_ws/devel/.private/mycobot_communication/share/common-lisp/ros/mycobot_communication/srv/_package_GripperStatus.lisp

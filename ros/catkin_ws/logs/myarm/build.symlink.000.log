@@ -1,0 +1,13 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/myarm.pc
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/listen_real.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/follow_display.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/following_marker.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/follow_and_pump.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/listen_real_of_topic.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/slider_control.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/teleop_keyboard.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/simple_gui.py
+Symlinking /home/thulson/catkin_ws/devel/lib/myarm/detect_marker.py
+Symlinking /home/thulson/catkin_ws/devel/share/myarm/cmake/myarmConfig-version.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/myarm/cmake/myarmConfig.cmake

@@ -1,0 +1,5 @@
+<launch>
+	<!-- Open and run tool-cordtopose.py -->
+	<node name="tool_cordtopose" pkg="drag_n_teach" type="tool_cordtopose.py" output="screen">
+	</node>
+</launch>

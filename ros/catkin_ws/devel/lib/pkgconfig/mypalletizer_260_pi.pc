@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: mypalletizer_260_pi
-Description: Description of mypalletizer_260_pi
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: std_msgs actionlib
+/home/thulson/catkin_ws/devel/.private/mypalletizer_260_pi/lib/pkgconfig/mypalletizer_260_pi.pc
