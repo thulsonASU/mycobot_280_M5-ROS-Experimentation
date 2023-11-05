@@ -953,7 +953,10 @@ Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
 # 7 rviz URDF Model *.csv read/write/trajectory control
 ```sh
 source devel/setup.bash # source workspace
-roslaunch mycobot_280 slider_control_gripper.launch port:=/dev/ttyUSB0 baud:=115200 #launch file for rviz with slider control (state publisher)
+# roslaunch mycobot_280 slider_control_gripper.launch port:=/dev/ttyUSB0 baud:=115200 #launch file for rviz with slider control (state publisher)
+# The above example is no longer supported, I no longer have access to a robot within my acceptable hours to create a functional script that interfaces with it.
+
+# Integrated slider control into drag_n_teach tool_cordtopose.launch
 
 # goal
 # write a basic script that can send joint data to the state publisher and vizualize it using the mycobot_280 github
@@ -964,7 +967,31 @@ catkin_create_pkg drag_n_teach
 # unable to acess physical robot for the time required to test. Will have to rely on rviz to vizualize everything I am testing.
 # note to self: Send project update email to proff (project now scopped for trajectory control without moveit due to time constraints)
 # I am skipping a few steps but the pkg is setup and I already have an src dir and launch dir with two files for getting data from a physical robot and putting it in a *.csv. Will modify to get data from just rviz and state publisher so I can still develop my script without a physical robot.
+roslaunch drag_n_teach tool_cordpose.launch
 ```
+
+## 7.1 Read csv file of saved poses and convert them to joint angles
+```sh
+# The main goal here is to convert poses from the pose.csv to joint angles and store them in nested dictionaries.
+# Take the list and then pass it to a trajectory solver to interpolate the angles required from one pose to another.
+# Then write them to a new csv file to view the output
+
+# Bonus get the robot to move from one pose to another with or without the trajectory solver using the visualizer.
+ps -a 
+# checks for running processes
+
+# Currently working to configure launch files and set up yaml/xml config for moveit commander
+# Adjusting to see if I can get the robot pose from the move it commander and just pass that to a csv instead of taking it from the robot message. 
+# The pose generated from that is not quite right, however it does give me joint angles, maybe I sohuld stick to those...
+
+# Will attempt with moveit commander and perhaps to a secon set with joint angles.
+# Compare versions as needed.
+
+roslaunch drag_n_teach tool_posecord.launch
+
+# Updating this would be painful, gonna just write about it in my report...
+```
+
 ## Additional Reasources
 
 ### URL Archive

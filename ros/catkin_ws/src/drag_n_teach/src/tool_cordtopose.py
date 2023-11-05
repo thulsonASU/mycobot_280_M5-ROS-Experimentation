@@ -8,54 +8,57 @@ Launch 2 terminal windows
 depending on .bashrc configuration you will need to sorce devel/setup.bash for each terminal (this assumes a built workspace)
 
 terminal 1: CLI Run: 
-roslaunch mycobot_280 slider_control.launch
+roscore
 
 terminal 2: CLI Run: 
 roslaunch drag_n_teach tool_cordtopose.launch
 
-TODO:
-- Add an ID to the file name so that it can be saved multiple times
-- Condense the slider_control.launch and tool_cordtopose.launch into one launch file
+Description:
+The script is designed to record poses from the robot after adjusting the joint angle sliders in the joint_state_publisher_gui.
+User will press enter to save a position once the sliders have been adjusted.
 '''
 
 import rospy
 import csv
+import moveit_commander
 from geometry_msgs.msg import Pose
-import time
-import tf
+import sys
+
+# Get user directory path
+from pathlib import Path
+home = str(Path.home())
 
 def getPose():
     global pose
-    # Define the frame names for the robot
-    frame_names = ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6', 'joint6_flange']
-    # Define the transform listener
-    listener = tf.TransformListener()
-    # Wait for the transform to become available
-    listener.waitForTransform(frame_names[0], frame_names[-1], rospy.Time(), rospy.Duration(4.0))
-    # Get the transform from the base link to the end effector
-    (trans, rot) = listener.lookupTransform(frame_names[0], frame_names[-1], rospy.Time(0)) # perform FK transformation
-    # Create the pose message
-    pose = Pose()
-    # Set the position of the pose message
-    pose.position.x = trans[0]
-    pose.position.y = trans[1]
-    pose.position.z = trans[2]
-    pose.orientation.x = rot[0]
-    pose.orientation.y = rot[1]
-    pose.orientation.z = rot[2]
-    pose.orientation.w = rot[3]
+    # use moveit commander to get pose
+    # Initialize the move_group API
+    moveit_commander.roscpp_initialize(sys.argv) # cpp wrapper for moveit
+    # Initialize the MoveGroupCommander for the robot
+    # robot = moveit_commander.RobotCommander()
+    group = moveit_commander.MoveGroupCommander('arm_group', ns='/')
+    group.set_planner_id('RRTConnect')
+    # Get the current pose of the end effector
+    pose = group.get_current_pose().pose
+    
+    return pose
 
 if __name__ == '__main__':
     rospy.init_node('drag_robot')
     pose = Pose()
-    with open('/home/thulson/catkin_ws/src/drag_n_teach/poses/pose.csv', 'w') as csvfile:
+    with open(home + '/catkin_ws/src/drag_n_teach/poses/pose.csv', 'w') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['x', 'y', 'z', 'qx', 'qy', 'qz', 'qw'])
-        print("Press Enter to start recording poses.")
-        input()
         while not rospy.is_shutdown():
-            getPose()
-            time.sleep(0.5)
+            pose = getPose()
+            print("Current pose:\n", pose)
+            try: 
+                print("Press Enter to record a pose.")
+                input()
+            except KeyboardInterrupt:
+                print("Shutting down")
+                rospy.signal_shutdown("KeyboardInterrupt")
+                moveit_commander.roscpp_shutdown()
+                break
             writer.writerow([pose.position.x, pose.position.y, pose.position.z, pose.orientation.x, pose.orientation.y, pose.orientation.z, pose.orientation.w])
             print("Position saved.")
         csvfile.close()
