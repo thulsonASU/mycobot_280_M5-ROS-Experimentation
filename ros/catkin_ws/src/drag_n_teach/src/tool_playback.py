@@ -21,62 +21,48 @@ import rospy
 import csv
 from sensor_msgs.msg import JointState
 import time
-from pymycobot.mycobot import MyCobot
+# from pymycobot.mycobot import MyCobot
 from pathlib import Path
+
 
 class tool_playback():
     
-    def __init__(self, guiDir = None) -> None:
-        # Get user directory path
-        self.home = str(Path.home())
+    def __init__(self,guiDir) -> None:
+        self.BTN_flag = False
+        self.initalizedGlobals = False
+        self.directory = guiDir
 
-        if guiDir is None:
-            self.directory = self.home + '/catkin_ws/src/drag_n_teach/poses'
-        else:
-            self.directory = guiDir
-        
-        # Initialize the node
-        rospy.init_node('joint_state_publisher')
-    
+    def initalizeGlobals(self):
+        global joint_state
         # Create a JointState message
-        self.joint_state = JointState()
-        
-        global mc
-        # Initialize robot if it exists
-        if rospy.has_param('robot'):
-            port = rospy.get_param("~port", "/dev/ttyACM0")
-            baud = rospy.get_param("~baud", 115200)
-            print(port, baud)
-            self.mc = MyCobot(port, baud)
-        else:
-            self.mc = None
+        joint_state = JointState()
+
+        self.initalizedGlobals = True
 
     # Custom node to publish joint states
     def publish_joint_states(self,joint_values):
-
         # Create a publisher
         pub = rospy.Publisher('/joint_states', JointState, queue_size=10)
 
-        self.joint_state.name = ['joint2_to_joint1','joint3_to_joint2','joint4_to_joint3','joint5_to_joint4','joint6_to_joint5','joint6output_to_joint6']  # Replace with your joint names
+        joint_state.name = ['joint2_to_joint1','joint3_to_joint2','joint4_to_joint3','joint5_to_joint4','joint6_to_joint5','joint6output_to_joint6']  # Replace with your joint names
         # slice the first 5 elements for positional values
-        self.joint_state.position = joint_values[:6]
+        joint_state.position = joint_values[:6]
         # slice the last 5 elements for velocity values
-        self.joint_state.velocity = joint_values[6:]
+        joint_state.velocity = joint_values[6:]
 
-        self.joint_state.header.stamp = rospy.Time.now()
-        print("Publishing joint_state:\n", self.joint_state)
-        pub.publish(self.joint_state)
-
-    # From Slider Control demo
-    def callback(self,data):
-        print(data.position)
-        data_list = []
-        for index, value in enumerate(data.position):
-            data_list.append(value)
-
-        self.mc.send_radians(data_list, 80)
+        joint_state.header.stamp = rospy.Time.now()
+        print("Publishing joint_state:\n", joint_state)
+        pub.publish(joint_state)
 
     def run(self):
+        if self.BTN_flag == True and self.initalizedGlobals == False:
+            self.initalizeGlobals()
+        elif self.initalizedGlobals == True:
+            pass
+        else:
+            print("Please Launch Player First")
+            return
+        
         # read in joint angles from csv file
         with open(self.directory + '/joint_vals.csv', 'r') as csvfile:
             reader = csv.reader(csvfile)
@@ -89,11 +75,8 @@ class tool_playback():
         joint_vals.pop(0)
         # convert string to float
         joint_vals = [[float(j) for j in i] for i in joint_vals]
-        # wait for rviz to load
-        time.sleep(3)
-        # set initial joint angle for robot model
-        self.publish_joint_states([0,0,0,0,0,0])
-        input("Press Enter to playback joint angles.")
+        print("Beginning Playback")
+        time.sleep(1)
         try:
             for joint in joint_vals:
                 # Check if interrupted and shutting down
@@ -103,16 +86,13 @@ class tool_playback():
                 # publish joints to robot (if linked to joint_state_publisher)
                 self.publish_joint_states(joint)
 
-                # # if a robot is connected then subscribe to the joint_states
-                if self.mc is not None:
-                    rospy.Subscriber("/joint_states", JointState, self.callback)
-
                 time.sleep(0.05)  # Add a delay for visualization and sample rate
             print("Playback Complete")
         except KeyboardInterrupt:
             print("Shutting down")
             rospy.signal_shutdown("KeyboardInterrupt")
 
-if __name__ == '__main__':
-    tool = tool_playback()
-    tool.run()
+if __name__ == "__main__":
+    # Initialize the node
+    if not rospy.core.is_initialized():
+        rospy.init_node('tool_playback')

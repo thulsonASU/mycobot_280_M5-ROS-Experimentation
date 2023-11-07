@@ -26,41 +26,44 @@ from geometry_msgs.msg import Pose
 import sys
 from pathlib import Path
 
+
 class tool_cordtopose():
 
-    def __init__(self,guiDir = ''):
-
-        # Initialize the node
-        rospy.init_node('tool_cordtopose')
-
-        # Get user directory path
-        self.home = str(Path.home())
-
-        global pose
+    def __init__(self,guiDir):
+        self.BTN_flag = False
+        self.initalizedGlobals = False
+        self.directory = guiDir
+    
+    def initalizeGlobals(self):
+        global planning_scene, group, pose
+        # Initialize the move_group API
+        moveit_commander.roscpp_initialize(sys.argv) # cpp wrapper for moveit
+        # Initialize the move_group API
+        planning_scene = moveit_commander.PlanningSceneInterface()
+        group = moveit_commander.MoveGroupCommander('arm_group', ns='/')
         pose = Pose()
-
-        if guiDir == '':
-            self.directory = self.home + '/catkin_ws/src/drag_n_teach/poses'
-        else:
-            self.directory = guiDir
 
         with open(self.directory + '/poses.csv', 'w') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(['x', 'y', 'z', 'qx', 'qy', 'qz', 'qw'])
         csvfile.close()
-    
+        
+        self.initalizedGlobals = True
+
     def getPose(self):
-        # use moveit commander to get pose
-        # Initialize the move_group API
-        moveit_commander.roscpp_initialize(sys.argv) # cpp wrapper for moveit
-        # Initialize the MoveGroupCommander for the robot
-        # robot = moveit_commander.RobotCommander()
-        group = moveit_commander.MoveGroupCommander('arm_group', ns='/')
         # Get the current pose of the end effector
         pose = group.get_current_pose().pose
         return pose
 
     def run(self):
+        if self.BTN_flag == True and self.initalizedGlobals == False:
+            self.initalizeGlobals()
+        elif self.initalizedGlobals == True:
+            pass
+        else:
+            print("Please Launch Teacher First")
+            return
+        
         with open(self.directory + '/poses.csv', 'a') as csvfile:
             writer = csv.writer(csvfile)
             pose = self.getPose()
@@ -68,3 +71,8 @@ class tool_cordtopose():
             writer.writerow([pose.position.x, pose.position.y, pose.position.z, pose.orientation.x, pose.orientation.y, pose.orientation.z, pose.orientation.w])
             print("Position saved.")
         csvfile.close()
+
+if __name__ == "__main__":
+    # Initialize the node
+    if not rospy.core.is_initialized():
+        rospy.init_node('tool_cordtopose')
