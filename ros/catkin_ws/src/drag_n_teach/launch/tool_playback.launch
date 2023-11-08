@@ -1,23 +1,16 @@
 <launch>
 	
 	<arg name="model" default="$(find mycobot_description)/urdf/mycobot/mycobot_urdf.urdf"/>
-	<!-- <arg name="rvizconfig" default="$(find mycobot_280)/config/mycobot.rviz" /> -->
 	<arg name="gui" default="true" />
 	<arg name="rvizconfig" default="$(find drag_n_teach)/config/rviz_traj_config.rviz" />
-	<!-- <arg name="debug" default="false" /> -->
 
 	<param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />
 	
 	<!-- Semantic Description -->
 	<param name="robot_description_semantic" textfile="$(find mycobot_280_moveit)/config/firefighter.srdf"/>
 
-	<!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"> -->
 	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-	<!-- <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui">  -->
-		<!-- <param name="use_gui" value="$(arg gui)" />	 -->
-		<!-- <rosparam param="source_list" subst_value="true">["joint_states"]</rosparam> -->
-	<!-- </node> -->
-	<!-- Open and run tool-cordtopose.py -->
+
 	<node name="tool_playback" pkg="drag_n_teach" type="tool_playback.py" output="screen">
 	</node>
 

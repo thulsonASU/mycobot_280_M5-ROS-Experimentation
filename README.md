@@ -26,7 +26,17 @@ The script itself is located in ros/catkin_ws/src/pick_n_place/src/ titled pick_
 * Terminal 4 will run: ```roslaunch pick_n_place picknplace.launch # activates services```
 * Terminal 5 will execute the script by running: ```rosrun pick_n_place pick_n_place.py # main script executing commands```
 
-# Personal ELog
+## Custom Drag and Teach Package
+The package uses a GUI to allow the user ease of process control as compared to the Pick and Place Package. The GUI is designed to allow a user to teach and train the robot to perform various movements in the world frame. Currently the GUI does not support connecting a physical robot, and it is capable of demonstrating and playing back the trained trajectories using the robot visualizer and joint_state message. Theoretically one can connect a robot to it and run it side by side as a digital twin (Potential Future Work). To use the Drag and Teach package make sure to source the workspace by using ```source devel/setup.bash``` in the catkin_ws. Then simply launch ```roslaunch drag_n_teach drag_n_teach_gui.launch``` to start the GUI. Currently, a possible bug may be present where ```roscore``` needs to be ran at least one bevore using the GUI. The GUI should start roscore on its own if it is not already started. Have fun with the GUI! A video on it is posted below!
+
+### Code Sources Used to Help Create Drag and Teach Package
+Oh I recommend looking up catkin build (It is way better at building packages than catkin_make) <br />
+[Elephant Robotics mycobot280 ROS Github Examples](https://github.com/elephantrobotics/mycobot_ros)
+
+### Drag and Teach GUI (MFG 598: Engineering Computing w/Python Final Project Fall 2023)
+#### INSERT VIDEO HERE
+
+# Personal Engineering Log (Might be a fun read :D) (Initial Experimentation Spring 2023)
 
 ### Day 1: Linux
 Linux was the first big challenge/hurdle to this project. I started out using an old Dell Inspirion laptop running an older version of BIOS evidently before UEFI. This presented the challenge of how to boot a Linux Distribution, in my case Ubuntu, onto the laptop. The laptop itself is running Windows 7 Home Professional. After attempting a work around with several different versions of Rufus to hopefully find one that would work with the older BIOS; I ended up formatting the Ubuntu image onto a USB and made it bootable using Rufus 3.21 on a Lenovo Thinkpad.
@@ -948,49 +958,6 @@ https://user-images.githubusercontent.com/100303302/224509749-d5c73bf9-b2f6-4ef0
 
 ![Robot_PicknPlaceF](https://user-images.githubusercontent.com/100303302/224509486-a2d47ba8-f053-438e-8db7-744ff1fbf8e0.gif)
 Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
-
-
-# 7 rviz URDF Model *.csv read/write/trajectory control
-```sh
-source devel/setup.bash # source workspace
-# roslaunch mycobot_280 slider_control_gripper.launch port:=/dev/ttyUSB0 baud:=115200 #launch file for rviz with slider control (state publisher)
-# The above example is no longer supported, I no longer have access to a robot within my acceptable hours to create a functional script that interfaces with it.
-
-# Integrated slider control into drag_n_teach tool_cordtopose.launch
-
-# goal
-# write a basic script that can send joint data to the state publisher and vizualize it using the mycobot_280 github
-# The launch file sets up the necessary nodes and defines the urdf mode lfor rviz located in the mycobot_280 pkg mycobot_description directory
-# first start by making a new package for the traj control and *.csv read write tools
-catkin_create_pkg drag_n_teach
-# package name is no longer for just a physical robot due to project limitations
-# unable to acess physical robot for the time required to test. Will have to rely on rviz to vizualize everything I am testing.
-# note to self: Send project update email to proff (project now scopped for trajectory control without moveit due to time constraints)
-# I am skipping a few steps but the pkg is setup and I already have an src dir and launch dir with two files for getting data from a physical robot and putting it in a *.csv. Will modify to get data from just rviz and state publisher so I can still develop my script without a physical robot.
-roslaunch drag_n_teach tool_cordpose.launch
-```
-
-## 7.1 Read csv file of saved poses and convert them to joint angles
-```sh
-# The main goal here is to convert poses from the pose.csv to joint angles and store them in nested dictionaries.
-# Take the list and then pass it to a trajectory solver to interpolate the angles required from one pose to another.
-# Then write them to a new csv file to view the output
-
-# Bonus get the robot to move from one pose to another with or without the trajectory solver using the visualizer.
-ps -a 
-# checks for running processes
-
-# Currently working to configure launch files and set up yaml/xml config for moveit commander
-# Adjusting to see if I can get the robot pose from the move it commander and just pass that to a csv instead of taking it from the robot message. 
-# The pose generated from that is not quite right, however it does give me joint angles, maybe I sohuld stick to those...
-
-# Will attempt with moveit commander and perhaps to a secon set with joint angles.
-# Compare versions as needed.
-
-roslaunch drag_n_teach tool_posecord.launch
-
-# Updating this would be painful, gonna just write about it in my report...
-```
 
 ## Additional Reasources
 

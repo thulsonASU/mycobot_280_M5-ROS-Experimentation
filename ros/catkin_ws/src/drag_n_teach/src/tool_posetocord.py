@@ -1,28 +1,39 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-'''
-Author: Tyler Hulson
-Dependancies: scipy,rospy,csv,moveit_commander,geometry_msgs,moveit_msgs,sensor_msgs,time,sys
-How To Use:
-Launch 2 terminal windows
-depending on .bashrc configuration you will need to sorce devel/setup.bash for each terminal (this assumes a built workspace)
+"""
+This script converts a pose to joint angles and writes the joint angles to a csv file. 
+It uses the MoveIt! library to plan a trajectory from the current pose to the target pose. 
+If the trajectory is not valid, it plans a joint move instead. 
+The joint angles are written to a csv file for later use. 
 
-terminal 1: CLI Run: 
-roscore
+Dependencies:
+- rospy
+- csv
+- sys
+- moveit_commander
+- numpy
+- geometry_msgs.msg.Pose
+- moveit_msgs.msg.RobotState
+- sensor_msgs.msg.JointState
+- moveit_msgs.msg.RobotTrajectory
+- moveit_msgs.srv.GetStateValidityRequest
+- moveit_msgs.srv.GetStateValidity
 
-terminal 2: CLI Run: 
-roslaunch drag_n_teach tool_posecord.launch
+Usage:
+1. Launch the trainer
+2. Initialize the tool_posetocord class
+3. Set the planner id
+4. Initialize the reader
+5. Run the tool_posetocord class to convert poses to joint angles and write them to a csv file
 
-Description:
-This script is used to convert poses from the tool_cordtopose.py script into joint angles for the robot to follow.
-The joint angles are saved to a csv file for later use.
-'''
+Note: This script is intended to be used as part of the drag_n_teach package. 
+"""
 
 import rospy
 import csv
 import sys
 import moveit_commander
-from pathlib import Path
+import numpy as np
 from geometry_msgs.msg import Pose
 from moveit_msgs.msg import RobotState
 from sensor_msgs.msg import JointState
@@ -40,6 +51,9 @@ class tool_posetocord():
         self.group_names_vel = ['joint2_to_joint1_vel','joint3_to_joint2_vel','joint4_to_joint3_vel','joint5_to_joint4_vel','joint6_to_joint5_vel','joint6output_to_joint6_vel']    
 
     def initalizeGlobals(self):
+        """
+        Initializes global variables for the MoveIt! library and sets the current pose as the previous pose.
+        """
         global robot_state, trajectory, planning_scene, group, pose, prev_pose
         # Initialize the move_group API
         moveit_commander.roscpp_initialize(sys.argv) # cpp wrapper for moveit
@@ -63,12 +77,18 @@ class tool_posetocord():
         self.initalizedGlobals = True
     
     def initalizeReader(self):
+        """
+        Initializes the reader for the poses.csv file.
+        """
         # initalize poses.csv
-        self.csv_poses = open(self.directory + '/poses.csv', 'r')
-        self.reader = csv.reader(self.csv_poses)
-        next(self.reader)  # Skip the header row
+        # Satisfies NumPy Requirement for PyCourse
+        self.csv_poses = np.loadtxt(self.directory + '/poses.csv', delimiter=',', skiprows=1)
+        print("poses: ", self.csv_poses)
     
     def setPlanner(self, planner):
+        """
+        Sets the planner id for the MoveIt! library.
+        """
         if self.BTN_flag == True and self.initalizedGlobals == False:
             # Initialize the class after launch
             self.initalizeGlobals()
@@ -82,6 +102,9 @@ class tool_posetocord():
             group.set_planner_id(planner) 
         
     def getJoints(self, row):
+        """
+        Converts a pose to joint angles using the MoveIt! library.
+        """
         # Initialize the MoveGroupCommander for the robot
         # robot = moveit_commander.RobotCommander()
         # row is a list of inputs from comma seperated values and each [i] is a column in the csv file
@@ -146,6 +169,9 @@ class tool_posetocord():
         return joint_values, target_joint_values
 
     def run(self):
+        """
+        Runs the tool_posetocord class to convert poses to joint angles and write them to a csv file.
+        """
         if self.BTN_flag == True and self.initalizedGlobals == False:
             # Initialize the class after launch
             self.initalizeGlobals()
@@ -156,8 +182,10 @@ class tool_posetocord():
             return
         
         try:
-            row = next(self.reader)
-        except StopIteration:
+            # iterate through csv_poses
+            # Satisfies NumPy Requirement for PyCourse
+            row = self.csv_poses[self.rowNum]
+        except IndexError:
             print("All rows have been processed.")
             return
 

@@ -1,16 +1,11 @@
 <launch>
-	<!-- By default, we do not start a database (it can be large) -->
-	<!-- 默认情况下，我们不启动数据库（它可能很大） -->
+
 	<arg name="db" default="false" />
-	<!-- Allow user to specify database location -->
-	<!-- 允许用户指定数据库位置 -->
 	<arg name="db_path" default="$(find mycobot_280_moveit)/default_warehouse_mongo_db" />
 	
 	<arg name="model" default="$(find mycobot_description)/urdf/mycobot/mycobot_urdf.urdf"/>
-	<!-- <arg name="rvizconfig" default="$(find mycobot_280)/config/mycobot.rviz" /> -->
 	<arg name="gui" default="true" />
 	<arg name="rvizconfig" default="$(find drag_n_teach)/config/rviz_traj_config.rviz" />
-	<!-- <arg name="debug" default="false" /> -->
 
 	<param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />
 	
@@ -21,18 +16,13 @@
 	
 	<!-- Start the move_group action server -->
   	<include file="$(find mycobot_280_moveit)/launch/move_group.launch">
-	    <!-- <arg name="allow_trajectory_execution" value="true"/> -->
     	<arg name="fake_execution" value="true"/>
-    	<!-- <arg name="info" value="true"/> -->
-    	<!-- <arg name="debug" value="$(arg debug)"/> -->
   	</include>
 
-	<!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"> -->
 	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 	<node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui"> 
-		<!-- <param name="use_gui" value="$(arg gui)" />	 -->
-		<!-- <rosparam param="source_list" subst_value="true">["joint_states"]</rosparam> -->
 	</node>
+
 	<!-- Open and run tool-cordtopose.py -->
 	<node name="tool_posetocord" pkg="drag_n_teach" type="tool_posetocord.py" output="screen">
 	</node>

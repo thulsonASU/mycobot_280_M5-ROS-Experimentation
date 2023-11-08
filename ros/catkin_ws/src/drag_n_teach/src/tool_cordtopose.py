@@ -1,31 +1,36 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-'''
-Author: Tyler Hulson
-Dependancies: mycobot_communication, roscore, pymycobot, geometry_msgs, csv, math, time, rospy
-How To Use:
-Launch 2 terminal windows
-depending on .bashrc configuration you will need to sorce devel/setup.bash for each terminal (this assumes a built workspace)
 
-terminal 1: CLI Run: 
-roscore
+# write an approrpiate comment block that describes this script, what it does, how it works, and its dependancies
+"""
+This script is used to save the current pose of the end effector to a CSV file. 
+It is designed to be used with the Drag_n_Teach ROS package. 
 
-terminal 2: CLI Run: 
-roslaunch drag_n_teach tool_cordtopose.launch
+Dependencies:
+- rospy
+- csv
+- moveit_commander
+- geometry_msgs.msg.Pose
+- sys
 
-Description:
-The script is designed to record poses from the robot after adjusting the joint angle sliders in the joint_state_publisher_gui.
-User will press enter to save a position once the sliders have been adjusted.
-'''
+How it works:
+- The tool_cordtopose class is defined with methods to initialize global variables, get the current pose of the end effector, and run the script.
+- When the script is run, it initializes the move_group API, creates a PlanningSceneInterface, and creates a MoveGroupCommander for the arm_group.
+- The getPose method is used to get the current pose of the end effector.
+- The run method is used to save the current pose to a CSV file.
+- The script is designed to be used with the Drag_n_Teach GUI, which sets the guiDir variable to the directory where the CSV file should be saved.
 
-from typing import Any
+Usage:
+- Launch the Drag_n_Teach GUI.
+- Run the tool_cordtopose.py script.
+- Press the "Save Pose" button in the GUI to save the current pose of the end effector to the CSV file.
+"""
+
 import rospy
 import csv
 import moveit_commander
 from geometry_msgs.msg import Pose
 import sys
-from pathlib import Path
-
 
 class tool_cordtopose():
 
