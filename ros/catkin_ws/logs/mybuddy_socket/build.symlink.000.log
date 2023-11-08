@@ -1,0 +1,10 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/mybuddy_socket.pc
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/listen_real.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/follow_display.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/listen_real_of_topic.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/slider_control.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/teleop_keyboard.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mybuddy_socket/simple_gui.py
+Symlinking /home/thulson/catkin_ws/devel/share/mybuddy_socket/cmake/mybuddy_socketConfig.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/mybuddy_socket/cmake/mybuddy_socketConfig-version.cmake

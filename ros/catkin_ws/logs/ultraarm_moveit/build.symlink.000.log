@@ -1,0 +1,6 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/ultraarm_moveit.pc
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm_moveit/sync_plan.py
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm_moveit/path_planning_and_obstacle_avoidance_demo.py
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm_moveit/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/share/ultraarm_moveit/cmake/ultraarm_moveitConfig-version.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/ultraarm_moveit/cmake/ultraarm_moveitConfig.cmake

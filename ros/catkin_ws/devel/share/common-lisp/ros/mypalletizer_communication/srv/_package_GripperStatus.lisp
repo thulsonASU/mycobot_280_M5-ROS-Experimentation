@@ -1,6 +1,1 @@
-(cl:in-package mypalletizer_communication-srv)
-(cl:export '(STATUS-VAL
-          STATUS
-          FLAG-VAL
-          FLAG
-))
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/common-lisp/ros/mypalletizer_communication/srv/_package_GripperStatus.lisp

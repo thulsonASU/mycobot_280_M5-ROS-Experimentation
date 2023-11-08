@@ -1,0 +1,6 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/mycobot_280jn_moveit.pc
+Symlinking /home/thulson/catkin_ws/devel/lib/mycobot_280jn_moveit/sync_plan.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mycobot_280jn_moveit/path_planning_and_obstacle_avoidance_demo.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mycobot_280jn_moveit/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/share/mycobot_280jn_moveit/cmake/mycobot_280jn_moveitConfig.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/mycobot_280jn_moveit/cmake/mycobot_280jn_moveitConfig-version.cmake

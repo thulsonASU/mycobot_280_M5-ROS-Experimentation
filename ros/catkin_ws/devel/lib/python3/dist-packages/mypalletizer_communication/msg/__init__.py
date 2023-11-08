@@ -1,6 +1,1 @@
-from ._MypalAngles import *
-from ._MypalCoords import *
-from ._MypalGripperStatus import *
-from ._MypalPumpStatus import *
-from ._MypalSetAngles import *
-from ._MypalSetCoords import *
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/lib/python3/dist-packages/mypalletizer_communication/msg/__init__.py

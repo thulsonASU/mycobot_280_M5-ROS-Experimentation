@@ -1,17 +1,1 @@
-(cl:defpackage mycobot_communication-msg
-  (:use )
-  (:export
-   "<MYCOBOTANGLES>"
-   "MYCOBOTANGLES"
-   "<MYCOBOTCOORDS>"
-   "MYCOBOTCOORDS"
-   "<MYCOBOTGRIPPERSTATUS>"
-   "MYCOBOTGRIPPERSTATUS"
-   "<MYCOBOTPUMPSTATUS>"
-   "MYCOBOTPUMPSTATUS"
-   "<MYCOBOTSETANGLES>"
-   "MYCOBOTSETANGLES"
-   "<MYCOBOTSETCOORDS>"
-   "MYCOBOTSETCOORDS"
-  ))
-
+/home/thulson/catkin_ws/devel/.private/mycobot_communication/share/common-lisp/ros/mycobot_communication/msg/_package.lisp

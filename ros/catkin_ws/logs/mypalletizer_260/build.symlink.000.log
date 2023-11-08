@@ -1,0 +1,13 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/mypalletizer_260.pc
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/listen_real.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/follow_display.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/following_marker.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/follow_and_pump.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/listen_real_of_topic.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/slider_control.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/teleop_keyboard.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/simple_gui.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260/detect_marker.py
+Symlinking /home/thulson/catkin_ws/devel/share/mypalletizer_260/cmake/mypalletizer_260Config-version.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/mypalletizer_260/cmake/mypalletizer_260Config.cmake

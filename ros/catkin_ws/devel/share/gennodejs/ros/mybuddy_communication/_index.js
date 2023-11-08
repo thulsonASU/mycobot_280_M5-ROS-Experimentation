@@ -1,7 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-  srv: require('./srv/_index.js')
-};
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/share/gennodejs/ros/mybuddy_communication/_index.js

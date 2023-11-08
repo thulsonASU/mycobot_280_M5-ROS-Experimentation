@@ -1,12 +1,1 @@
-(cl:in-package mypalletizer_communication-msg)
-(cl:export '(JOINT_1-VAL
-          JOINT_1
-          JOINT_2-VAL
-          JOINT_2
-          JOINT_3-VAL
-          JOINT_3
-          JOINT_4-VAL
-          JOINT_4
-          SPEED-VAL
-          SPEED
-))
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/common-lisp/ros/mypalletizer_communication/msg/_package_MypalSetAngles.lisp

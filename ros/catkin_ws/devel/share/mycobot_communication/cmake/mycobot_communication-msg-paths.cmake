@@ -1,4 +1,1 @@
-# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
-
-set(mycobot_communication_MSG_INCLUDE_DIRS "/home/tyler/catkin_ws/src/mycobot_ros/mycobot_communication/msg")
-set(mycobot_communication_MSG_DEPENDENCIES std_msgs)
+/home/thulson/catkin_ws/devel/.private/mycobot_communication/share/mycobot_communication/cmake/mycobot_communication-msg-paths.cmake

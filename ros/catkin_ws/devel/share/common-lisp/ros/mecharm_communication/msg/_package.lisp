@@ -1,17 +1,1 @@
-(cl:defpackage mecharm_communication-msg
-  (:use )
-  (:export
-   "<MYCOBOTANGLES>"
-   "MYCOBOTANGLES"
-   "<MYCOBOTCOORDS>"
-   "MYCOBOTCOORDS"
-   "<MYCOBOTGRIPPERSTATUS>"
-   "MYCOBOTGRIPPERSTATUS"
-   "<MYCOBOTPUMPSTATUS>"
-   "MYCOBOTPUMPSTATUS"
-   "<MYCOBOTSETANGLES>"
-   "MYCOBOTSETANGLES"
-   "<MYCOBOTSETCOORDS>"
-   "MYCOBOTSETCOORDS"
-  ))
-
+/home/thulson/catkin_ws/devel/.private/mecharm_communication/share/common-lisp/ros/mecharm_communication/msg/_package.lisp

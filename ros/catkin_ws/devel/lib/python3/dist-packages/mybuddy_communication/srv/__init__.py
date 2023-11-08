@@ -1,6 +1,1 @@
-from ._GetAngles import *
-from ._GetCoords import *
-from ._GripperStatus import *
-from ._PumpStatus import *
-from ._SetAngles import *
-from ._SetCoords import *
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/lib/python3/dist-packages/mybuddy_communication/srv/__init__.py

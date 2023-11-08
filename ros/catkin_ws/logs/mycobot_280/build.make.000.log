@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target opencv_camera[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/opencv_camera.dir/src/opencv_camera.cpp.o[0m
+[35m[1mScanning dependencies of target camera_display[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_display.dir/src/camera_display.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/thulson/catkin_ws/devel/.private/mycobot_280/lib/mycobot_280/camera_display[0m
+[100%] [32m[1mLinking CXX executable /home/thulson/catkin_ws/devel/.private/mycobot_280/lib/mycobot_280/opencv_camera[0m
+[100%] Built target camera_display
+[100%] Built target opencv_camera

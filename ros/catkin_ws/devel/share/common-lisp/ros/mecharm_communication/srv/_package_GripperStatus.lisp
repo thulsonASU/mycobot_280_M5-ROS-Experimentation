@@ -1,6 +1,1 @@
-(cl:in-package mecharm_communication-srv)
-(cl:export '(STATUS-VAL
-          STATUS
-          FLAG-VAL
-          FLAG
-))
+/home/thulson/catkin_ws/devel/.private/mecharm_communication/share/common-lisp/ros/mecharm_communication/srv/_package_GripperStatus.lisp

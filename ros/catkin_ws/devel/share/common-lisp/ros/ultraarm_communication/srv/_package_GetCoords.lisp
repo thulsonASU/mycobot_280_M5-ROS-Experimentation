@@ -1,8 +1,1 @@
-(cl:in-package ultraarm_communication-srv)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-          Z-VAL
-          Z
-))
+/home/thulson/catkin_ws/devel/.private/ultraarm_communication/share/common-lisp/ros/ultraarm_communication/srv/_package_GetCoords.lisp

@@ -1,8 +1,1 @@
-(cl:in-package mybuddy_communication-msg)
-(cl:export '(STATUS-VAL
-          STATUS
-          PIN1-VAL
-          PIN1
-          PIN2-VAL
-          PIN2
-))
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/share/common-lisp/ros/mybuddy_communication/msg/_package_MybuddyPumpStatus.lisp

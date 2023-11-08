@@ -1,4 +1,1 @@
-(cl:in-package mecharm_communication-msg)
-(cl:export '(STATUS-VAL
-          STATUS
-))
+/home/thulson/catkin_ws/devel/.private/mecharm_communication/share/common-lisp/ros/mecharm_communication/msg/_package_MycobotGripperStatus.lisp

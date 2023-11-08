@@ -19,14 +19,24 @@ To disclose, the robot I used to make this git repo was not calibrated myself. I
 This was straight forward for me. As long as you are using the correct Ubuntu distro supported by ROS installing ROS and setting up the environment should be as simple as following the tutorial provided by the [gitbook](https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/) from Elephant Robotics. After installing ROS, MoveIt, Git, and the necessary precondition steps, we can move onto learning how to use my pick and place script.
 
 ## Custom Pick and Place Package
-The script itself is located in ros/catkin_ws/src/pick_n_place/src/ titled pick_n_place.py. To run te script you will need 5 terminals open. All terminals need to be in the catkin_ws. If you made any modifications to the script you will need to rebuild the ws using ```catkin_make```. If your USB port is named differently you will have to change the port that the robot is connected to. Use ```dmesg``` to find the port.
+The script itself is located in ros/catkin_ws/src/pick_n_place/src/ titled pick_n_place.py. To run the script you will need 5 terminals open. All terminals need to be in the catkin_ws. If you made any modifications to the script you will need to rebuild the ws using ```catkin_make```. If your USB port is named differently you will have to change the port that the robot is connected to. Use ```dmesg``` to find the port.
 * Terminal 1 will run: ```roscore # The master for ROS```
 * Terminal 2 will run: ```roslaunch mycobot_280_moveit mycobot_moveit.launch # activates moveit motion planning```
 * Terminal 3 will run: ```rosrun mycobot_280_moveit sync_plan.py _port:=/dev/ttyACM0 _baud:=115200 # connects robot to moveit motion planner```
 * Terminal 4 will run: ```roslaunch pick_n_place picknplace.launch # activates services```
 * Terminal 5 will execute the script by running: ```rosrun pick_n_place pick_n_place.py # main script executing commands```
 
-# Personal ELog
+## Custom Drag and Teach Package
+The package uses a GUI to allow the user ease of process control as compared to the Pick and Place Package. The GUI is designed to allow a user to teach and train the robot to perform various movements in the world frame. Currently the GUI does not support connecting a physical robot, and it is capable of demonstrating and playing back the trained trajectories using the robot visualizer and joint_state message. Theoretically one can connect a robot to it and run it side by side as a digital twin (Potential Future Work). To use the Drag and Teach package make sure to source the workspace by using ```source devel/setup.bash``` in the catkin_ws. Then simply launch ```roslaunch drag_n_teach drag_n_teach_gui.launch``` to start the GUI. Currently, a possible bug may be present where ```roscore``` needs to be ran at least once before using the GUI. The GUI should start roscore on its own if it is not already started. Have fun with the GUI! A video on it is posted below!
+
+### Code Sources Used to Help Create Drag and Teach Package
+Oh I recommend looking up catkin build (It is way better at building packages than catkin_make) <br />
+[Elephant Robotics mycobot280 ROS Github Examples](https://github.com/elephantrobotics/mycobot_ros)
+
+### Drag and Teach GUI (MFG 598: Engineering Computing w/Python Final Project Fall 2023)
+#### INSERT VIDEO HERE
+
+# Personal Engineering Log (Might be a fun read :D) (Initial Experimentation Spring 2023)
 
 ### Day 1: Linux
 Linux was the first big challenge/hurdle to this project. I started out using an old Dell Inspirion laptop running an older version of BIOS evidently before UEFI. This presented the challenge of how to boot a Linux Distribution, in my case Ubuntu, onto the laptop. The laptop itself is running Windows 7 Home Professional. After attempting a work around with several different versions of Rufus to hopefully find one that would work with the older BIOS; I ended up formatting the Ubuntu image onto a USB and made it bootable using Rufus 3.21 on a Lenovo Thinkpad.
@@ -948,6 +958,7 @@ https://user-images.githubusercontent.com/100303302/224509749-d5c73bf9-b2f6-4ef0
 
 ![Robot_PicknPlaceF](https://user-images.githubusercontent.com/100303302/224509486-a2d47ba8-f053-438e-8db7-744ff1fbf8e0.gif)
 Robot Blooper Reel: https://youtu.be/PgStfSTXCNo
+
 ## Additional Reasources
 
 ### URL Archive

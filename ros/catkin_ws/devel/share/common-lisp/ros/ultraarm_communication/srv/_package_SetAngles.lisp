@@ -1,12 +1,1 @@
-(cl:in-package ultraarm_communication-srv)
-(cl:export '(JOINT_1-VAL
-          JOINT_1
-          JOINT_2-VAL
-          JOINT_2
-          JOINT_3-VAL
-          JOINT_3
-          SPEED-VAL
-          SPEED
-          FLAG-VAL
-          FLAG
-))
+/home/thulson/catkin_ws/devel/.private/ultraarm_communication/share/common-lisp/ros/ultraarm_communication/srv/_package_SetAngles.lisp

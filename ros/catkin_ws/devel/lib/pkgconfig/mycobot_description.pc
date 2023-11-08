@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: mycobot_description
-Description: Description of mycobot_description
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/thulson/catkin_ws/devel/.private/mycobot_description/lib/pkgconfig/mycobot_description.pc

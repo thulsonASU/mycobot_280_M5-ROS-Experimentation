@@ -1,4 +1,1 @@
-(cl:in-package ultraarm_communication-msg)
-(cl:export '(STATUS-VAL
-          STATUS
-))
+/home/thulson/catkin_ws/devel/.private/ultraarm_communication/share/common-lisp/ros/ultraarm_communication/msg/_package_ultraArmPumpStatus.lisp

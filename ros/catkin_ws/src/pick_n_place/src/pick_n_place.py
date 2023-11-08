@@ -9,7 +9,6 @@ from rospy import ServiceException
 from pymycobot.mycobot import MyCobot
 from pymycobot.genre import Angle
 
-
 class pick_n_place:
     def __init__(self):
         print("Attempting Service Connection...")
@@ -150,9 +149,9 @@ class pick_n_place:
 x: 122.69999694824219
 y: -94.5
 z: 93.30000305175781
-rx: 174.3000030517578
-ry: 13.329999923706055
-rz: -153.4600067138672
+rx: 174.3000030517578 roll
+ry: 13.329999923706055 pitch
+rz: -153.4600067138672 yaw
 
         """
         # Raw Coord Data

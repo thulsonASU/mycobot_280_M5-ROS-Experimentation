@@ -1,0 +1,3 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/drag_n_teach.pc
+Symlinking /home/thulson/catkin_ws/devel/share/drag_n_teach/cmake/drag_n_teachConfig.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/drag_n_teach/cmake/drag_n_teachConfig-version.cmake

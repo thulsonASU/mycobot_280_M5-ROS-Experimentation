@@ -1,0 +1,3 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/cobotx_a450_moveit.pc
+Symlinking /home/thulson/catkin_ws/devel/share/cobotx_a450_moveit/cmake/cobotx_a450_moveitConfig.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/cobotx_a450_moveit/cmake/cobotx_a450_moveitConfig-version.cmake

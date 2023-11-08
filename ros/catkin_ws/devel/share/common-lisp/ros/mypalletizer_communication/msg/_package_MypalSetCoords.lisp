@@ -1,14 +1,1 @@
-(cl:in-package mypalletizer_communication-msg)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-          Z-VAL
-          Z
-          RX-VAL
-          RX
-          SPEED-VAL
-          SPEED
-          MODEL-VAL
-          MODEL
-))
+/home/thulson/catkin_ws/devel/.private/mypalletizer_communication/share/common-lisp/ros/mypalletizer_communication/msg/_package_MypalSetCoords.lisp

@@ -1,8 +1,1 @@
-(cl:in-package mecharm_communication-msg)
-(cl:export '(STATUS-VAL
-          STATUS
-          PIN1-VAL
-          PIN1
-          PIN2-VAL
-          PIN2
-))
+/home/thulson/catkin_ws/devel/.private/mecharm_communication/share/common-lisp/ros/mecharm_communication/msg/_package_MycobotPumpStatus.lisp

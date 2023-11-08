@@ -1,0 +1,9 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/ultraarm.pc
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm/listen_real.py
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm/listen_real_of_topic.py
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm/slider_control.py
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm/teleop_keyboard.py
+Symlinking /home/thulson/catkin_ws/devel/lib/ultraarm/simple_gui.py
+Symlinking /home/thulson/catkin_ws/devel/share/ultraarm/cmake/ultraarmConfig.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/ultraarm/cmake/ultraarmConfig-version.cmake

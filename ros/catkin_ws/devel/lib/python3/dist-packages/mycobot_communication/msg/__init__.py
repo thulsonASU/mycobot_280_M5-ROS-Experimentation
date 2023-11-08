@@ -1,6 +1,1 @@
-from ._MycobotAngles import *
-from ._MycobotCoords import *
-from ._MycobotGripperStatus import *
-from ._MycobotPumpStatus import *
-from ._MycobotSetAngles import *
-from ._MycobotSetCoords import *
+/home/thulson/catkin_ws/devel/.private/mycobot_communication/lib/python3/dist-packages/mycobot_communication/msg/__init__.py

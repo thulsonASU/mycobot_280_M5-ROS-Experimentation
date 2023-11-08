@@ -1,8 +1,1 @@
-prefix=/home/tyler/catkin_ws/devel
-
-Name: ai_mypalletizer_260
-Description: Description of ai_mypalletizer_260
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/thulson/catkin_ws/devel/.private/ai_mypalletizer_260/lib/pkgconfig/ai_mypalletizer_260.pc

@@ -1,18 +1,1 @@
-
-"use strict";
-
-let MybuddyCoords = require('./MybuddyCoords.js');
-let MybuddySetCoords = require('./MybuddySetCoords.js');
-let MybuddyGripperStatus = require('./MybuddyGripperStatus.js');
-let MybuddyPumpStatus = require('./MybuddyPumpStatus.js');
-let MybuddyAngles = require('./MybuddyAngles.js');
-let MybuddySetAngles = require('./MybuddySetAngles.js');
-
-module.exports = {
-  MybuddyCoords: MybuddyCoords,
-  MybuddySetCoords: MybuddySetCoords,
-  MybuddyGripperStatus: MybuddyGripperStatus,
-  MybuddyPumpStatus: MybuddyPumpStatus,
-  MybuddyAngles: MybuddyAngles,
-  MybuddySetAngles: MybuddySetAngles,
-};
+/home/thulson/catkin_ws/devel/.private/mybuddy_communication/share/gennodejs/ros/mybuddy_communication/msg/_index.js

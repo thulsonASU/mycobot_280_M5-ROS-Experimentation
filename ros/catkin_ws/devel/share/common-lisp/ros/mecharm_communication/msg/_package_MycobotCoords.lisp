@@ -1,14 +1,1 @@
-(cl:in-package mecharm_communication-msg)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-          Z-VAL
-          Z
-          RX-VAL
-          RX
-          RY-VAL
-          RY
-          RZ-VAL
-          RZ
-))
+/home/thulson/catkin_ws/devel/.private/mecharm_communication/share/common-lisp/ros/mecharm_communication/msg/_package_MycobotCoords.lisp

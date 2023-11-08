@@ -1,0 +1,6 @@
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260_pi_moveit/sync_plan.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260_pi_moveit/path_planning_and_obstacle_avoidance_demo.py
+Symlinking /home/thulson/catkin_ws/devel/lib/mypalletizer_260_pi_moveit/cmake.lock
+Symlinking /home/thulson/catkin_ws/devel/lib/pkgconfig/mypalletizer_260_pi_moveit.pc
+Symlinking /home/thulson/catkin_ws/devel/share/mypalletizer_260_pi_moveit/cmake/mypalletizer_260_pi_moveitConfig.cmake
+Symlinking /home/thulson/catkin_ws/devel/share/mypalletizer_260_pi_moveit/cmake/mypalletizer_260_pi_moveitConfig-version.cmake

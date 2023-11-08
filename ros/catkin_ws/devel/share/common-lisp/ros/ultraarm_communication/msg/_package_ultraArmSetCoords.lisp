@@ -1,10 +1,1 @@
-(cl:in-package ultraarm_communication-msg)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-          Z-VAL
-          Z
-          SPEED-VAL
-          SPEED
-))
+/home/thulson/catkin_ws/devel/.private/ultraarm_communication/share/common-lisp/ros/ultraarm_communication/msg/_package_ultraArmSetCoords.lisp

@@ -1,7 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-  srv: require('./srv/_index.js')
-};
+/home/thulson/catkin_ws/devel/.private/ultraarm_communication/share/gennodejs/ros/ultraarm_communication/_index.js
