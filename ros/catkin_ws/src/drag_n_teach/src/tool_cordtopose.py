@@ -21,9 +21,11 @@ How it works:
 - The script is designed to be used with the Drag_n_Teach GUI, which sets the guiDir variable to the directory where the CSV file should be saved.
 
 Usage:
-- Launch the Drag_n_Teach GUI.
-- Run the tool_cordtopose.py script.
-- Press the "Save Pose" button in the GUI to save the current pose of the end effector to the CSV file.
+1. Launch the Teacher from the Drag_n_Teach GUI.
+2. Run the tool_cordtopose.py script.
+3. Press the "Teach Pose" button in the GUI to save the current pose of the end effector to the CSV file.
+
+Note: This script is intended to be used as part of the drag_n_teach package. 
 """
 
 import rospy
@@ -34,12 +36,22 @@ import sys
 
 class tool_cordtopose():
 
-    def __init__(self,guiDir):
+    def __init__(self,guiDir) -> None:
+        """
+        Initialize the tool_cordtopose class. (Once at GUI Initialization)
+
+        Args:
+        - guiDir (str): The directory where the CSV file should be saved.
+        """
         self.BTN_flag = False
+        self.firstRun = True
         self.initalizedGlobals = False
         self.directory = guiDir
     
-    def initalizeGlobals(self):
+    def initalizeGlobals(self) -> None:
+        """
+        Initialize the global variables. (Once per launch)
+        """
         global planning_scene, group, pose
         # Initialize the move_group API
         moveit_commander.roscpp_initialize(sys.argv) # cpp wrapper for moveit
@@ -48,23 +60,29 @@ class tool_cordtopose():
         group = moveit_commander.MoveGroupCommander('arm_group', ns='/')
         pose = Pose()
 
-        with open(self.directory + '/poses.csv', 'w') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow(['x', 'y', 'z', 'qx', 'qy', 'qz', 'qw'])
-        csvfile.close()
-        
         self.initalizedGlobals = True
 
-    def getPose(self):
+    def getPose(self) -> Pose:
+        """
+        Get the current pose of the end effector.
+        """
         # Get the current pose of the end effector
         pose = group.get_current_pose().pose
         return pose
 
-    def run(self):
+    def run(self) -> None:
+        """
+        Save the current pose of the end effector to a CSV file.
+        """
         if self.BTN_flag == True and self.initalizedGlobals == False:
             self.initalizeGlobals()
         elif self.initalizedGlobals == True:
             pass
+        elif self.BTN_flag == True and self.firstRun == True:
+            with open(self.directory + '/poses.csv', 'w') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow(['x', 'y', 'z', 'qx', 'qy', 'qz', 'qw'])
+            csvfile.close()
         else:
             print("Please Launch Teacher First")
             return
@@ -76,6 +94,8 @@ class tool_cordtopose():
             writer.writerow([pose.position.x, pose.position.y, pose.position.z, pose.orientation.x, pose.orientation.y, pose.orientation.z, pose.orientation.w])
             print("Position saved.")
         csvfile.close()
+
+        self.firstRun = False
 
 if __name__ == "__main__":
     # Initialize the node

@@ -1,38 +1,47 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-'''
-Author: Tyler Hulson
-Dependancies: scipy,rospy,csv,moveit_commander,geometry_msgs,moveit_msgs,sensor_msgs,time,sys
-How To Use:
-Launch 2 terminal windows
-depending on .bashrc configuration you will need to sorce devel/setup.bash for each terminal (this assumes a built workspace)
+"""
+This script plays back the joint values from a csv file using the joint_state_publisher.
+It uses the tool_playback class to publish the joint values to the joint_state_publisher.
 
-terminal 1: CLI Run: 
-roscore
 
-terminal 2: CLI Run: 
-roslaunch drag_n_teach tool_playback.launch
+Dependencies:
+- rospy
+- csv
+- sensor_msgs.msg.JointState
+- time
 
-Description:
-This script is designed to playback the joint angles from the joint_vals.csv file.
-It will playback using the joint_state_publisher
-'''
+Usage:
+1. Launch the player from the Drag_n_Teach GUI
+2. Run the tool_playback.py script
+3. Press the "Playback Trajectories" button in the GUI to play back the joint values from the CSV file.
+
+Note: This script is intended to be used as part of the drag_n_teach package. 
+"""
+
 import rospy
 import csv
 from sensor_msgs.msg import JointState
 import time
-# from pymycobot.mycobot import MyCobot
-from pathlib import Path
 
 
 class tool_playback():
     
     def __init__(self,guiDir) -> None:
+        """
+        Initialize the tool_playback class. (Once at GUI Initialization)
+        
+        Args:
+        - guiDir (str): The directory where the CSV file should be saved.
+        """
         self.BTN_flag = False
         self.initalizedGlobals = False
         self.directory = guiDir
 
-    def initalizeGlobals(self):
+    def initalizeGlobals(self) -> None:
+        """
+        Initialize the global variables. (Once per launch)
+        """
         global joint_state
         # Create a JointState message
         joint_state = JointState()
@@ -40,7 +49,13 @@ class tool_playback():
         self.initalizedGlobals = True
 
     # Custom node to publish joint states
-    def publish_joint_states(self,joint_values):
+    def publish_joint_states(self,joint_values) -> None:
+        """
+        Publishes the joint values to the joint_state_publisher.
+        
+        Args:
+        - joint_values (list): The joint values to publish.
+        """
         # Create a publisher
         pub = rospy.Publisher('/joint_states', JointState, queue_size=10)
 
@@ -54,7 +69,10 @@ class tool_playback():
         print("Publishing joint_state:\n", joint_state)
         pub.publish(joint_state)
 
-    def run(self):
+    def run(self) -> None:
+        """
+        Play back the joint values from the CSV file.
+        """
         if self.BTN_flag == True and self.initalizedGlobals == False:
             self.initalizeGlobals()
         elif self.initalizedGlobals == True:
