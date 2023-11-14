@@ -20,7 +20,7 @@ Dependencies:
 - moveit_msgs.srv.GetStateValidity
 
 Usage:
-1. Launch the trainer
+1. Launch the trainer from the Drag_n_Teach GUI
 2. Initialize the tool_posetocord class
 3. Set the planner id
 4. Initialize the reader
@@ -43,21 +43,27 @@ from moveit_msgs.srv import GetStateValidityRequest, GetStateValidity
 
 class tool_posetocord():
 
-    def __init__(self,guiDir):
+    def __init__(self,guiDir) -> None:
+        """
+        Initialize the tool_posetocord class. (Once at GUI Initialization)
+
+        Args:
+        - guiDir (str): The directory where the CSV file should be saved.
+        """
         self.BTN_flag = False
+        self.firstRun = True
         self.initalizedGlobals = False
         self.directory = guiDir
         self.group_names = ['joint2_to_joint1','joint3_to_joint2','joint4_to_joint3','joint5_to_joint4','joint6_to_joint5','joint6output_to_joint6']
         self.group_names_vel = ['joint2_to_joint1_vel','joint3_to_joint2_vel','joint4_to_joint3_vel','joint5_to_joint4_vel','joint6_to_joint5_vel','joint6output_to_joint6_vel']    
 
-    def initalizeGlobals(self):
+    def initalizeGlobals(self) -> None:
         """
-        Initializes global variables for the MoveIt! library and sets the current pose as the previous pose.
+        Initializes global variables for the MoveIt! library and sets the current pose as the previous pose. (Once per launch)
         """
         global robot_state, trajectory, planning_scene, group, pose, prev_pose
         # Initialize the move_group API
         moveit_commander.roscpp_initialize(sys.argv) # cpp wrapper for moveit
-        # Initialize the move_group API
         robot_state = RobotState()
         robot_state.joint_state = JointState()
         trajectory = RobotTrajectory()
@@ -68,27 +74,31 @@ class tool_posetocord():
         # Initalize current pose as previous pose
         prev_pose = group.get_current_pose().pose
         
-        self.rowNum = 0
-        
         # initalize joint_angles.csv to empty
         with open(self.directory + '/joint_vals.csv', 'w') as csvfile:
             csvfile.close()
         
+        # Global Flag
         self.initalizedGlobals = True
     
-    def initalizeReader(self):
+    def initalizeReader(self) -> None:
         """
         Initializes the reader for the poses.csv file.
         """
         # initalize poses.csv
         # Satisfies NumPy Requirement for PyCourse
         self.csv_poses = np.loadtxt(self.directory + '/poses.csv', delimiter=',', skiprows=1)
-        print("poses: ", self.csv_poses)
+        # Set rowNum back to zero
+        self.rowNum = 0
     
-    def setPlanner(self, planner):
+    def setPlanner(self, planner) -> None:
         """
         Sets the planner id for the MoveIt! library.
+
+        Args:
+        - planner (str): The planner id to use for the MoveIt! library.
         """
+        # Check if globals are initialized yet and the launch button has been pressed
         if self.BTN_flag == True and self.initalizedGlobals == False:
             # Initialize the class after launch
             self.initalizeGlobals()
@@ -101,12 +111,13 @@ class tool_posetocord():
         if group is not None:
             group.set_planner_id(planner) 
         
-    def getJoints(self, row):
+    def getJoints(self, row) -> list:
         """
         Converts a pose to joint angles using the MoveIt! library.
+
+        Args:
+        - row (list): A list of inputs from comma seperated values and each [i] is a column in the csv file.
         """
-        # Initialize the MoveGroupCommander for the robot
-        # robot = moveit_commander.RobotCommander()
         # row is a list of inputs from comma seperated values and each [i] is a column in the csv file
         pose.position.x = float(row[0]) 
         pose.position.y = float(row[1])
@@ -119,20 +130,19 @@ class tool_posetocord():
         # generate waypoints from current pose to target pose
         waypoints = [prev_pose, pose]
 
-        # Compute a linear move
+        # Compute a linear cartesian move
         (plan, fraction) = group.compute_cartesian_path(waypoints, 0.01, 3.5, False) # 0.01 is the step size, 3.5 is the jump threshold and False is without collision checking
-        trajectory.joint_trajectory = plan.joint_trajectory
-        joint_values = plan.joint_trajectory.points
+        trajectory.joint_trajectory = plan.joint_trajectory # plan the trajecory
+        joint_values = plan.joint_trajectory.points # get joint values from the trajectory
 
-        # If less than 100% of the requested trajectory was followed, plan a joint move instead
+        # If less than 98% of the requested trajectory was followed or the length of the trajectory is less than 10 points, plan a joint move instead
         if fraction < 0.98 or len(plan.joint_trajectory.points) < 10:
             print("Less than 98% of the requested trajectory was followed or the points for the cartesian move was too short to detect jumps, planning a joint move instead")
             group.set_pose_target(pose)
             plan = group.plan()
             joint_values = plan[1].joint_trajectory.points
         else:
-            # For each point in the loop check if the point is valid and 
-            # Compute a joint move if the point is invalid or the distance is greater than 1
+            # For each point in the loop check if the point is valid
             for i, point in enumerate(joint_values):
                 # Update robot_state with planned trajectory
                 robot_state.joint_state.name = plan.joint_trajectory.joint_names
@@ -168,7 +178,7 @@ class tool_posetocord():
         
         return joint_values, target_joint_values
 
-    def run(self):
+    def run(self) -> None:
         """
         Runs the tool_posetocord class to convert poses to joint angles and write them to a csv file.
         """
@@ -177,6 +187,10 @@ class tool_posetocord():
             self.initalizeGlobals()
         elif self.initalizedGlobals == True:
             pass
+        elif self.BTN_flag == True and self.firstRun == True:
+            # initalize joint_angles.csv to empty
+            with open(self.directory + '/joint_vals.csv', 'w') as csvfile:
+                csvfile.close()
         else:
             print("Please Launch the Trainer First")
             return
@@ -191,7 +205,8 @@ class tool_posetocord():
 
         # convert each row to a joint angle
         joints, target = self.getJoints(row)
-        # update previous pose with row
+
+        # update previous pose with row (used in waypoint generation)
         prev_pose.position.x = float(row[0]) 
         prev_pose.position.y = float(row[1])
         prev_pose.position.z = float(row[2])
@@ -228,7 +243,7 @@ class tool_posetocord():
                 csvfile.close()
         print(f"\n Row{self.rowNum}: {rowDict} \n")
                 
-        # update trajectory start date with target joint values last entry in dictionary
+        # update trajectory start state with target joint values last entry in dictionary
         # Create a RobotState message
         # only first 5 keys are joint angle names and joint angle values
         robot_state.joint_state.name = list(rowDict.keys())[:6]
@@ -238,6 +253,7 @@ class tool_posetocord():
         group.set_start_state(robot_state)
 
         self.rowNum += 1
+        self.firstRun = False
 
 if __name__ == "__main__":
     # Initialize the node
