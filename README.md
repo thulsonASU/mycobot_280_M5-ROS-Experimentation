@@ -27,14 +27,16 @@ The script itself is located in ros/catkin_ws/src/pick_n_place/src/ titled pick_
 * Terminal 5 will execute the script by running: ```rosrun pick_n_place pick_n_place.py # main script executing commands```
 
 ## Custom Drag and Teach Package
-The package uses a GUI to allow the user ease of process control as compared to the Pick and Place Package. The GUI is designed to allow a user to teach and train the robot to perform various movements in the world frame. Currently the GUI does not support connecting a physical robot, and it is capable of demonstrating and playing back the trained trajectories using the robot visualizer and joint_state message. Theoretically one can connect a robot to it and run it side by side as a digital twin (Potential Future Work). To use the Drag and Teach package make sure to source the workspace by using ```source devel/setup.bash``` in the catkin_ws. Then simply launch ```roslaunch drag_n_teach drag_n_teach_gui.launch``` to start the GUI. Currently, a possible bug may be present where ```roscore``` needs to be ran at least once before using the GUI. The GUI should start roscore on its own if it is not already started. Have fun with the GUI! A video on it is posted below!
+The package uses a GUI to allow the user ease of process control as compared to the Pick and Place Package. The GUI is designed to allow a user to teach and train the robot to perform various movements in the world frame. Make sure to place the catkin_ws in your home directory for your linux machine or else the GUI will not be able to find the default directory. To use the Drag and Teach package make sure to source the workspace by using ```source devel/setup.bash``` in the catkin_ws. Then simply launch ```roslaunch drag_n_teach drag_n_teach_gui.launch``` to start the GUI. Currently, a possible bug may be present where ```roscore``` needs to be ran at least once before using the GUI. The GUI should start roscore on its own if it is not already started. Have fun with the GUI! A video on it is posted below!
 
 ### Code Sources Used to Help Create Drag and Teach Package
 Oh I recommend looking up catkin build (It is way better at building packages than catkin_make) <br />
 [Elephant Robotics mycobot280 ROS Github Examples](https://github.com/elephantrobotics/mycobot_ros)
 
 ### Drag and Teach GUI (MFG 598: Engineering Computing w/Python Final Project Fall 2023)
-#### INSERT VIDEO HERE
+https://github.com/thulsonASU/280-M5_ROS/assets/100303302/81e1a984-5b9d-4902-b8ca-09fc6b1cdb22
+
+
 
 # Personal Engineering Log (Might be a fun read :D) (Initial Experimentation Spring 2023)
 
